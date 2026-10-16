@@ -100,6 +100,10 @@ Players pick their own ROM once in the page; it stays in their browser and is ne
 hosted. `vendor/emulatorjs` can be committed, or deleted, in which case the page loads EmulatorJS
 4.2.3 from `cdn.emulatorjs.org`.
 
+**After changing the CSS or the page scripts**, bump the `?v=` number on the `style.css`, `home.js` and `play.js`
+links in `index.html` and `play.html`. GitHub Pages lets browsers cache files for ~10 minutes, so without that,
+returning players can get the new page with the old styles.
+
 ## Known limits
 
 - Results are on the honour system: you log won/lost and how many Pokémon were left.
