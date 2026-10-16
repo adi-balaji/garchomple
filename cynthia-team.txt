@@ -20,18 +20,9 @@
 #  (The game picks her natures itself.) If a line is wrong, the battle page says which line and why.
 # ─────────────────────────────────────────────────────────────────────────────
 
-Bag: Full Restore, Hyper Potion
+Bag: Full Restore
 
-Porygon-Z
-Ability: Adaptability
-Level: 78
-IVs: 30
-- Tri Attack
-- Hyper Beam
-- Thunderbolt
-- Nasty Plot
-
-Spiritomb (F)
+Spiritomb (F) @ Lum Berry
 Ability: Pressure
 Level: 76
 IVs: 30
@@ -40,7 +31,16 @@ IVs: 30
 - Dream Eater
 - Hypnosis
 
-Milotic (F)
+Porygon-Z @ Normal Gem
+Ability: Adaptability
+Level: 78
+IVs: 30
+- Tri Attack
+- Hyper Beam
+- Thunderbolt
+- Nasty Plot
+
+Milotic (F) @ Leftovers
 Ability: Marvel Scale
 Level: 76
 IVs: 30
@@ -49,7 +49,7 @@ IVs: 30
 - Attract
 - Rest
 
-Togekiss
+Togekiss @ Expert Belt
 Ability: Serene Grace
 Level: 76
 IVs: 30
@@ -58,7 +58,7 @@ IVs: 30
 - Air Slash
 - Thunder Wave
 
-Lucario (M)
+Lucario (M) @ Focus Sash
 Ability: Inner Focus
 Level: 76
 IVs: 30

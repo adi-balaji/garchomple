@@ -220,6 +220,10 @@ function buildSet(dex, s, rng) {
     .map(a => [great.has(a.name) ? 3 : avoid.has(a.name) ? 0.05 : 1, a]);
   let r = rng() * opts.reduce((x, [w]) => x + w, 0), ability = opts[opts.length - 1][1];
   for (const [w, a] of opts) { r -= w; if (r <= 0) { ability = a; break; } }
+  // rules.json abilityPreference.fixed pins an ability (the random draw above still happens, so other picks don't shift)
+  const pinned = (dex.rules.abilityPreference.fixed || {})[s.name];
+  const pin = pinned && opts.find(([, a]) => a.name === pinned);
+  if (pin) ability = pin[1];
 
   return { role, category, moves, evs, nature, ability, nStatus: utility.length };
 }
