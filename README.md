@@ -100,9 +100,10 @@ Players pick their own ROM once in the page; it stays in their browser and is ne
 hosted. `vendor/emulatorjs` can be committed, or deleted, in which case the page loads EmulatorJS
 4.2.3 from `cdn.emulatorjs.org`.
 
-**After changing the CSS or the page scripts**, bump the `?v=` number on the `style.css`, `home.js` and `play.js`
-links in `index.html` and `play.html`. GitHub Pages lets browsers cache files for ~10 minutes, so without that,
-returning players can get the new page with the old styles.
+**After changing any code or CSS, run `python3 tools/bump.py` before pushing.** Every script and the stylesheet
+are loaded with a version number (`?v=N`, via an import map in `index.html` and `play.html`), and the bump raises
+it everywhere at once. GitHub Pages lets browsers cache files for ~10 minutes, so without a bump returning players
+can mix old cached scripts with new ones and the page won't load. (`cynthia-team.txt` edits don't need a bump.)
 
 ## Known limits
 

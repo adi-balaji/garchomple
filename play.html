@@ -8,9 +8,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="app/css/style.css?v=5">
+<link rel="stylesheet" href="app/css/style.css?v=6">
 <!-- must run before the emulator core: pins the DS clock to a spring day -->
-<script src="app/js/clock.js"></script>
+<script src="app/js/clock.js?v=6"></script>
+<!-- every script and the stylesheet carry ?v=N; after changing code run: python3 tools/bump.py -->
+<script type="importmap">
+{ "imports": {
+  "./app/js/autopilot.js": "./app/js/autopilot.js?v=6",
+  "./app/js/autopilot_refs.js": "./app/js/autopilot_refs.js?v=6",
+  "./app/js/cynthiateam.js": "./app/js/cynthiateam.js?v=6",
+  "./app/js/daily.js": "./app/js/daily.js?v=6",
+  "./app/js/files.js": "./app/js/files.js?v=6",
+  "./app/js/gen5save.js": "./app/js/gen5save.js?v=6",
+  "./app/js/home.js": "./app/js/home.js?v=6",
+  "./app/js/monitor.js": "./app/js/monitor.js?v=6",
+  "./app/js/net.js": "./app/js/net.js?v=6",
+  "./app/js/play.js": "./app/js/play.js?v=6",
+  "./app/js/snapshot.js": "./app/js/snapshot.js?v=6",
+  "./app/js/store.js": "./app/js/store.js?v=6",
+  "./app/js/teamgen.js": "./app/js/teamgen.js?v=6",
+  "./app/js/ui.js": "./app/js/ui.js?v=6"
+} }
+</script>
 </head>
 <body>
 <header class="masthead">
@@ -88,6 +107,6 @@
   <p>Garchomple is played with the keyboard. If keys stop responding, click the game once.</p>
 </dialog>
 
-<script type="module" src="app/js/play.js?v=5"></script>
+<script type="module">import "./app/js/play.js";</script>
 </body>
 </html>
