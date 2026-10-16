@@ -18,12 +18,11 @@ async function init() {
   try {
     const cyn = await cynthia();
     renderOpponent($("#opponent"), cyn);
-    const bag = cyn.bagItems.length ? `She carries ${cyn.bagItems.join(", ")}.` : "She carries no items.";
     $(".opp-foot").textContent = cyn.errors.length
-      ? `cynthia-team.txt has a problem: ${cyn.errors[0]}${cyn.errors.length > 1 ? ` (+${cyn.errors.length - 1} more)` : ""}`
-      : `Spring rematch team. ${bag} Hover her Pokémon to see their moves.`;
+      ? `cynthia-team.txt has a problem: ${cyn.errors[0]}${cyn.errors.length > 1 ? ` (+${cyn.errors.length - 1} more)` : ""}` : "";
     $(".opp-foot").classList.toggle("err", cyn.errors.length > 0);
-  } catch (e) { $(".opp-foot").textContent = `Couldn't load Cynthia's team: ${e.message}`; }
+    $(".opp-foot").hidden = !cyn.errors.length;
+  } catch (e) { $(".opp-foot").textContent = `Couldn't load Cynthia's team: ${e.message}`; $(".opp-foot").hidden = false; }
   files = await loadSources();
   await render();
 }
@@ -39,7 +38,7 @@ async function render() {
   $("#tab-unlimited").setAttribute("aria-selected", String(mode === "unlimited"));
   $("#btn-newteam").hidden = mode !== "unlimited";
   const seed = mode === "unlimited" ? unlimitedSeed() : 0;
-  $("#dayline").textContent = mode === "daily" ? `No. ${dayNumber(day)}, ${prettyDate(day)}` : `Unlimited, team ${seedLabel(seed)}`;
+  $("#dayline").textContent = mode === "daily" ? prettyDate(day) : `Unlimited, team ${seedLabel(seed)}`;
   $("#team-title").textContent = mode === "daily" ? "Your team today" : "Your team";
   $("#team").replaceChildren(h("p", { class: "status" }, "Building the team…"));
   try {

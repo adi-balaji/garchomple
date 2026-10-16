@@ -48,7 +48,7 @@ function applyDebug(team) {
 
 async function main() {
   $("#dayline").textContent = mode === "unlimited" ? `Unlimited, team ${seedLabel(seed)}`
-    : `No. ${dayNumber(day)}, ${prettyDate(day)}${practice ? " (practice)" : ""}`;
+    : `${prettyDate(day)}${practice ? " (practice)" : ""}`;
   wireHelp();
   // start reading the ROM (and any snapshot) right away, in parallel with building the team
   const srcP = loadSources();

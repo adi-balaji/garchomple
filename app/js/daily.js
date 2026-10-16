@@ -26,6 +26,11 @@ export function dayKeysUntil(key) {
   return out;
 }
 
+export function shortDate(key) {
+  const [y, m, d] = key.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
 export function prettyDate(key) {
   const [y, m, d] = key.split("-").map(Number);
   return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
@@ -79,7 +84,7 @@ export const sprite = id => `sprites/animated/${id}.gif`;
 
 export function shareText(key, result, team, mode = "daily", seed = 0) {
   const yours = Array.from({ length: 6 }, (_, i) => (i < result.standing ? "🟩" : "⬛")).join("");
-  const title = mode === "unlimited" ? `Garchomple Unlimited ${seedLabel(seed)}` : `Garchomple #${dayNumber(key)}`;
+  const title = mode === "unlimited" ? `Garchomple Unlimited ${seedLabel(seed)}` : `Garchomple ${shortDate(key)}`;
   const head = result.won
     ? `${title}: beat Cynthia with ${result.standing}/6 standing${result.hpPct != null ? ` (${result.hpPct}% HP left)` : ""}`
     : `${title}: Cynthia won this time`;

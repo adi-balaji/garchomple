@@ -303,3 +303,4 @@ footer { max-width: 720px; margin: 36px auto 0; color: var(--muted); font-size: 
 .brand-mon { width: 96px; height: 96px; flex: none; margin: -14px -6px -14px -12px; }
 .wordmark .tagline { display: block; font: 500 15px/1.35 var(--body); color: var(--ink); text-shadow: none; margin-top: 8px; max-width: 46ch; }
 @media (max-width: 560px) { .brand-mon { width: 64px; height: 64px; margin: -8px -4px -8px -8px; } .wordmark .tagline { font-size: 14px; } }
+.credit { margin: 10px 0 0; }
