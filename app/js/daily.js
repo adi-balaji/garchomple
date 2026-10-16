@@ -36,28 +36,10 @@ export function prettyDate(key) {
   return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
 }
 
-// daily-resets.json: {"2026-10-16": 1, …}. Listing a date (or raising its number) gives that day a fresh
-// team for everyone; results recorded against the old team stop counting, so everyone can play the new one.
-let resetsP = null;
-export function loadResets() {
-  resetsP ||= (async () => {
-    let map = {};
-    try {
-      const { fetchRetry } = await import("./net.js");
-      const r = await fetchRetry("daily-resets.json", { cache: "no-cache" }, 3);
-      if (r.ok) map = await r.json();
-    } catch { /* no resets */ }
-    (await import("./store.js")).setResets(map);
-    return map;
-  })();
-  return resetsP;
-}
-
-/** Today's (or any day's) shared team: generated live from the dex, seeded by the date (and its reset number). */
+/** Today's (or any day's) shared team: generated live from the dex, seeded by the date. */
 export async function teamFor(key) {
   const { generateTeam, hashSeed } = await import("./teamgen.js");
-  const n = (await loadResets())[key] | 0;
-  return generateTeam(hashSeed(n ? `cynthiale:daily:${key}:reset${n}` : `cynthiale:daily:${key}`));
+  return generateTeam(hashSeed(`cynthiale:daily:${key}`));
 }
 
 // ------------------------------------------------------------ Unlimited mode

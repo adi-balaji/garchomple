@@ -1,4 +1,4 @@
-import { loadResets, todayKey, dayNumber, prettyDate, teamFor, cynthia, msUntilTomorrow, shareText, dayKeysUntil,
+import { todayKey, dayNumber, prettyDate, teamFor, cynthia, msUntilTomorrow, shareText, dayKeysUntil,
          unlimitedSeed, newUnlimitedSeed, unlimitedTeam, seedLabel } from "./daily.js";
 import { getResult, wasStarted, stats, unlimitedResult, unlimitedStats } from "./store.js";
 import { loadSources, storeRom } from "./files.js";
@@ -10,7 +10,6 @@ try { if (!new URLSearchParams(location.search).get("mode")) mode = localStorage
 let entry = null, files = null, countdown = null;
 
 async function init() {
-  await loadResets();
   wireDialogs();
   wireSetup();
   $("#tab-daily").onclick = () => switchMode("daily");

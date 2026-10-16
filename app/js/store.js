@@ -74,15 +74,10 @@ function save(state) {
   try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* private mode */ }
 }
 
-// which reset of each day's team is current (from daily-resets.json, via daily.loadResets)
-let resets = {};
-export function setResets(map) { resets = map || {}; }
-const current = (day, rec) => rec && ((typeof rec === "object" ? rec.reset : 0) | 0) === (resets[day] | 0);
-
-export function getResult(day) { const r = load().results[day]; return current(day, r) ? r : null; }
-export function wasStarted(day) { return current(day, load().started[day]); }
-export function markStarted(day) { const s = load(); s.started[day] = { at: (window.__RealDate || Date).now(), reset: resets[day] | 0 }; save(s); }
-export function setResult(day, result) { const s = load(); s.results[day] = { ...result, reset: resets[day] | 0, at: (window.__RealDate || Date).now() }; save(s); }
+export function getResult(day) { return load().results[day] || null; }
+export function wasStarted(day) { return !!load().started[day]; }
+export function markStarted(day) { const s = load(); s.started[day] = (window.__RealDate || Date).now(); save(s); }
+export function setResult(day, result) { const s = load(); s.results[day] = { ...result, at: (window.__RealDate || Date).now() }; save(s); }
 export function addUnlimited(seed, result) {
   const s = load();
   s.unlimited.push({ seed: seed >>> 0, ...result, at: (window.__RealDate || Date).now() });

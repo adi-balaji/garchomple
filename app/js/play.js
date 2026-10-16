@@ -1,4 +1,4 @@
-import { loadResets, todayKey, dayNumber, prettyDate, teamFor, shareText, unlimitedTeam, newUnlimitedSeed, seedLabel } from "./daily.js";
+import { todayKey, dayNumber, prettyDate, teamFor, shareText, unlimitedTeam, newUnlimitedSeed, seedLabel } from "./daily.js";
 import { getResult, setResult, markStarted, addUnlimited } from "./store.js";
 import { loadSources, romFile } from "./files.js";
 import { fetchRetry } from "./net.js";
@@ -14,7 +14,6 @@ const today = todayKey();
 const mode = params.get("mode") === "unlimited" ? "unlimited" : "daily";
 const day = params.get("day") && params.get("day") <= today ? params.get("day") : today;
 const seed = Number(params.get("seed")) >>> 0;
-await loadResets();
 const practice = mode === "daily" && (!!getResult(day) || day !== today);
 const autopilotOn = params.get("autopilot") !== "0";
 // developer shortcut (localhost only): ?debug=strong / ?debug=weak to test win / loss detection fast

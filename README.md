@@ -69,17 +69,6 @@ the game and shows the result. If memory can't be read, a "Log it by hand" panel
 vanish flag is 683; she battles only in spring, once per day (flag 2745 / var 0x400F), after the Hall of Fame
 (flag 2400). The clock is pinned to noon, 15 May 2090: always spring, later than any save, and the same day every run (so the snapshot stays valid). Her team is trainer #456.
 
-## Resetting a day's team
-
-To give everyone a fresh Daily team partway through a day, add the date to **`daily-resets.json`** and push:
-
-```json
-{ "2026-10-16": 1 }
-```
-
-Raise the number (2, 3, …) to reset the same day again. Results recorded against the old team stop counting, so
-everyone can play the new team as their official attempt. Other days are unaffected.
-
 ## Changing Cynthia's team
 
 Edit **`cynthia-team.txt`** (Showdown-style text; the notes at its top explain the format) and reload the page.
