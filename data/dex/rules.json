@@ -4,7 +4,7 @@
   "aceLevel": 78,
   "teamSize": 6,
   "bstMin": 440,
-  "bstMax": 600,
+  "bstMax": 650,
   "middleStageMinBst": 440,
   "_middleStage": "Pokémon that still evolve are only allowed if they already evolved once (no base forms) and have at least this BST; they get an Eviolite.",
   "excludeLegendary": false,

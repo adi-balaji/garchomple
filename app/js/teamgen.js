@@ -104,6 +104,17 @@ function draftOnce(dex, pool, rng, maxPerType, forced = null) {
   return team.length === R.teamSize ? team : null;
 }
 
+/**
+ * Basic balance checks a draft must pass. Taking the FIRST draft that passes (rather than the best-scoring of
+ * many) keeps every eligible Pokémon about equally likely; picking the "best" draft favoured high-BST and
+ * Steel-type Pokémon (Garchomp, Salamence, Probopass…) several times over.
+ */
+function acceptable(dex, team) {
+  for (const t of dex.types) if (team.filter(s => eff(dex, t, s.types) > 1).length >= 4) return false;
+  if (!team.some(s => s.base.atk > s.base.spa + 10) || !team.some(s => s.base.spa > s.base.atk + 10)) return false;
+  return team.some(s => s.base.spe >= 95);
+}
+
 function scoreDraft(dex, team) {
   let score = -Math.abs(team.reduce((a, s) => a + bst(s), 0) - 3150) / 40;
   for (const t of dex.types) {                       // shared weaknesses
@@ -299,14 +310,18 @@ export async function generateTeam(seed) {
   const legs = all.filter(isLeg), pool = all.filter(s => !isLeg(s));
   const chance = R.legendaryChance ?? 1;
   const forced = legs.length && rng() < chance ? legs[Math.floor(rng() * legs.length)] : null;
+  // first draft that passes the balance checks; if none does within 400 tries, the best-scoring one
   let best = null, bestScore = -Infinity;
   for (let maxPerType = R.maxPerType; !best && maxPerType <= 6; maxPerType++) {
-    for (let i = 0; i < 60; i++) {
+    let fallback = null;
+    for (let i = 0; i < 400 && !best; i++) {
       const team = draftOnce(dex, pool, rng, maxPerType, forced);
       if (!team) continue;
-      const sc = scoreDraft(dex, team) + rng() * 1.5;
-      if (sc > bestScore) { best = team; bestScore = sc; }
+      if (acceptable(dex, team)) { best = team; break; }
+      const sc = scoreDraft(dex, team);
+      if (sc > bestScore) { fallback = team; bestScore = sc; }
     }
+    best ||= fallback;
   }
   if (!best) throw new Error("rules.json is too strict: couldn't build a team");
   const full = await Promise.all(best.map(loadSpecies));
