@@ -67,9 +67,9 @@ IVs: 30
 - Flash Cannon
 - Psychic
 
-Garchomp (F)
+Garchomp (F) @ Yache Berry
 Ability: Sand Veil
-Level: 78
+Level: 80
 IVs: 30
 - Dragon Rush
 - Earthquake
