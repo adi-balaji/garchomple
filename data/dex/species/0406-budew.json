@@ -1,0 +1,24 @@
+{
+  "id": 406,
+  "name": "budew",
+  "display": "Budew",
+  "types": ["grass", "poison"],
+  "base": {"hp": 40, "atk": 30, "def": 35, "spa": 50, "spd": 70, "spe": 55},
+  "abilities": [
+    {"name": "natural-cure", "hidden": false, "slot": 1},
+    {"name": "poison-point", "hidden": false, "slot": 2},
+    {"name": "leaf-guard", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["roselia"],
+  "learnset": {
+    "egg": [42, 75, 79, 170, 178, 191, 202, 235, 320, 326, 363, 402, 437],
+    "level-up": [71, 72, 74, 78, 346, 388],
+    "machine": [14, 15, 76, 92, 104, 148, 156, 164, 182, 188, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 412, 447, 474, 496],
+    "tutor": [173, 202, 214, 235, 253, 343, 388, 402]
+  }
+}

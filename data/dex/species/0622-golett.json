@@ -1,0 +1,23 @@
+{
+  "id": 622,
+  "name": "golett",
+  "display": "Golett",
+  "types": ["ground", "ghost"],
+  "base": {"hp": 59, "atk": 74, "def": 50, "spa": 35, "spd": 50, "spe": 35},
+  "abilities": [
+    {"name": "iron-fist", "hidden": false, "slot": 1},
+    {"name": "klutz", "hidden": false, "slot": 2},
+    {"name": "no-guard", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["golurk"],
+  "learnset": {
+    "level-up": [1, 5, 89, 101, 111, 174, 189, 205, 222, 223, 264, 310, 325, 334, 359],
+    "machine": [58, 70, 89, 92, 94, 104, 148, 156, 157, 164, 168, 182, 207, 216, 218, 219, 237, 240, 247, 249, 263, 280, 317, 360, 374, 397, 411, 447, 477, 490, 496, 523],
+    "tutor": [7, 8, 9, 67, 173, 196, 214, 276, 277, 324, 334, 335, 356, 409, 414, 446]
+  }
+}

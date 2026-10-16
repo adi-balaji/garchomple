@@ -1,0 +1,23 @@
+{
+  "id": 457,
+  "name": "lumineon",
+  "display": "Lumineon",
+  "types": ["water"],
+  "base": {"hp": 69, "atk": 69, "def": 76, "spa": 69, "spd": 86, "spe": 91},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "storm-drain", "hidden": false, "slot": 2},
+    {"name": "water-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "finneon",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [1, 16, 55, 213, 219, 240, 250, 318, 340, 352, 369, 392, 445, 487],
+    "machine": [57, 58, 59, 63, 92, 104, 127, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 244, 258, 263, 291, 369, 371, 416, 496, 503],
+    "tutor": [173, 196, 214, 324, 340, 366, 401]
+  }
+}

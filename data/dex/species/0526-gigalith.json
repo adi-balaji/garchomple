@@ -1,0 +1,22 @@
+{
+  "id": 526,
+  "name": "gigalith",
+  "display": "Gigalith",
+  "types": ["rock"],
+  "base": {"hp": 85, "atk": 135, "def": 130, "spa": 60, "spd": 70, "spe": 25},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "sand-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "boldore",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 29, 33, 106, 153, 157, 189, 201, 334, 350, 408, 444, 446, 479],
+    "machine": [63, 70, 76, 89, 92, 104, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 249, 263, 317, 397, 416, 430, 444, 479, 496, 523],
+    "tutor": [173, 214, 276, 334, 335, 356, 414, 442, 446]
+  }
+}

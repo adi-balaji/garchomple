@@ -1,0 +1,24 @@
+{
+  "id": 325,
+  "name": "spoink",
+  "display": "Spoink",
+  "types": ["psychic"],
+  "base": {"hp": 60, "atk": 25, "def": 35, "spa": 70, "spd": 80, "spe": 60},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "own-tempo", "hidden": false, "slot": 2},
+    {"name": "gluttony", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["grumpig"],
+  "learnset": {
+    "egg": [18, 133, 203, 243, 248, 271, 285, 326, 381, 428],
+    "level-up": [60, 94, 109, 149, 150, 156, 173, 244, 277, 316, 340, 371, 408, 428, 473],
+    "machine": [86, 92, 94, 104, 113, 115, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 263, 269, 347, 371, 433, 447, 451, 473, 477, 496],
+    "tutor": [173, 196, 214, 215, 231, 271, 272, 277, 278, 285, 289, 324, 340, 343, 428]
+  }
+}

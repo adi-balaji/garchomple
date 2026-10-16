@@ -1,0 +1,23 @@
+{
+  "id": 120,
+  "name": "staryu",
+  "display": "Staryu",
+  "types": ["water"],
+  "base": {"hp": 30, "atk": 45, "def": 55, "spa": 70, "spd": 55, "spe": 85},
+  "abilities": [
+    {"name": "illuminate", "hidden": false, "slot": 1},
+    {"name": "natural-cure", "hidden": false, "slot": 2},
+    {"name": "analytic", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["starmie"],
+  "learnset": {
+    "level-up": [33, 55, 56, 61, 105, 106, 107, 113, 129, 229, 293, 322, 360, 362, 408, 513],
+    "machine": [57, 58, 59, 85, 86, 87, 92, 94, 104, 113, 115, 127, 148, 156, 164, 182, 207, 216, 218, 237, 240, 244, 258, 263, 291, 360, 430, 496, 503],
+    "tutor": [173, 196, 214, 220, 277, 278, 324, 356]
+  }
+}

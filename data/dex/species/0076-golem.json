@@ -1,0 +1,23 @@
+{
+  "id": 76,
+  "name": "golem",
+  "display": "Golem",
+  "types": ["rock", "ground"],
+  "base": {"hp": 80, "atk": 110, "def": 130, "spa": 55, "spd": 65, "spe": 45},
+  "abilities": [
+    {"name": "rock-head", "hidden": false, "slot": 1},
+    {"name": "sturdy", "hidden": false, "slot": 2},
+    {"name": "sand-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "graveler",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 38, 88, 89, 111, 120, 153, 222, 300, 350, 397, 444, 446, 479, 484, 523, 537],
+    "machine": [46, 53, 63, 70, 89, 91, 92, 104, 126, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 280, 317, 360, 374, 397, 411, 416, 444, 479, 496, 510, 523],
+    "tutor": [7, 9, 173, 214, 276, 334, 335, 414, 442, 446]
+  }
+}

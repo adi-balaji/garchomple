@@ -1,0 +1,24 @@
+{
+  "id": 77,
+  "name": "ponyta",
+  "display": "Ponyta",
+  "types": ["fire"],
+  "base": {"hp": 50, "atk": 85, "def": 55, "spa": 65, "spd": 65, "spe": 90},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "flash-fire", "hidden": false, "slot": 2},
+    {"name": "flame-body", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["rapidash"],
+  "learnset": {
+    "egg": [24, 32, 37, 38, 67, 95, 172, 204, 234, 445],
+    "level-up": [23, 33, 36, 39, 45, 52, 83, 97, 126, 172, 340, 394, 488, 517],
+    "machine": [53, 70, 76, 92, 104, 126, 156, 164, 182, 207, 213, 216, 218, 237, 241, 261, 263, 315, 488, 496, 497, 510, 528],
+    "tutor": [67, 173, 214, 231, 257, 340]
+  }
+}

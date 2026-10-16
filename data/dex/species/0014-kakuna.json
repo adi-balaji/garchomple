@@ -1,0 +1,20 @@
+{
+  "id": 14,
+  "name": "kakuna",
+  "display": "Kakuna",
+  "types": ["bug", "poison"],
+  "base": {"hp": 45, "atk": 25, "def": 50, "spa": 25, "spd": 25, "spe": 35},
+  "abilities": [
+    {"name": "shed-skin", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "weedle",
+  "evolvesTo": ["beedrill"],
+  "learnset": {
+    "level-up": [106],
+    "tutor": [334, 450, 527]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 91,
+  "name": "cloyster",
+  "display": "Cloyster",
+  "types": ["water", "ice"],
+  "base": {"hp": 50, "atk": 95, "def": 180, "spa": 85, "spd": 45, "spe": 70},
+  "abilities": [
+    {"name": "shell-armor", "hidden": false, "slot": 1},
+    {"name": "skill-link", "hidden": false, "slot": 2},
+    {"name": "overcoat", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "shellder",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [48, 62, 110, 131, 182, 191, 390, 556],
+    "machine": [57, 58, 59, 63, 92, 104, 153, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 259, 263, 291, 371, 398, 416, 496, 524],
+    "tutor": [173, 196, 214, 324, 334]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 127,
+  "name": "pinsir",
+  "display": "Pinsir",
+  "types": ["bug"],
+  "base": {"hp": 65, "atk": 125, "def": 100, "spa": 55, "spd": 70, "spe": 85},
+  "abilities": [
+    {"name": "hyper-cutter", "hidden": false, "slot": 1},
+    {"name": "mold-breaker", "hidden": false, "slot": 2},
+    {"name": "moxie", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [31, 98, 175, 185, 276, 364, 370, 382, 450],
+    "level-up": [11, 12, 14, 20, 37, 66, 69, 106, 116, 233, 276, 279, 280, 404, 480],
+    "machine": [14, 15, 63, 70, 89, 91, 92, 104, 156, 157, 164, 168, 182, 206, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 339, 374, 404, 411, 416, 444, 479, 496, 522, 523],
+    "tutor": [20, 173, 214, 276, 282, 334, 446, 450]
+  }
+}

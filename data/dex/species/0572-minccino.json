@@ -1,0 +1,24 @@
+{
+  "id": 572,
+  "name": "minccino",
+  "display": "Minccino",
+  "types": ["normal"],
+  "base": {"hp": 55, "atk": 50, "def": 40, "spa": 40, "spd": 40, "spe": 75},
+  "abilities": [
+    {"name": "cute-charm", "hidden": false, "slot": 1},
+    {"name": "technician", "hidden": false, "slot": 2},
+    {"name": "skill-link", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 6,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["cinccino"],
+  "learnset": {
+    "egg": [39, 175, 189, 203, 214, 231, 282, 313, 401],
+    "level-up": [1, 3, 21, 45, 47, 129, 204, 227, 270, 304, 321, 358, 387, 445, 495, 497, 541],
+    "machine": [85, 86, 91, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 241, 263, 347, 369, 374, 447, 496, 497, 514, 526],
+    "tutor": [173, 214, 231, 253, 270, 282, 304, 343, 387, 401, 402, 441, 495]
+  }
+}

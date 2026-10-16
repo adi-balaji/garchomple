@@ -1,0 +1,23 @@
+{
+  "id": 179,
+  "name": "mareep",
+  "display": "Mareep",
+  "types": ["electric"],
+  "base": {"hp": 55, "atk": 40, "def": 40, "spa": 65, "spd": 45, "spe": 35},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "plus", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["flaaffy"],
+  "learnset": {
+    "egg": [28, 34, 36, 97, 103, 231, 260, 268, 316, 495],
+    "level-up": [33, 36, 45, 84, 86, 87, 109, 113, 178, 268, 324, 408, 435, 486, 538],
+    "machine": [85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 263, 451, 496, 497, 528],
+    "tutor": [173, 214, 215, 231, 324, 393, 495]
+  }
+}

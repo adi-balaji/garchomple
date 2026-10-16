@@ -1,0 +1,21 @@
+{
+  "id": 490,
+  "name": "manaphy",
+  "display": "Manaphy",
+  "types": ["water"],
+  "base": {"hp": 100, "atk": 100, "def": 100, "spa": 100, "spd": 100, "spe": 100},
+  "abilities": [
+    {"name": "hydration", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": true,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [48, 61, 145, 151, 204, 240, 250, 291, 294, 346, 352, 391, 392],
+    "machine": [57, 58, 59, 63, 92, 94, 104, 113, 115, 127, 148, 156, 164, 182, 207, 216, 218, 219, 237, 240, 244, 247, 258, 263, 291, 347, 369, 374, 412, 416, 447, 496, 503],
+    "tutor": [173, 196, 214, 215, 253, 270, 282, 285, 324, 340, 343, 387]
+  }
+}

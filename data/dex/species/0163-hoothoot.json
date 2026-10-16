@@ -1,0 +1,24 @@
+{
+  "id": 163,
+  "name": "hoothoot",
+  "display": "Hoothoot",
+  "types": ["normal", "flying"],
+  "base": {"hp": 60, "atk": 30, "def": 30, "spa": 36, "spd": 56, "spe": 50},
+  "abilities": [
+    {"name": "insomnia", "hidden": false, "slot": 1},
+    {"name": "keen-eye", "hidden": false, "slot": 2},
+    {"name": "tinted-lens", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["noctowl"],
+  "learnset": {
+    "egg": [17, 18, 48, 97, 101, 119, 143, 185, 297, 432],
+    "level-up": [33, 36, 45, 64, 93, 95, 115, 138, 193, 253, 326, 355, 375, 403, 428, 485, 497],
+    "machine": [19, 92, 94, 104, 115, 138, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 332, 365, 496, 497, 526],
+    "tutor": [143, 214, 253, 257, 277, 278, 304, 355, 366, 428]
+  }
+}

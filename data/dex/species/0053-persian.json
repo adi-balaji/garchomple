@@ -1,0 +1,23 @@
+{
+  "id": 53,
+  "name": "persian",
+  "display": "Persian",
+  "types": ["normal"],
+  "base": {"hp": 65, "atk": 70, "def": 60, "spa": 65, "spd": 65, "spe": 115},
+  "abilities": [
+    {"name": "limber", "hidden": false, "slot": 1},
+    {"name": "technician", "hidden": false, "slot": 2},
+    {"name": "unnerve", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "meowth",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 44, 45, 103, 129, 154, 163, 185, 252, 269, 364, 372, 400, 408, 415, 417, 445],
+    "machine": [15, 46, 63, 85, 87, 91, 92, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 263, 269, 332, 369, 371, 373, 416, 421, 468, 496, 497, 514, 526],
+    "tutor": [173, 180, 196, 214, 231, 253, 282, 289, 304, 343, 387, 399, 402, 441, 492]
+  }
+}

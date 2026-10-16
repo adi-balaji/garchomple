@@ -1,0 +1,22 @@
+{
+  "id": 205,
+  "name": "forretress",
+  "display": "Forretress",
+  "types": ["bug", "steel"],
+  "base": {"hp": 75, "atk": 90, "def": 140, "spa": 60, "spd": 60, "spe": 40},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "overcoat", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "pineco",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 36, 38, 117, 120, 153, 182, 191, 192, 229, 334, 360, 363, 371, 390, 393, 429, 450, 475, 484],
+    "machine": [63, 70, 76, 89, 91, 92, 104, 113, 115, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 360, 371, 397, 416, 430, 474, 496, 521, 522, 523],
+    "tutor": [173, 202, 214, 220, 324, 334, 335, 356, 393, 446, 450, 529]
+  }
+}

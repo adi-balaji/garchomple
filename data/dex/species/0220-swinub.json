@@ -1,0 +1,24 @@
+{
+  "id": 220,
+  "name": "swinub",
+  "display": "Swinub",
+  "types": ["ice", "ground"],
+  "base": {"hp": 50, "atk": 50, "def": 40, "spa": 30, "spd": 30, "spe": 50},
+  "abilities": [
+    {"name": "oblivious", "hidden": false, "slot": 1},
+    {"name": "snow-cloak", "hidden": false, "slot": 2},
+    {"name": "thick-fat", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["piloswine"],
+  "learnset": {
+    "egg": [34, 36, 38, 44, 90, 174, 246, 333, 341, 419, 446, 556],
+    "level-up": [33, 36, 54, 59, 89, 133, 175, 181, 189, 196, 203, 300, 316, 420, 426],
+    "machine": [46, 58, 59, 70, 89, 91, 92, 104, 113, 115, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 240, 249, 258, 263, 317, 496, 523],
+    "tutor": [173, 196, 214, 276, 283, 414, 446]
+  }
+}

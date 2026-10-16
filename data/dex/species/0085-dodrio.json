@@ -1,0 +1,23 @@
+{
+  "id": 85,
+  "name": "dodrio",
+  "display": "Dodrio",
+  "types": ["normal", "flying"],
+  "base": {"hp": 60, "atk": 110, "def": 70, "spa": 60, "spd": 60, "spe": 100},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "early-bird", "hidden": false, "slot": 2},
+    {"name": "tangled-feet", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "doduo",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [31, 37, 45, 64, 65, 97, 98, 99, 161, 228, 253, 283, 365, 367],
+    "machine": [19, 63, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 241, 259, 263, 269, 332, 365, 371, 416, 496, 497, 526],
+    "tutor": [143, 173, 214, 253, 282, 283, 355]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 405,
+  "name": "luxray",
+  "display": "Luxray",
+  "types": ["electric"],
+  "base": {"hp": 80, "atk": 120, "def": 79, "spa": 95, "spd": 79, "spe": 70},
+  "abilities": [
+    {"name": "rivalry", "hidden": false, "slot": 1},
+    {"name": "intimidate", "hidden": false, "slot": 2},
+    {"name": "guts", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "luxio",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 43, 44, 46, 184, 207, 209, 242, 268, 422, 435, 528],
+    "machine": [46, 63, 70, 85, 86, 87, 92, 104, 113, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 263, 416, 451, 496, 521, 528, 555],
+    "tutor": [173, 214, 231, 276, 324, 393]
+  }
+}

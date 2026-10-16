@@ -1,0 +1,24 @@
+{
+  "id": 504,
+  "name": "patrat",
+  "display": "Patrat",
+  "types": ["normal"],
+  "base": {"hp": 45, "atk": 55, "def": 39, "spa": 35, "spd": 39, "spe": 42},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "keen-eye", "hidden": false, "slot": 2},
+    {"name": "analytic", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["watchog"],
+  "learnset": {
+    "egg": [103, 175, 193, 228, 231, 279, 372],
+    "level-up": [21, 28, 33, 43, 44, 95, 117, 158, 162, 197, 212, 226, 242, 495, 526],
+    "machine": [14, 15, 85, 91, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 263, 374, 447, 496, 514, 526],
+    "tutor": [67, 162, 173, 214, 231, 270, 283, 343, 387, 401, 402, 428, 441, 495]
+  }
+}

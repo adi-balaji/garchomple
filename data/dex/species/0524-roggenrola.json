@@ -1,0 +1,23 @@
+{
+  "id": 524,
+  "name": "roggenrola",
+  "display": "Roggenrola",
+  "types": ["rock"],
+  "base": {"hp": 55, "atk": 75, "def": 85, "spa": 25, "spd": 25, "spe": 15},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "sand-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["boldore"],
+  "learnset": {
+    "egg": [36, 174, 199, 222, 317, 356, 475, 484],
+    "level-up": [28, 29, 33, 106, 153, 157, 189, 201, 334, 350, 444, 446, 479],
+    "machine": [70, 89, 92, 104, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 249, 263, 317, 397, 430, 444, 479, 496, 523],
+    "tutor": [173, 214, 334, 335, 356, 414, 446]
+  }
+}

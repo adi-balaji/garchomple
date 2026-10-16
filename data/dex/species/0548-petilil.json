@@ -1,0 +1,24 @@
+{
+  "id": 548,
+  "name": "petilil",
+  "display": "Petilil",
+  "types": ["grass"],
+  "base": {"hp": 45, "atk": 35, "def": 50, "spa": 70, "spd": 50, "spe": 30},
+  "abilities": [
+    {"name": "chlorophyll", "hidden": false, "slot": 1},
+    {"name": "own-tempo", "hidden": false, "slot": 2},
+    {"name": "leaf-guard", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 8,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["lilligant"],
+  "learnset": {
+    "egg": [117, 203, 204, 230, 275, 320, 361, 363, 388],
+    "level-up": [71, 72, 73, 74, 78, 79, 202, 235, 241, 270, 312, 345, 412, 437, 494, 495],
+    "machine": [15, 76, 92, 104, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 241, 263, 412, 447, 496],
+    "tutor": [173, 202, 214, 215, 235, 270, 343, 388, 402, 495]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 643,
+  "name": "reshiram",
+  "display": "Reshiram",
+  "types": ["dragon", "fire"],
+  "base": {"hp": 100, "atk": 120, "def": 100, "spa": 150, "spd": 120, "spe": 90},
+  "abilities": [
+    {"name": "turboblaze", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [53, 82, 126, 163, 200, 225, 242, 246, 286, 304, 326, 406, 424, 551, 558],
+    "machine": [15, 19, 53, 63, 70, 76, 92, 94, 104, 113, 115, 126, 156, 157, 164, 182, 207, 216, 218, 219, 237, 241, 247, 249, 261, 263, 315, 317, 337, 371, 374, 411, 416, 421, 444, 468, 488, 496, 497, 510, 525],
+    "tutor": [173, 200, 214, 257, 304, 355, 366, 406, 414, 428, 434]
+  }
+}

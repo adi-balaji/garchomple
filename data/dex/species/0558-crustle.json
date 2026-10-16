@@ -1,0 +1,23 @@
+{
+  "id": 558,
+  "name": "crustle",
+  "display": "Crustle",
+  "types": ["bug", "rock"],
+  "base": {"hp": 70, "atk": 95, "def": 125, "spa": 65, "spd": 75, "spe": 45},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "shell-armor", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "dwebble",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 110, 157, 163, 175, 185, 350, 397, 404, 439, 446, 450, 479, 504],
+    "machine": [14, 15, 63, 70, 76, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 249, 263, 317, 332, 397, 398, 404, 416, 421, 444, 468, 479, 496, 522, 523],
+    "tutor": [173, 214, 282, 334, 335, 446, 450]
+  }
+}

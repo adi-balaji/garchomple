@@ -1,0 +1,23 @@
+{
+  "id": 613,
+  "name": "cubchoo",
+  "display": "Cubchoo",
+  "types": ["ice"],
+  "base": {"hp": 55, "atk": 70, "def": 40, "spa": 60, "spd": 40, "spe": 40},
+  "abilities": [
+    {"name": "snow-cloak", "hidden": false, "slot": 1},
+    {"name": "rattled", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["beartic"],
+  "learnset": {
+    "egg": [8, 214, 227, 264, 281, 372, 400, 419],
+    "level-up": [37, 45, 59, 117, 154, 156, 163, 175, 181, 196, 203, 204, 258, 329, 362],
+    "machine": [15, 57, 58, 59, 70, 91, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 317, 332, 374, 421, 447, 468, 496, 497, 524],
+    "tutor": [8, 67, 173, 196, 214, 276, 343]
+  }
+}

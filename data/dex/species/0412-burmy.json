@@ -1,0 +1,21 @@
+{
+  "id": 412,
+  "name": "burmy",
+  "display": "Burmy",
+  "types": ["bug"],
+  "base": {"hp": 40, "atk": 29, "def": 45, "spa": 29, "spd": 45, "spe": 36},
+  "abilities": [
+    {"name": "shed-skin", "hidden": false, "slot": 1},
+    {"name": "overcoat", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["wormadam", "mothim"],
+  "learnset": {
+    "level-up": [33, 182, 237, 450],
+    "tutor": [173, 450, 527]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 301,
+  "name": "delcatty",
+  "display": "Delcatty",
+  "types": ["normal"],
+  "base": {"hp": 70, "atk": 65, "def": 65, "spa": 55, "spd": 55, "spe": 70},
+  "abilities": [
+    {"name": "cute-charm", "hidden": false, "slot": 1},
+    {"name": "normalize", "hidden": false, "slot": 2},
+    {"name": "wonder-skin", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 6,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "skitty",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [3, 47, 213, 252],
+    "machine": [58, 59, 63, 70, 76, 85, 86, 87, 91, 92, 104, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 249, 263, 347, 371, 416, 447, 451, 496, 497, 514, 526, 528],
+    "tutor": [173, 196, 214, 215, 231, 253, 270, 304, 343, 387, 428]
+  }
+}

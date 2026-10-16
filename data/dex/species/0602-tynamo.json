@@ -1,0 +1,20 @@
+{
+  "id": 602,
+  "name": "tynamo",
+  "display": "Tynamo",
+  "types": ["electric"],
+  "base": {"hp": 35, "atk": 55, "def": 40, "spa": 45, "spd": 40, "spe": 60},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["eelektrik"],
+  "learnset": {
+    "level-up": [33, 86, 209, 451],
+    "tutor": [393]
+  }
+}

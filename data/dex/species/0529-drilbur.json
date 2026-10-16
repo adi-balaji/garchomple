@@ -1,0 +1,24 @@
+{
+  "id": 529,
+  "name": "drilbur",
+  "display": "Drilbur",
+  "types": ["ground"],
+  "base": {"hp": 60, "atk": 85, "def": 40, "spa": 30, "spd": 45, "spe": 68},
+  "abilities": [
+    {"name": "sand-rush", "hidden": false, "slot": 1},
+    {"name": "sand-force", "hidden": false, "slot": 2},
+    {"name": "mold-breaker", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["excadrill"],
+  "learnset": {
+    "egg": [66, 130, 229, 306, 319, 334, 414, 431],
+    "level-up": [10, 14, 89, 90, 91, 154, 157, 163, 189, 201, 229, 232, 300, 468, 529],
+    "machine": [14, 15, 70, 89, 91, 92, 104, 156, 157, 164, 182, 188, 201, 207, 213, 216, 218, 237, 249, 263, 280, 317, 332, 374, 398, 404, 421, 468, 496, 523],
+    "tutor": [173, 214, 334, 414, 446, 529]
+  }
+}

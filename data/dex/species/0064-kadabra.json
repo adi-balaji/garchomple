@@ -1,0 +1,23 @@
+{
+  "id": 64,
+  "name": "kadabra",
+  "display": "Kadabra",
+  "types": ["psychic"],
+  "base": {"hp": 40, "atk": 35, "def": 30, "spa": 120, "spd": 70, "spe": 105},
+  "abilities": [
+    {"name": "synchronize", "hidden": false, "slot": 1},
+    {"name": "inner-focus", "hidden": false, "slot": 2},
+    {"name": "magic-guard", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "abra",
+  "evolvesTo": ["alakazam"],
+  "learnset": {
+    "level-up": [50, 60, 93, 94, 100, 105, 115, 134, 248, 271, 272, 357, 427, 477, 502],
+    "machine": [86, 92, 94, 104, 113, 115, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 259, 263, 269, 347, 373, 374, 412, 433, 447, 451, 473, 477, 496, 502],
+    "tutor": [7, 8, 9, 173, 214, 231, 271, 272, 277, 278, 282, 285, 289, 324, 356, 409, 428, 472, 478, 492]
+  }
+}

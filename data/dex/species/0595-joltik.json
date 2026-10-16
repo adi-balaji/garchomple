@@ -1,0 +1,24 @@
+{
+  "id": 595,
+  "name": "joltik",
+  "display": "Joltik",
+  "types": ["bug", "electric"],
+  "base": {"hp": 50, "atk": 47, "def": 50, "spa": 57, "spd": 50, "spe": 65},
+  "abilities": [
+    {"name": "compound-eyes", "hidden": false, "slot": 1},
+    {"name": "unnerve", "hidden": false, "slot": 2},
+    {"name": "swarm", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["galvantula"],
+  "learnset": {
+    "egg": [40, 42, 50, 185, 228, 431, 440],
+    "level-up": [81, 86, 97, 103, 141, 163, 169, 210, 324, 380, 389, 405, 435, 450, 486, 527],
+    "machine": [15, 85, 86, 92, 104, 113, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 263, 398, 404, 412, 451, 496, 521, 522, 528],
+    "tutor": [173, 202, 214, 324, 340, 380, 393, 450, 527]
+  }
+}

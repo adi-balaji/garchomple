@@ -1,0 +1,22 @@
+{
+  "id": 259,
+  "name": "marshtomp",
+  "display": "Marshtomp",
+  "types": ["water", "ground"],
+  "base": {"hp": 70, "atk": 85, "def": 70, "spa": 60, "spd": 70, "spe": 50},
+  "abilities": [
+    {"name": "torrent", "hidden": false, "slot": 1},
+    {"name": "damp", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "mudkip",
+  "evolvesTo": ["swampert"],
+  "learnset": {
+    "level-up": [33, 36, 45, 55, 89, 117, 182, 189, 193, 283, 330, 341, 426],
+    "machine": [57, 58, 59, 70, 89, 91, 92, 104, 127, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 280, 291, 317, 374, 482, 496, 497, 503, 523],
+    "tutor": [8, 67, 173, 196, 214, 231, 276, 283, 401, 414, 446, 518]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 554,
+  "name": "darumaka",
+  "display": "Darumaka",
+  "types": ["fire"],
+  "base": {"hp": 70, "atk": 90, "def": 45, "spa": 15, "spd": 45, "spe": 50},
+  "abilities": [
+    {"name": "hustle", "hidden": false, "slot": 1},
+    {"name": "inner-focus", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["darmanitan"],
+  "learnset": {
+    "egg": [36, 116, 172, 203, 214, 227, 264, 281, 359],
+    "level-up": [7, 29, 33, 37, 99, 187, 205, 253, 263, 269, 276, 315, 394, 424, 510, 526],
+    "machine": [46, 53, 70, 76, 91, 92, 104, 126, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 241, 249, 261, 263, 269, 280, 315, 317, 360, 369, 374, 447, 488, 496, 510, 526],
+    "tutor": [7, 173, 214, 253, 257, 276, 283, 428]
+  }
+}

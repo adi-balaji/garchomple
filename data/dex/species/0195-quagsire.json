@@ -1,0 +1,23 @@
+{
+  "id": 195,
+  "name": "quagsire",
+  "display": "Quagsire",
+  "types": ["water", "ground"],
+  "base": {"hp": 95, "atk": 85, "def": 85, "spa": 65, "spd": 65, "spe": 35},
+  "abilities": [
+    {"name": "damp", "hidden": false, "slot": 1},
+    {"name": "water-absorb", "hidden": false, "slot": 2},
+    {"name": "unaware", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "wooper",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [21, 39, 54, 55, 89, 114, 133, 240, 281, 300, 330, 341, 426],
+    "machine": [57, 58, 59, 63, 70, 89, 91, 92, 104, 127, 148, 156, 157, 164, 168, 182, 188, 201, 207, 213, 216, 218, 219, 237, 240, 249, 258, 263, 280, 291, 317, 374, 411, 416, 444, 482, 496, 503, 523],
+    "tutor": [8, 173, 196, 214, 231, 401, 414, 495]
+  }
+}

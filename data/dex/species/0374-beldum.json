@@ -1,0 +1,21 @@
+{
+  "id": 374,
+  "name": "beldum",
+  "display": "Beldum",
+  "types": ["steel", "psychic"],
+  "base": {"hp": 40, "atk": 55, "def": 80, "spa": 35, "spd": 60, "spe": 30},
+  "abilities": [
+    {"name": "clear-body", "hidden": false, "slot": 1},
+    {"name": "light-metal", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["metang"],
+  "learnset": {
+    "level-up": [36],
+    "tutor": [334, 428, 442]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 578,
+  "name": "duosion",
+  "display": "Duosion",
+  "types": ["psychic"],
+  "base": {"hp": 65, "atk": 40, "def": 50, "spa": 125, "spd": 60, "spe": 30},
+  "abilities": [
+    {"name": "overcoat", "hidden": false, "slot": 1},
+    {"name": "magic-guard", "hidden": false, "slot": 2},
+    {"name": "regenerator", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "solosis",
+  "evolvesTo": ["reuniclus"],
+  "learnset": {
+    "level-up": [94, 105, 113, 115, 149, 204, 205, 220, 237, 248, 283, 285, 289, 377, 472, 473],
+    "machine": [86, 87, 92, 94, 104, 113, 115, 138, 148, 153, 156, 157, 164, 182, 207, 213, 216, 218, 219, 237, 240, 244, 247, 263, 317, 347, 360, 373, 412, 430, 433, 473, 477, 496],
+    "tutor": [173, 214, 220, 271, 272, 277, 283, 285, 289, 324, 356, 428, 472, 495]
+  }
+}

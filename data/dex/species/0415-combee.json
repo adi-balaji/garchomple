@@ -1,0 +1,21 @@
+{
+  "id": 415,
+  "name": "combee",
+  "display": "Combee",
+  "types": ["bug", "flying"],
+  "base": {"hp": 30, "atk": 30, "def": 42, "spa": 30, "spd": 42, "spe": 70},
+  "abilities": [
+    {"name": "honey-gather", "hidden": false, "slot": 1},
+    {"name": "hustle", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["vespiquen"],
+  "learnset": {
+    "level-up": [16, 230, 405, 450],
+    "tutor": [173, 283, 366, 450]
+  }
+}

@@ -1,0 +1,77 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Cynthia's team. Edit this file, save, and reload the page; that's it.
+#  It changes the REAL battle (the game's own trainer data) and the home page preview.
+#  Your ROM file is never modified: the page patches a copy in memory each time.
+#
+#  Format (like Pokémon Showdown). One Pokémon per block, blank line between blocks, 1 to 6 Pokémon:
+#
+#    Garchomp (F) @ Choice Scarf     <- species, optional (M)/(F), optional "@ held item"
+#    Ability: Sand Veil              <- optional; one of its REGULAR abilities (no hidden abilities)
+#    Level: 78                       <- optional, default 76
+#    IVs: 31                         <- optional, one value 0–31 for all stats, default 31
+#    - Dragon Claw                   <- 1 to 4 moves, any Gen 1–5 move
+#    - Earthquake
+#
+#  Bag: up to 4 items Cynthia can use during the battle (Full Restore, Max Revive, Hyper Potion, X Speed…).
+#  Names use their English spelling; capitals, spaces and hyphens don't matter.
+#  Lines starting with # are notes.
+#
+#  Not possible in Black 2/White 2 trainer data: natures, EVs, shininess, hidden abilities.
+#  (The game picks her natures itself.) If a line is wrong, the battle page says which line and why.
+# ─────────────────────────────────────────────────────────────────────────────
+
+Bag: Full Restore, Hyper Potion
+
+Porygon-Z
+Ability: Adaptability
+Level: 78
+IVs: 30
+- Tri Attack
+- Hyper Beam
+- Thunderbolt
+- Nasty Plot
+
+Spiritomb (F)
+Ability: Pressure
+Level: 76
+IVs: 30
+- Shadow Ball
+- Double Team
+- Dream Eater
+- Hypnosis
+
+Milotic (F)
+Ability: Marvel Scale
+Level: 76
+IVs: 30
+- Blizzard
+- Hydro Pump
+- Attract
+- Rest
+
+Togekiss
+Ability: Serene Grace
+Level: 76
+IVs: 30
+- Extreme Speed
+- Aura Sphere
+- Air Slash
+- Thunder Wave
+
+Lucario (M)
+Ability: Inner Focus
+Level: 76
+IVs: 30
+- Extreme Speed
+- Close Combat
+- Flash Cannon
+- Psychic
+
+Garchomp (F)
+Ability: Sand Veil
+Level: 78
+IVs: 30
+- Dragon Rush
+- Earthquake
+- Stone Edge
+- Fire Blast

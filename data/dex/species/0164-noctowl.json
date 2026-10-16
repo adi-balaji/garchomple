@@ -1,0 +1,23 @@
+{
+  "id": 164,
+  "name": "noctowl",
+  "display": "Noctowl",
+  "types": ["normal", "flying"],
+  "base": {"hp": 100, "atk": 50, "def": 50, "spa": 76, "spd": 96, "spe": 70},
+  "abilities": [
+    {"name": "insomnia", "hidden": false, "slot": 1},
+    {"name": "keen-eye", "hidden": false, "slot": 2},
+    {"name": "tinted-lens", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "hoothoot",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 36, 45, 64, 93, 95, 115, 138, 143, 193, 253, 326, 355, 375, 403, 428, 485, 497],
+    "machine": [19, 63, 92, 94, 104, 115, 138, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 332, 365, 416, 496, 497, 526],
+    "tutor": [143, 214, 253, 257, 277, 278, 304, 355, 366, 428]
+  }
+}

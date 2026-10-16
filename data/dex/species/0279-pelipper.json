@@ -1,0 +1,22 @@
+{
+  "id": 279,
+  "name": "pelipper",
+  "display": "Pelipper",
+  "types": ["water", "flying"],
+  "base": {"hp": 60, "atk": 50, "def": 100, "spa": 85, "spd": 70, "spe": 65},
+  "abilities": [
+    {"name": "keen-eye", "hidden": false, "slot": 1},
+    {"name": "rain-dish", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "wingull",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [17, 45, 48, 54, 55, 56, 182, 254, 255, 256, 346, 352, 355, 362, 366, 371, 374, 487, 542],
+    "machine": [19, 57, 58, 59, 63, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 258, 263, 332, 365, 369, 371, 374, 416, 496, 497, 503, 507],
+    "tutor": [143, 173, 196, 214, 253, 282, 355, 366, 402, 441]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 451,
+  "name": "skorupi",
+  "display": "Skorupi",
+  "types": ["poison", "bug"],
+  "base": {"hp": 40, "atk": 50, "def": 90, "spa": 30, "spd": 55, "spe": 65},
+  "abilities": [
+    {"name": "battle-armor", "hidden": false, "slot": 1},
+    {"name": "sniper", "hidden": false, "slot": 2},
+    {"name": "keen-eye", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["drapion"],
+  "learnset": {
+    "egg": [18, 28, 41, 97, 103, 109, 163, 185, 228, 231, 342, 400],
+    "level-up": [40, 42, 43, 44, 184, 228, 242, 282, 305, 367, 390, 400, 440, 450, 468, 474],
+    "machine": [14, 15, 70, 91, 92, 104, 148, 156, 164, 168, 182, 188, 206, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 280, 317, 332, 371, 374, 398, 404, 468, 474, 496, 522],
+    "tutor": [173, 214, 231, 282, 399, 401, 450]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 593,
+  "name": "jellicent",
+  "display": "Jellicent",
+  "types": ["water", "ghost"],
+  "base": {"hp": 100, "atk": 60, "def": 70, "spa": 85, "spd": 105, "spe": 60},
+  "abilities": [
+    {"name": "water-absorb", "hidden": false, "slot": 1},
+    {"name": "cursed-body", "hidden": false, "slot": 2},
+    {"name": "damp", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "frillish",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [56, 61, 71, 101, 105, 145, 240, 323, 346, 352, 362, 378, 466, 506],
+    "machine": [57, 58, 59, 63, 92, 94, 104, 127, 138, 148, 156, 164, 182, 188, 207, 213, 216, 218, 219, 237, 240, 244, 247, 258, 261, 263, 269, 291, 412, 416, 433, 482, 496, 503],
+    "tutor": [20, 173, 180, 196, 202, 214, 220, 271, 277, 399]
+  }
+}

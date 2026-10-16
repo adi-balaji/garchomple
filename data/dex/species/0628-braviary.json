@@ -1,0 +1,23 @@
+{
+  "id": 628,
+  "name": "braviary",
+  "display": "Braviary",
+  "types": ["normal", "flying"],
+  "base": {"hp": 100, "atk": 123, "def": 75, "spa": 57, "spd": 75, "spe": 80},
+  "abilities": [
+    {"name": "keen-eye", "hidden": false, "slot": 1},
+    {"name": "sheer-force", "hidden": false, "slot": 2},
+    {"name": "defiant", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 0,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "rufflet",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [17, 18, 31, 37, 43, 64, 163, 184, 276, 306, 332, 366, 403, 413, 432, 468, 507],
+    "machine": [15, 19, 63, 70, 92, 104, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 317, 332, 339, 365, 369, 416, 421, 468, 496, 507, 514, 526],
+    "tutor": [143, 173, 214, 257, 276, 355, 366]
+  }
+}

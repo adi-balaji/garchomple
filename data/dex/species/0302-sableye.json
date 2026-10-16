@@ -1,0 +1,24 @@
+{
+  "id": 302,
+  "name": "sableye",
+  "display": "Sableye",
+  "types": ["dark", "ghost"],
+  "base": {"hp": 50, "atk": 75, "def": 75, "spa": 65, "spd": 65, "spe": 50},
+  "abilities": [
+    {"name": "keen-eye", "hidden": false, "slot": 1},
+    {"name": "stall", "hidden": false, "slot": 2},
+    {"name": "prankster", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [105, 212, 236, 260, 271, 364, 368, 389, 417, 445],
+    "level-up": [10, 43, 101, 109, 154, 185, 193, 197, 212, 247, 252, 282, 310, 386, 408, 421, 425, 428, 492],
+    "machine": [15, 91, 92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 259, 261, 263, 269, 280, 317, 332, 347, 371, 373, 374, 398, 421, 468, 477, 490, 496, 510, 514, 555],
+    "tutor": [7, 8, 9, 67, 173, 180, 196, 214, 271, 272, 277, 282, 289, 324, 356, 399, 428, 472, 492]
+  }
+}

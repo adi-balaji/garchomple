@@ -1,0 +1,24 @@
+{
+  "id": 506,
+  "name": "lillipup",
+  "display": "Lillipup",
+  "types": ["normal"],
+  "base": {"hp": 45, "atk": 60, "def": 45, "spa": 25, "spd": 45, "spe": 55},
+  "abilities": [
+    {"name": "vital-spirit", "hidden": false, "slot": 1},
+    {"name": "pickup", "hidden": false, "slot": 2},
+    {"name": "run-away", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["herdier"],
+  "learnset": {
+    "egg": [28, 122, 189, 203, 204, 228, 281, 336, 422, 423, 424],
+    "level-up": [33, 36, 43, 44, 46, 179, 242, 270, 316, 387, 416, 514, 526],
+    "machine": [46, 85, 86, 91, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 317, 332, 416, 496, 514, 526, 528, 555],
+    "tutor": [173, 214, 253, 270, 304, 343, 387]
+  }
+}

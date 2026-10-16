@@ -1,0 +1,23 @@
+{
+  "id": 55,
+  "name": "golduck",
+  "display": "Golduck",
+  "types": ["water"],
+  "base": {"hp": 80, "atk": 82, "def": 78, "spa": 95, "spd": 80, "spe": 85},
+  "abilities": [
+    {"name": "damp", "hidden": false, "slot": 1},
+    {"name": "cloud-nine", "hidden": false, "slot": 2},
+    {"name": "swift-swim", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "psyduck",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 39, 50, 55, 56, 93, 103, 133, 154, 244, 346, 352, 401, 428, 453, 472, 487],
+    "machine": [57, 58, 59, 63, 70, 91, 92, 94, 104, 113, 127, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 244, 249, 258, 263, 280, 291, 332, 347, 374, 411, 416, 421, 468, 473, 477, 490, 496, 503],
+    "tutor": [8, 67, 173, 196, 214, 231, 272, 324, 388, 401, 428, 472]
+  }
+}

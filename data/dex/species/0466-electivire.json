@@ -1,0 +1,22 @@
+{
+  "id": 466,
+  "name": "electivire",
+  "display": "Electivire",
+  "types": ["electric"],
+  "base": {"hp": 75, "atk": 123, "def": 67, "spa": 95, "spd": 85, "spe": 95},
+  "abilities": [
+    {"name": "motor-drive", "hidden": false, "slot": 1},
+    {"name": "vital-spirit", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "electabuzz",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [7, 9, 43, 67, 84, 85, 86, 87, 98, 103, 113, 129, 351, 416, 435, 486],
+    "machine": [53, 63, 70, 85, 86, 87, 89, 91, 92, 94, 104, 113, 148, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 249, 259, 263, 269, 280, 317, 374, 411, 416, 451, 490, 496, 521, 523, 528],
+    "tutor": [7, 8, 9, 67, 173, 214, 231, 270, 324, 343, 393, 527, 530]
+  }
+}

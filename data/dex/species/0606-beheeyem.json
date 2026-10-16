@@ -1,0 +1,23 @@
+{
+  "id": 606,
+  "name": "beheeyem",
+  "display": "Beheeyem",
+  "types": ["psychic"],
+  "base": {"hp": 75, "atk": 75, "def": 75, "spa": 125, "spd": 95, "spe": 40},
+  "abilities": [
+    {"name": "telepathy", "hidden": false, "slot": 1},
+    {"name": "synchronize", "hidden": false, "slot": 2},
+    {"name": "analytic", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "elgyem",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [29, 45, 60, 93, 94, 105, 237, 244, 286, 347, 357, 377, 428, 470, 471, 472, 485, 493],
+    "machine": [63, 85, 86, 92, 94, 104, 113, 115, 138, 148, 156, 157, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 244, 247, 263, 317, 347, 373, 412, 416, 433, 451, 473, 477, 496, 497, 502],
+    "tutor": [173, 214, 220, 253, 271, 272, 277, 278, 285, 289, 324, 356, 399, 428, 472, 495]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 149,
+  "name": "dragonite",
+  "display": "Dragonite",
+  "types": ["dragon", "flying"],
+  "base": {"hp": 91, "atk": 134, "def": 95, "spa": 100, "spd": 100, "spe": 80},
+  "abilities": [
+    {"name": "inner-focus", "hidden": false, "slot": 1},
+    {"name": "multiscale", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "dragonair",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [7, 9, 17, 21, 35, 43, 63, 82, 86, 97, 200, 219, 239, 349, 355, 401, 407, 525, 542],
+    "machine": [15, 19, 46, 53, 57, 58, 59, 63, 70, 85, 86, 87, 89, 92, 104, 113, 126, 127, 156, 157, 164, 182, 201, 207, 213, 216, 218, 219, 237, 240, 241, 249, 258, 263, 280, 291, 317, 332, 337, 374, 411, 416, 444, 468, 496, 507, 510, 523, 525],
+    "tutor": [7, 8, 9, 20, 173, 196, 200, 214, 231, 257, 276, 355, 366, 401, 406, 434, 442]
+  }
+}

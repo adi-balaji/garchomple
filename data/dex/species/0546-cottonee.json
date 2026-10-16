@@ -1,0 +1,24 @@
+{
+  "id": 546,
+  "name": "cottonee",
+  "display": "Cottonee",
+  "types": ["grass"],
+  "base": {"hp": 40, "atk": 27, "def": 60, "spa": 37, "spd": 50, "spe": 66},
+  "abilities": [
+    {"name": "prankster", "hidden": false, "slot": 1},
+    {"name": "infiltrator", "hidden": false, "slot": 2},
+    {"name": "chlorophyll", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["whimsicott"],
+  "learnset": {
+    "egg": [227, 251, 262, 313, 320, 321, 363, 388, 415],
+    "level-up": [71, 72, 73, 74, 75, 76, 77, 78, 178, 202, 204, 241, 270, 283, 412, 538],
+    "machine": [76, 92, 104, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 241, 263, 269, 412, 447, 496],
+    "tutor": [173, 202, 214, 270, 282, 283, 343, 366, 388, 402]
+  }
+}

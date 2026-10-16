@@ -1,0 +1,23 @@
+{
+  "id": 528,
+  "name": "swoobat",
+  "display": "Swoobat",
+  "types": ["psychic", "flying"],
+  "base": {"hp": 67, "atk": 57, "def": 55, "spa": 77, "spd": 55, "spe": 114},
+  "abilities": [
+    {"name": "unaware", "hidden": false, "slot": 1},
+    {"name": "klutz", "hidden": false, "slot": 2},
+    {"name": "simple", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "woobat",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 93, 94, 133, 213, 248, 283, 286, 314, 316, 347, 372, 403, 531],
+    "machine": [19, 63, 86, 92, 94, 104, 113, 115, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 244, 247, 259, 263, 269, 332, 347, 360, 365, 369, 373, 412, 416, 433, 451, 473, 477, 496, 512],
+    "tutor": [143, 162, 173, 202, 214, 253, 257, 270, 271, 277, 282, 283, 285, 324, 355, 366, 428, 495]
+  }
+}

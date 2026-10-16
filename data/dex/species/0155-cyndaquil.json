@@ -1,0 +1,23 @@
+{
+  "id": 155,
+  "name": "cyndaquil",
+  "display": "Cyndaquil",
+  "types": ["fire"],
+  "base": {"hp": 39, "atk": 52, "def": 43, "spa": 60, "spd": 50, "spe": 65},
+  "abilities": [
+    {"name": "blaze", "hidden": false, "slot": 1},
+    {"name": "flash-fire", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["quilava"],
+  "learnset": {
+    "egg": [24, 37, 38, 98, 154, 179, 193, 267, 306, 326, 336, 343, 394, 481],
+    "level-up": [33, 38, 43, 52, 53, 98, 108, 111, 129, 172, 205, 284, 436, 488, 517],
+    "machine": [15, 53, 91, 92, 104, 126, 156, 164, 182, 207, 213, 216, 218, 237, 241, 261, 263, 315, 332, 488, 496, 510, 528],
+    "tutor": [173, 214, 257, 343, 519]
+  }
+}

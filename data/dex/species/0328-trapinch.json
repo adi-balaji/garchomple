@@ -1,0 +1,24 @@
+{
+  "id": 328,
+  "name": "trapinch",
+  "display": "Trapinch",
+  "types": ["ground"],
+  "base": {"hp": 45, "atk": 100, "def": 45, "spa": 45, "spd": 45, "spe": 10},
+  "abilities": [
+    {"name": "hyper-cutter", "hidden": false, "slot": 1},
+    {"name": "arena-trap", "hidden": false, "slot": 2},
+    {"name": "sheer-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["vibrava"],
+  "learnset": {
+    "egg": [16, 98, 116, 175, 203, 210, 324, 341, 414, 450],
+    "level-up": [28, 44, 63, 89, 90, 91, 117, 157, 185, 189, 201, 242, 276, 328, 364, 414, 523],
+    "machine": [63, 70, 76, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 496, 522, 523],
+    "tutor": [173, 202, 214, 276, 324, 414, 450]
+  }
+}

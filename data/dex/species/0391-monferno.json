@@ -1,0 +1,22 @@
+{
+  "id": 391,
+  "name": "monferno",
+  "display": "Monferno",
+  "types": ["fire", "fighting"],
+  "base": {"hp": 64, "atk": 78, "def": 52, "spa": 78, "spd": 52, "spe": 81},
+  "abilities": [
+    {"name": "blaze", "hidden": false, "slot": 1},
+    {"name": "iron-fist", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "chimchar",
+  "evolvesTo": ["infernape"],
+  "learnset": {
+    "level-up": [10, 43, 52, 83, 154, 172, 183, 259, 269, 303, 364, 370, 394, 512],
+    "machine": [14, 15, 53, 70, 91, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 241, 249, 259, 261, 263, 269, 280, 315, 317, 332, 339, 369, 374, 398, 411, 421, 447, 468, 488, 490, 496, 510, 512, 514, 526],
+    "tutor": [7, 9, 67, 173, 214, 231, 257, 270, 272, 283, 343, 441, 446, 519, 530]
+  }
+}

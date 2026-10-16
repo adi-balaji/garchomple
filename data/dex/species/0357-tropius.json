@@ -1,0 +1,24 @@
+{
+  "id": 357,
+  "name": "tropius",
+  "display": "Tropius",
+  "types": ["grass", "flying"],
+  "base": {"hp": 99, "atk": 68, "def": 83, "spa": 72, "spd": 87, "spe": 51},
+  "abilities": [
+    {"name": "chlorophyll", "hidden": false, "slot": 1},
+    {"name": "solar-power", "hidden": false, "slot": 2},
+    {"name": "harvest", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [13, 21, 29, 73, 174, 235, 267, 331, 348, 349, 363, 437],
+    "level-up": [16, 18, 23, 34, 43, 74, 75, 76, 230, 235, 345, 363, 403, 437, 516, 536],
+    "machine": [14, 15, 19, 46, 63, 70, 76, 89, 92, 104, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 241, 249, 263, 332, 412, 416, 447, 496, 523],
+    "tutor": [173, 200, 202, 214, 235, 355, 366, 388, 402, 406]
+  }
+}

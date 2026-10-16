@@ -1,0 +1,23 @@
+{
+  "id": 255,
+  "name": "torchic",
+  "display": "Torchic",
+  "types": ["fire"],
+  "base": {"hp": 45, "atk": 60, "def": 40, "spa": 70, "spd": 50, "spe": 45},
+  "abilities": [
+    {"name": "blaze", "hidden": false, "slot": 1},
+    {"name": "speed-boost", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["combusken"],
+  "learnset": {
+    "egg": [67, 68, 97, 174, 179, 203, 226, 265, 297, 306, 364, 387, 400, 481],
+    "level-up": [10, 28, 45, 52, 53, 64, 83, 98, 116, 119, 163],
+    "machine": [14, 15, 53, 70, 91, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 241, 249, 261, 263, 315, 317, 332, 421, 468, 488, 496, 497, 510],
+    "tutor": [67, 173, 214, 257, 270, 340, 387, 519]
+  }
+}

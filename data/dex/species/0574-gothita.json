@@ -1,0 +1,23 @@
+{
+  "id": 574,
+  "name": "gothita",
+  "display": "Gothita",
+  "types": ["psychic"],
+  "base": {"hp": 45, "atk": 30, "def": 50, "spa": 55, "spd": 65, "spe": 45},
+  "abilities": [
+    {"name": "frisk", "hidden": false, "slot": 1},
+    {"name": "shadow-tag", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 6,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["gothorita"],
+  "learnset": {
+    "egg": [212, 243, 253, 357, 399, 445],
+    "level-up": [1, 3, 60, 93, 94, 185, 204, 248, 260, 313, 321, 373, 377, 473, 477, 478],
+    "machine": [85, 86, 92, 94, 104, 113, 115, 138, 148, 156, 157, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 244, 247, 259, 263, 269, 317, 347, 371, 373, 374, 412, 433, 447, 451, 473, 477, 496],
+    "tutor": [173, 214, 215, 253, 270, 271, 272, 277, 278, 285, 289, 324, 343, 356, 428, 478, 492]
+  }
+}

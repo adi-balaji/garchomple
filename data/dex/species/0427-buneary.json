@@ -1,0 +1,24 @@
+{
+  "id": 427,
+  "name": "buneary",
+  "display": "Buneary",
+  "types": ["normal"],
+  "base": {"hp": 55, "atk": 66, "def": 44, "spa": 44, "spd": 56, "spe": 85},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "klutz", "hidden": false, "slot": 2},
+    {"name": "limber", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["lopunny"],
+  "learnset": {
+    "egg": [7, 8, 9, 67, 175, 186, 227, 252, 264, 313, 327, 383, 415, 458, 509],
+    "level-up": [1, 26, 97, 98, 111, 146, 150, 193, 203, 204, 218, 226, 340, 361, 494, 495],
+    "machine": [15, 58, 76, 85, 86, 91, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 374, 447, 451, 496, 514, 526],
+    "tutor": [7, 8, 9, 67, 173, 214, 215, 231, 253, 270, 277, 283, 304, 340, 343, 387, 409, 495]
+  }
+}

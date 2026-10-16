@@ -1,0 +1,22 @@
+{
+  "id": 597,
+  "name": "ferroseed",
+  "display": "Ferroseed",
+  "types": ["grass", "steel"],
+  "base": {"hp": 44, "atk": 50, "def": 91, "spa": 24, "spd": 86, "spe": 10},
+  "abilities": [
+    {"name": "iron-barbs", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["ferrothorn"],
+  "learnset": {
+    "egg": [73, 191, 331, 356, 388, 402, 431, 446],
+    "level-up": [33, 42, 106, 120, 153, 174, 205, 232, 275, 334, 360, 371, 429, 430, 442],
+    "machine": [76, 85, 86, 92, 104, 148, 153, 156, 164, 182, 207, 216, 218, 237, 241, 249, 263, 360, 371, 397, 398, 412, 430, 468, 496],
+    "tutor": [173, 202, 214, 283, 334, 356, 388, 393, 402, 442, 446]
+  }
+}

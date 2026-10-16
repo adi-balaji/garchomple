@@ -1,0 +1,22 @@
+{
+  "id": 250,
+  "name": "ho-oh",
+  "display": "Ho-Oh",
+  "types": ["fire", "flying"],
+  "base": {"hp": 106, "atk": 130, "def": 90, "spa": 110, "spd": 154, "spe": 90},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "regenerator", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 18, 105, 126, 143, 219, 221, 241, 246, 248, 311, 326, 347, 363, 386, 413],
+    "machine": [19, 46, 53, 63, 70, 76, 85, 86, 87, 89, 92, 94, 104, 113, 115, 126, 138, 148, 156, 164, 182, 201, 207, 216, 218, 219, 237, 240, 241, 244, 247, 249, 261, 263, 315, 332, 347, 365, 416, 451, 488, 496, 497, 507, 510, 523],
+    "tutor": [143, 173, 202, 214, 257, 304, 324, 355, 366, 414, 428, 442]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 280,
+  "name": "ralts",
+  "display": "Ralts",
+  "types": ["psychic"],
+  "base": {"hp": 28, "atk": 25, "def": 25, "spa": 45, "spd": 35, "spe": 40},
+  "abilities": [
+    {"name": "synchronize", "hidden": false, "slot": 1},
+    {"name": "trace", "hidden": false, "slot": 2},
+    {"name": "telepathy", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["kirlia"],
+  "learnset": {
+    "egg": [50, 109, 194, 212, 227, 262, 285, 288, 425, 485],
+    "level-up": [45, 93, 94, 95, 100, 104, 138, 204, 248, 286, 345, 347, 381, 500, 505],
+    "machine": [85, 86, 92, 94, 104, 113, 115, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 259, 261, 263, 269, 347, 374, 433, 447, 451, 473, 477, 496, 497, 502],
+    "tutor": [7, 8, 9, 173, 196, 214, 220, 270, 271, 277, 278, 285, 289, 304, 324, 428, 472, 478]
+  }
+}

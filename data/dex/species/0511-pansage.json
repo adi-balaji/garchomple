@@ -1,0 +1,23 @@
+{
+  "id": 511,
+  "name": "pansage",
+  "display": "Pansage",
+  "types": ["grass"],
+  "base": {"hp": 50, "atk": 53, "def": 48, "spa": 53, "spd": 48, "spe": 64},
+  "abilities": [
+    {"name": "gluttony", "hidden": false, "slot": 1},
+    {"name": "overgrow", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["simisage"],
+  "learnset": {
+    "egg": [67, 272, 310, 320, 321, 331, 343, 345, 417, 437],
+    "level-up": [10, 22, 43, 44, 73, 122, 154, 242, 259, 278, 363, 374, 402, 447, 512],
+    "machine": [15, 76, 91, 92, 104, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 241, 249, 259, 263, 269, 317, 371, 374, 412, 421, 447, 468, 490, 496, 512, 526],
+    "tutor": [67, 173, 202, 214, 231, 235, 253, 270, 272, 278, 282, 283, 343, 388, 402, 441]
+  }
+}

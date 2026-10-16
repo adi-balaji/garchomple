@@ -1,0 +1,24 @@
+{
+  "id": 592,
+  "name": "frillish",
+  "display": "Frillish",
+  "types": ["water", "ghost"],
+  "base": {"hp": 55, "atk": 40, "def": 50, "spa": 65, "spd": 85, "spe": 40},
+  "abilities": [
+    {"name": "water-absorb", "hidden": false, "slot": 1},
+    {"name": "cursed-body", "hidden": false, "slot": 2},
+    {"name": "damp", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["jellicent"],
+  "learnset": {
+    "egg": [54, 105, 109, 132, 151, 220],
+    "level-up": [56, 61, 71, 101, 105, 145, 240, 323, 346, 352, 362, 378, 466, 506],
+    "machine": [57, 58, 59, 92, 94, 104, 127, 138, 148, 156, 164, 182, 188, 207, 213, 216, 218, 219, 237, 240, 244, 247, 258, 261, 263, 269, 291, 412, 433, 482, 496, 503],
+    "tutor": [20, 173, 180, 196, 202, 214, 220, 271, 277, 399]
+  }
+}

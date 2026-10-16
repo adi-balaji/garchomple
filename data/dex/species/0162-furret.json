@@ -1,0 +1,23 @@
+{
+  "id": 162,
+  "name": "furret",
+  "display": "Furret",
+  "types": ["normal"],
+  "base": {"hp": 85, "atk": 76, "def": 64, "spa": 45, "spd": 55, "spe": 90},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "keen-eye", "hidden": false, "slot": 2},
+    {"name": "frisk", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "sentret",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 21, 98, 111, 133, 154, 156, 193, 226, 266, 270, 304, 382, 389],
+    "machine": [15, 53, 57, 58, 59, 63, 70, 76, 85, 87, 91, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 280, 369, 374, 411, 416, 421, 447, 451, 468, 496, 497, 514, 526],
+    "tutor": [7, 8, 9, 162, 173, 214, 231, 253, 270, 271, 282, 304, 343, 387, 401]
+  }
+}

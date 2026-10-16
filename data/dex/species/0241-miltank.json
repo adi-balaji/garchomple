@@ -1,0 +1,24 @@
+{
+  "id": 241,
+  "name": "miltank",
+  "display": "Miltank",
+  "types": ["normal"],
+  "base": {"hp": 95, "atk": 80, "def": 105, "spa": 40, "spd": 70, "spe": 100},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "scrappy", "hidden": false, "slot": 2},
+    {"name": "sap-sipper", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 8,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [38, 69, 146, 174, 179, 203, 214, 217, 270, 359, 363, 386, 531],
+    "level-up": [23, 33, 34, 45, 111, 117, 205, 208, 215, 358, 360, 428, 445],
+    "machine": [57, 58, 59, 63, 70, 76, 85, 86, 87, 89, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 263, 280, 317, 360, 374, 411, 416, 496, 497, 514, 523, 526],
+    "tutor": [7, 8, 9, 173, 196, 214, 215, 231, 270, 335, 428, 442, 446, 495]
+  }
+}

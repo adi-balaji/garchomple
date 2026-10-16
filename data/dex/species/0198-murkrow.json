@@ -1,0 +1,24 @@
+{
+  "id": 198,
+  "name": "murkrow",
+  "display": "Murkrow",
+  "types": ["dark", "flying"],
+  "base": {"hp": 60, "atk": 85, "def": 42, "spa": 85, "spd": 42, "spe": 91},
+  "abilities": [
+    {"name": "insomnia", "hidden": false, "slot": 1},
+    {"name": "super-luck", "hidden": false, "slot": 2},
+    {"name": "prankster", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["honchkrow"],
+  "learnset": {
+    "egg": [17, 18, 65, 103, 109, 119, 143, 185, 195, 297, 355, 372, 375, 413],
+    "level-up": [17, 64, 101, 114, 185, 212, 228, 259, 269, 310, 366, 372, 389, 492, 511],
+    "machine": [19, 86, 92, 94, 104, 138, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 263, 269, 332, 347, 365, 371, 373, 496, 511, 514, 555],
+    "tutor": [143, 180, 196, 214, 253, 257, 289, 355, 366, 399, 492]
+  }
+}

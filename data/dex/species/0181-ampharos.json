@@ -1,0 +1,22 @@
+{
+  "id": 181,
+  "name": "ampharos",
+  "display": "Ampharos",
+  "types": ["electric"],
+  "base": {"hp": 90, "atk": 75, "def": 75, "spa": 115, "spd": 90, "spe": 55},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "plus", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "flaaffy",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [7, 9, 33, 36, 45, 84, 86, 87, 109, 113, 178, 268, 324, 408, 435, 486, 538],
+    "machine": [63, 70, 85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 249, 263, 280, 374, 411, 416, 451, 496, 497, 521, 523, 528],
+    "tutor": [7, 9, 173, 200, 214, 215, 231, 324, 393, 495]
+  }
+}

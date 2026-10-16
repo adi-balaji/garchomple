@@ -1,0 +1,23 @@
+{
+  "id": 258,
+  "name": "mudkip",
+  "display": "Mudkip",
+  "types": ["water"],
+  "base": {"hp": 50, "atk": 70, "def": 50, "spa": 50, "spd": 50, "spe": 40},
+  "abilities": [
+    {"name": "torrent", "hidden": false, "slot": 1},
+    {"name": "damp", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["marshtomp"],
+  "learnset": {
+    "egg": [23, 38, 44, 68, 124, 174, 243, 246, 250, 253, 281, 287, 301, 419, 426, 469],
+    "level-up": [33, 36, 45, 55, 56, 117, 182, 189, 193, 250, 283, 300],
+    "machine": [57, 58, 59, 70, 91, 92, 104, 127, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 291, 317, 482, 496, 497, 503],
+    "tutor": [67, 173, 196, 214, 231, 276, 283, 401, 414, 518]
+  }
+}

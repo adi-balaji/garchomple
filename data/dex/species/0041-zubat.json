@@ -1,0 +1,23 @@
+{
+  "id": 41,
+  "name": "zubat",
+  "display": "Zubat",
+  "types": ["poison", "flying"],
+  "base": {"hp": 40, "atk": 45, "def": 35, "spa": 30, "spd": 40, "spe": 55},
+  "abilities": [
+    {"name": "inner-focus", "hidden": false, "slot": 1},
+    {"name": "infiltrator", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["golbat"],
+  "learnset": {
+    "egg": [16, 18, 95, 98, 174, 185, 202, 211, 228, 413, 417, 428, 432],
+    "level-up": [17, 44, 48, 109, 114, 129, 141, 212, 305, 310, 314, 403, 512],
+    "machine": [19, 92, 104, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 240, 241, 247, 259, 263, 269, 332, 365, 369, 371, 474, 496, 512],
+    "tutor": [162, 173, 202, 214, 253, 257, 289, 355, 366, 428]
+  }
+}

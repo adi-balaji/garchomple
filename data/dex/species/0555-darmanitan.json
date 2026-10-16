@@ -1,0 +1,22 @@
+{
+  "id": 555,
+  "name": "darmanitan",
+  "display": "Darmanitan",
+  "types": ["fire"],
+  "base": {"hp": 105, "atk": 140, "def": 55, "spa": 30, "spd": 55, "spe": 95},
+  "abilities": [
+    {"name": "sheer-force", "hidden": false, "slot": 1},
+    {"name": "zen-mode", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "darumaka",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [7, 29, 33, 37, 99, 187, 205, 207, 263, 269, 276, 315, 359, 394, 424, 510, 526],
+    "machine": [46, 53, 63, 70, 76, 89, 91, 92, 94, 104, 126, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 241, 249, 259, 261, 263, 269, 280, 315, 317, 339, 360, 369, 371, 374, 411, 416, 444, 447, 479, 488, 496, 510, 523, 526],
+    "tutor": [7, 173, 214, 253, 257, 276, 283, 428]
+  }
+}

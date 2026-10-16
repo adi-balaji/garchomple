@@ -1,0 +1,21 @@
+{
+  "id": 330,
+  "name": "flygon",
+  "display": "Flygon",
+  "types": ["ground", "dragon"],
+  "base": {"hp": 80, "atk": 100, "def": 80, "spa": 80, "spd": 80, "spe": 100},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "vibrava",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 48, 49, 63, 103, 117, 157, 185, 189, 201, 225, 328, 337, 414, 523, 525],
+    "machine": [19, 53, 63, 70, 76, 89, 91, 92, 104, 126, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 332, 337, 369, 416, 444, 468, 496, 510, 522, 523, 525],
+    "tutor": [7, 9, 173, 200, 202, 214, 231, 257, 276, 324, 355, 366, 406, 414, 434, 450]
+  }
+}

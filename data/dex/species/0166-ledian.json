@@ -1,0 +1,23 @@
+{
+  "id": 166,
+  "name": "ledian",
+  "display": "Ledian",
+  "types": ["bug", "flying"],
+  "base": {"hp": 55, "atk": 35, "def": 50, "spa": 55, "spd": 110, "spe": 85},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "early-bird", "hidden": false, "slot": 2},
+    {"name": "iron-fist", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "ledyba",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [4, 33, 38, 48, 97, 113, 115, 129, 183, 219, 226, 318, 405],
+    "machine": [14, 63, 70, 76, 91, 92, 104, 113, 115, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 241, 249, 263, 280, 332, 369, 374, 411, 416, 496, 512, 522],
+    "tutor": [8, 9, 173, 202, 214, 253, 282, 355, 366, 409, 450]
+  }
+}

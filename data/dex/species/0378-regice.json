@@ -1,0 +1,22 @@
+{
+  "id": 378,
+  "name": "regice",
+  "display": "Regice",
+  "types": ["ice"],
+  "base": {"hp": 80, "atk": 50, "def": 100, "spa": 100, "spd": 200, "spe": 50},
+  "abilities": [
+    {"name": "clear-body", "hidden": false, "slot": 1},
+    {"name": "ice-body", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [23, 58, 63, 133, 153, 174, 192, 196, 199, 246, 276, 359, 451],
+    "machine": [58, 59, 63, 70, 85, 86, 87, 89, 92, 104, 153, 156, 157, 164, 182, 207, 216, 218, 219, 237, 240, 244, 249, 258, 263, 280, 317, 374, 397, 411, 416, 430, 451, 496, 523, 524],
+    "tutor": [8, 9, 173, 196, 214, 276, 324, 335, 356, 442]
+  }
+}

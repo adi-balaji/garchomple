@@ -1,0 +1,22 @@
+{
+  "id": 135,
+  "name": "jolteon",
+  "display": "Jolteon",
+  "types": ["electric"],
+  "base": {"hp": 65, "atk": 65, "def": 60, "spa": 110, "spd": 95, "spe": 130},
+  "abilities": [
+    {"name": "volt-absorb", "hidden": false, "slot": 1},
+    {"name": "quick-feet", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "eevee",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [24, 28, 33, 39, 42, 84, 86, 87, 97, 98, 270, 387, 422, 435],
+    "machine": [46, 63, 70, 85, 86, 87, 91, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 416, 451, 496, 497, 514, 521, 526, 528],
+    "tutor": [173, 214, 215, 231, 270, 304, 324, 343, 387, 393]
+  }
+}

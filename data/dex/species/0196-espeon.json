@@ -1,0 +1,22 @@
+{
+  "id": 196,
+  "name": "espeon",
+  "display": "Espeon",
+  "types": ["psychic"],
+  "base": {"hp": 65, "atk": 65, "def": 60, "spa": 130, "spd": 95, "spe": 110},
+  "abilities": [
+    {"name": "synchronize", "hidden": false, "slot": 1},
+    {"name": "magic-bounce", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "eevee",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 33, 39, 60, 93, 94, 98, 129, 234, 244, 248, 270, 384, 387],
+    "machine": [15, 63, 91, 92, 94, 104, 113, 115, 138, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 347, 416, 433, 447, 473, 477, 496, 497, 514, 526],
+    "tutor": [173, 214, 215, 231, 270, 271, 277, 285, 304, 324, 343, 387, 428, 478]
+  }
+}

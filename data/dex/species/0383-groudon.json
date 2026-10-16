@@ -1,0 +1,21 @@
+{
+  "id": 383,
+  "name": "groudon",
+  "display": "Groudon",
+  "types": ["ground"],
+  "base": {"hp": 100, "atk": 150, "def": 140, "spa": 100, "spd": 90, "spe": 90},
+  "abilities": [
+    {"name": "drought", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [76, 89, 90, 126, 156, 184, 246, 284, 339, 341, 359, 414, 436],
+    "machine": [14, 15, 46, 53, 63, 70, 76, 85, 86, 87, 89, 91, 92, 104, 126, 156, 157, 164, 182, 201, 207, 216, 218, 219, 237, 241, 244, 249, 263, 280, 315, 317, 332, 337, 339, 374, 397, 411, 416, 421, 444, 468, 479, 496, 510, 523, 525],
+    "tutor": [7, 9, 173, 214, 231, 253, 335, 406, 414, 442, 446]
+  }
+}

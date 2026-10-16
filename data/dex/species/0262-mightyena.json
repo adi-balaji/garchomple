@@ -1,0 +1,23 @@
+{
+  "id": 262,
+  "name": "mightyena",
+  "display": "Mightyena",
+  "types": ["dark"],
+  "base": {"hp": 70, "atk": 90, "def": 70, "spa": 60, "spd": 60, "spe": 70},
+  "abilities": [
+    {"name": "intimidate", "hidden": false, "slot": 1},
+    {"name": "quick-feet", "hidden": false, "slot": 2},
+    {"name": "moxie", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "poochyena",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 33, 36, 44, 46, 168, 184, 207, 269, 316, 336, 372, 373, 389],
+    "machine": [46, 63, 70, 91, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 371, 373, 416, 496, 510, 514, 555],
+    "tutor": [162, 173, 180, 214, 231, 253, 289, 304, 343, 399, 492]
+  }
+}

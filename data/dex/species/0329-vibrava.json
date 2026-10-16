@@ -1,0 +1,21 @@
+{
+  "id": 329,
+  "name": "vibrava",
+  "display": "Vibrava",
+  "types": ["ground", "dragon"],
+  "base": {"hp": 50, "atk": 70, "def": 50, "spa": 50, "spd": 50, "spe": 70},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "trapinch",
+  "evolvesTo": ["flygon"],
+  "learnset": {
+    "level-up": [28, 48, 49, 63, 103, 117, 157, 185, 189, 201, 225, 328, 414, 523],
+    "machine": [19, 63, 70, 76, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 369, 496, 522, 523],
+    "tutor": [173, 200, 202, 214, 257, 276, 324, 355, 366, 406, 414, 434, 450]
+  }
+}

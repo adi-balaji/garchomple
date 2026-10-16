@@ -1,0 +1,23 @@
+{
+  "id": 208,
+  "name": "steelix",
+  "display": "Steelix",
+  "types": ["steel", "ground"],
+  "base": {"hp": 75, "atk": 85, "def": 200, "spa": 55, "spd": 65, "spe": 30},
+  "abilities": [
+    {"name": "rock-head", "hidden": false, "slot": 1},
+    {"name": "sturdy", "hidden": false, "slot": 2},
+    {"name": "sheer-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "onix",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [20, 21, 33, 38, 88, 91, 99, 103, 106, 157, 174, 201, 225, 231, 242, 300, 317, 422, 423, 424, 444, 446, 475, 479],
+    "machine": [15, 46, 63, 70, 89, 91, 92, 104, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 244, 249, 259, 263, 269, 317, 360, 371, 397, 416, 430, 444, 479, 496, 523, 525],
+    "tutor": [20, 173, 214, 231, 335, 393, 399, 401, 406, 414, 442, 446]
+  }
+}

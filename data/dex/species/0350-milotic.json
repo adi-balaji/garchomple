@@ -1,0 +1,22 @@
+{
+  "id": 350,
+  "name": "milotic",
+  "display": "Milotic",
+  "types": ["water"],
+  "base": {"hp": 95, "atk": 60, "def": 79, "spa": 100, "spd": 125, "spe": 81},
+  "abilities": [
+    {"name": "marvel-scale", "hidden": false, "slot": 1},
+    {"name": "cute-charm", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "feebas",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [35, 55, 56, 105, 213, 219, 239, 240, 287, 346, 352, 392, 401, 445],
+    "machine": [57, 58, 59, 63, 92, 104, 113, 127, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 244, 258, 263, 291, 416, 496, 503, 523, 525],
+    "tutor": [20, 173, 196, 214, 231, 277, 401, 406, 442]
+  }
+}

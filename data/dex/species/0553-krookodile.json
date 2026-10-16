@@ -1,0 +1,23 @@
+{
+  "id": 553,
+  "name": "krookodile",
+  "display": "Krookodile",
+  "types": ["ground", "dark"],
+  "base": {"hp": 95, "atk": 117, "def": 70, "spa": 65, "spd": 70, "spe": 92},
+  "abilities": [
+    {"name": "intimidate", "hidden": false, "slot": 1},
+    {"name": "moxie", "hidden": false, "slot": 2},
+    {"name": "anger-point", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "krokorok",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 43, 44, 89, 91, 99, 184, 189, 200, 201, 207, 242, 259, 328, 372, 373, 492],
+    "machine": [15, 46, 63, 70, 89, 91, 92, 104, 156, 157, 164, 168, 182, 188, 201, 207, 213, 216, 218, 237, 249, 259, 263, 269, 280, 317, 332, 337, 339, 371, 373, 374, 411, 416, 421, 444, 447, 468, 479, 490, 496, 510, 514, 523, 525, 555],
+    "tutor": [67, 173, 180, 200, 214, 231, 253, 276, 282, 289, 335, 399, 401, 406, 414, 446, 492]
+  }
+}

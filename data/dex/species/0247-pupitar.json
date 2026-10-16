@@ -1,0 +1,21 @@
+{
+  "id": 247,
+  "name": "pupitar",
+  "display": "Pupitar",
+  "types": ["rock", "ground"],
+  "base": {"hp": 70, "atk": 84, "def": 70, "spa": 65, "spd": 70, "spe": 51},
+  "abilities": [
+    {"name": "shed-skin", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "larvitar",
+  "evolvesTo": ["tyranitar"],
+  "learnset": {
+    "level-up": [37, 43, 44, 63, 89, 103, 157, 184, 201, 242, 371, 399, 444, 498],
+    "machine": [63, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 240, 241, 249, 259, 263, 269, 280, 317, 371, 397, 444, 479, 496, 514, 523, 555],
+    "tutor": [173, 180, 200, 214, 231, 253, 276, 334, 399, 414, 442, 446]
+  }
+}

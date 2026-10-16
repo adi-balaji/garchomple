@@ -1,0 +1,21 @@
+{
+  "id": 598,
+  "name": "ferrothorn",
+  "display": "Ferrothorn",
+  "types": ["grass", "steel"],
+  "base": {"hp": 74, "atk": 94, "def": 131, "spa": 54, "spd": 116, "spe": 20},
+  "abilities": [
+    {"name": "iron-barbs", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "ferroseed",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 42, 106, 120, 153, 174, 205, 232, 275, 334, 360, 371, 429, 430, 431, 438, 442],
+    "machine": [14, 15, 63, 70, 76, 85, 86, 87, 92, 104, 148, 153, 156, 164, 182, 201, 207, 216, 218, 237, 241, 249, 263, 332, 360, 371, 397, 398, 412, 416, 421, 430, 447, 468, 496, 523],
+    "tutor": [173, 202, 214, 282, 283, 334, 356, 388, 393, 402, 442, 446]
+  }
+}

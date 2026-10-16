@@ -1,0 +1,21 @@
+{
+  "id": 646,
+  "name": "kyurem",
+  "display": "Kyurem",
+  "types": ["dragon", "ice"],
+  "base": {"hp": 125, "atk": 130, "def": 90, "spa": 130, "spd": 90, "spe": 95},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [58, 59, 82, 163, 184, 196, 200, 225, 246, 283, 286, 304, 406, 549],
+    "machine": [15, 19, 58, 59, 63, 70, 92, 94, 104, 113, 115, 156, 157, 164, 182, 207, 216, 218, 219, 237, 240, 241, 247, 249, 258, 263, 317, 337, 371, 374, 411, 416, 421, 430, 444, 468, 496, 497, 525],
+    "tutor": [173, 196, 200, 214, 283, 304, 324, 355, 406, 414, 428, 434, 442]
+  }
+}

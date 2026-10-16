@@ -1,0 +1,23 @@
+{
+  "id": 333,
+  "name": "swablu",
+  "display": "Swablu",
+  "types": ["normal", "flying"],
+  "base": {"hp": 45, "atk": 40, "def": 60, "spa": 40, "spd": 75, "spe": 50},
+  "abilities": [
+    {"name": "natural-cure", "hidden": false, "slot": 1},
+    {"name": "cloud-nine", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["altaria"],
+  "learnset": {
+    "egg": [97, 99, 114, 211, 228, 297, 304, 355, 384, 407],
+    "level-up": [31, 36, 45, 47, 54, 64, 119, 195, 219, 287, 310, 363, 406, 496, 538],
+    "machine": [19, 58, 76, 92, 104, 138, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 263, 332, 365, 496, 497],
+    "tutor": [173, 200, 214, 215, 253, 257, 304, 355, 366, 406]
+  }
+}

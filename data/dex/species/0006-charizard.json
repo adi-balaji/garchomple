@@ -1,0 +1,22 @@
+{
+  "id": 6,
+  "name": "charizard",
+  "display": "Charizard",
+  "types": ["fire", "flying"],
+  "base": {"hp": 78, "atk": 84, "def": 78, "spa": 109, "spd": 85, "spe": 100},
+  "abilities": [
+    {"name": "blaze", "hidden": false, "slot": 1},
+    {"name": "solar-power", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "charmeleon",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 17, 45, 52, 53, 82, 83, 108, 163, 184, 257, 337, 394, 403, 421, 424, 481, 517],
+    "machine": [14, 15, 19, 46, 53, 63, 70, 76, 89, 91, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 241, 249, 261, 263, 280, 315, 317, 332, 337, 374, 411, 416, 421, 468, 488, 496, 497, 507, 510, 523, 525],
+    "tutor": [7, 9, 173, 200, 214, 231, 257, 307, 355, 366, 406, 519]
+  }
+}

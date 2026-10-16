@@ -1,0 +1,22 @@
+{
+  "id": 145,
+  "name": "zapdos",
+  "display": "Zapdos",
+  "types": ["electric", "flying"],
+  "base": {"hp": 90, "atk": 90, "def": 85, "spa": 125, "spd": 90, "spe": 100},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "lightning-rod", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [64, 65, 84, 86, 87, 97, 113, 192, 197, 240, 246, 268, 355, 365, 435],
+    "machine": [19, 46, 63, 85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 201, 207, 216, 218, 237, 240, 241, 249, 263, 332, 365, 369, 416, 451, 496, 507, 521, 528],
+    "tutor": [143, 173, 214, 257, 324, 355, 366]
+  }
+}

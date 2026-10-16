@@ -1,0 +1,23 @@
+{
+  "id": 219,
+  "name": "magcargo",
+  "display": "Magcargo",
+  "types": ["fire", "rock"],
+  "base": {"hp": 50, "atk": 50, "def": 120, "spa": 80, "spd": 80, "spe": 30},
+  "abilities": [
+    {"name": "magma-armor", "hidden": false, "slot": 1},
+    {"name": "flame-body", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "slugma",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [34, 52, 53, 88, 105, 106, 123, 133, 157, 246, 281, 414, 436, 481, 504],
+    "machine": [53, 63, 70, 76, 89, 92, 104, 113, 115, 126, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 261, 263, 315, 317, 360, 397, 416, 444, 479, 488, 496, 510, 523],
+    "tutor": [173, 214, 220, 257, 334, 414, 446, 495]
+  }
+}

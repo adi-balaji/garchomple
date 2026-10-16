@@ -1,0 +1,23 @@
+{
+  "id": 541,
+  "name": "swadloon",
+  "display": "Swadloon",
+  "types": ["bug", "grass"],
+  "base": {"hp": 55, "atk": 63, "def": 90, "spa": 50, "spd": 80, "spe": 42},
+  "abilities": [
+    {"name": "leaf-guard", "hidden": false, "slot": 1},
+    {"name": "chlorophyll", "hidden": false, "slot": 2},
+    {"name": "overcoat", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "sewaddle",
+  "evolvesTo": ["leavanny"],
+  "learnset": {
+    "level-up": [33, 75, 81, 182, 320, 450],
+    "machine": [15, 76, 92, 104, 113, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 241, 263, 347, 371, 412, 447, 496, 522],
+    "tutor": [173, 202, 214, 235, 277, 324, 334, 388, 402, 450, 527]
+  }
+}

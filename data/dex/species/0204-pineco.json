@@ -1,0 +1,23 @@
+{
+  "id": 204,
+  "name": "pineco",
+  "display": "Pineco",
+  "types": ["bug"],
+  "base": {"hp": 50, "atk": 65, "def": 90, "spa": 35, "spd": 35, "spe": 15},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "overcoat", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["forretress"],
+  "learnset": {
+    "egg": [38, 42, 68, 129, 175, 203, 279, 328, 379, 390, 446],
+    "level-up": [33, 36, 38, 117, 120, 153, 182, 191, 229, 334, 360, 363, 371, 450],
+    "machine": [70, 76, 89, 91, 92, 104, 113, 115, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 360, 371, 474, 496, 522, 523],
+    "tutor": [173, 202, 214, 220, 334, 356, 446, 450, 529]
+  }
+}

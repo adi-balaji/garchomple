@@ -1,0 +1,24 @@
+{
+  "id": 123,
+  "name": "scyther",
+  "display": "Scyther",
+  "types": ["bug", "flying"],
+  "base": {"hp": 70, "atk": 110, "def": 80, "spa": 55, "spd": 80, "spe": 105},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "technician", "hidden": false, "slot": 2},
+    {"name": "steadfast", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["scizor"],
+  "learnset": {
+    "egg": [13, 68, 179, 203, 211, 226, 318, 400, 405, 432],
+    "level-up": [13, 14, 17, 43, 97, 98, 104, 116, 163, 206, 210, 228, 364, 400, 403, 404, 410, 458],
+    "machine": [14, 15, 63, 92, 104, 113, 156, 164, 168, 182, 206, 207, 213, 216, 218, 219, 237, 240, 241, 249, 263, 280, 332, 369, 404, 416, 496, 522],
+    "tutor": [173, 214, 282, 355, 366, 450]
+  }
+}

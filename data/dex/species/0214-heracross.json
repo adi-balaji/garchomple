@@ -1,0 +1,24 @@
+{
+  "id": 214,
+  "name": "heracross",
+  "display": "Heracross",
+  "types": ["bug", "fighting"],
+  "base": {"hp": 80, "atk": 125, "def": 75, "spa": 40, "spd": 95, "spe": 85},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "guts", "hidden": false, "slot": 2},
+    {"name": "moxie", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [38, 69, 106, 117, 175, 224, 228, 264, 279],
+    "level-up": [30, 31, 33, 36, 43, 68, 179, 203, 224, 280, 332, 364, 370, 400, 498],
+    "machine": [14, 15, 63, 70, 89, 91, 92, 104, 156, 157, 164, 168, 182, 206, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 332, 339, 374, 411, 416, 421, 444, 474, 479, 496, 514, 522, 523, 526],
+    "tutor": [67, 173, 214, 270, 282, 334, 450]
+  }
+}

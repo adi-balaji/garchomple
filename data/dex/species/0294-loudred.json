@@ -1,0 +1,22 @@
+{
+  "id": 294,
+  "name": "loudred",
+  "display": "Loudred",
+  "types": ["normal"],
+  "base": {"hp": 84, "atk": 71, "def": 43, "spa": 71, "spd": 43, "spe": 48},
+  "abilities": [
+    {"name": "soundproof", "hidden": false, "slot": 1},
+    {"name": "scrappy", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "whismur",
+  "evolvesTo": ["exploud"],
+  "learnset": {
+    "level-up": [1, 23, 44, 46, 48, 103, 156, 214, 253, 304, 310, 336, 485],
+    "machine": [46, 53, 58, 59, 70, 76, 89, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 280, 315, 317, 374, 479, 496, 497, 510, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 196, 214, 253, 283, 304, 428]
+  }
+}

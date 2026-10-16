@@ -1,0 +1,22 @@
+{
+  "id": 499,
+  "name": "pignite",
+  "display": "Pignite",
+  "types": ["fire", "fighting"],
+  "base": {"hp": 90, "atk": 93, "def": 55, "spa": 70, "spd": 55, "spe": 55},
+  "abilities": [
+    {"name": "blaze", "hidden": false, "slot": 1},
+    {"name": "thick-fat", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "tepig",
+  "evolvesTo": ["emboar"],
+  "learnset": {
+    "level-up": [33, 36, 39, 46, 52, 53, 111, 123, 205, 292, 316, 372, 394, 457, 488, 535],
+    "machine": [46, 53, 70, 76, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 241, 249, 261, 263, 269, 280, 315, 317, 360, 374, 398, 411, 444, 447, 488, 490, 496, 497, 510, 523, 526, 528],
+    "tutor": [7, 9, 67, 173, 214, 231, 257, 270, 276, 283, 343, 519]
+  }
+}

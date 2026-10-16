@@ -1,0 +1,24 @@
+{
+  "id": 167,
+  "name": "spinarak",
+  "display": "Spinarak",
+  "types": ["bug", "poison"],
+  "base": {"hp": 40, "atk": 60, "def": 40, "spa": 40, "spd": 40, "spe": 30},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "insomnia", "hidden": false, "slot": 2},
+    {"name": "sniper", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["ariados"],
+  "learnset": {
+    "egg": [41, 49, 50, 60, 226, 228, 324, 390, 400, 476, 527],
+    "level-up": [40, 42, 81, 94, 97, 101, 132, 141, 154, 169, 184, 389, 398, 425, 440],
+    "machine": [76, 91, 92, 94, 104, 148, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 241, 263, 398, 404, 468, 474, 496, 522],
+    "tutor": [202, 214, 324, 340, 450, 492, 527]
+  }
+}

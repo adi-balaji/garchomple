@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garchomple: battle</title>
+<link rel="icon" href="sprites/animated/445.gif">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app/css/style.css">
+<!-- must run before the emulator core: pins the DS clock to a spring day -->
+<script src="app/js/clock.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <h1 class="wordmark"><a href="./" style="color:inherit;text-decoration:none">Garchomple</a><small id="dayline">Preparing today's save…</small></h1>
+  <div class="icon-btns">
+    <button class="icon-btn" id="btn-help" aria-label="Controls">?</button>
+  </div>
+</header>
+
+<div class="play-wrap">
+  <section class="emu-shell" aria-label="Game">
+    <div id="game-frame">
+      <div id="game"></div>
+      <div id="result-overlay" class="result-overlay" hidden role="dialog" aria-live="polite">
+        <h2 id="ro-title"></h2>
+        <pre id="ro-text"></pre>
+        <div class="row" id="ro-actions"></div>
+      </div>
+      <div id="boot-overlay" class="boot-overlay" hidden role="status" aria-live="polite">
+        <div class="ball" aria-hidden="true"></div>
+        <p class="boot-title">Loading Undella Town</p>
+        <p id="boot-step" class="boot-step">Starting the emulator</p>
+      </div>
+    </div>
+  </section>
+
+  <aside class="side">
+    <section class="panel">
+      <h3>Status</h3>
+      <p class="status" id="status">Patching your save…</p>
+    </section>
+
+    <section class="panel" id="result-panel">
+      <h3>Result</h3>
+      <p id="result-note">The game will notice when the battle ends and record the result.</p>
+      <pre id="share" style="white-space:pre-wrap;font:14px/1.4 var(--body);margin:0" hidden></pre>
+      <details id="manual" hidden>
+        <summary>Log it by hand</summary>
+        <div class="seg" role="group" aria-label="Outcome" style="margin-top:8px">
+          <button type="button" data-outcome="won" aria-pressed="false">I won</button>
+          <button type="button" data-outcome="lost" aria-pressed="false">I lost</button>
+        </div>
+        <div id="count-wrap" hidden>
+          <div class="label">Your Pokémon still standing</div>
+          <div class="pips" id="pips"></div>
+        </div>
+        <button class="cta" id="btn-log" style="font-size:18px;padding:12px 22px" disabled>Save result</button>
+      </details>
+    </section>
+
+    <section class="panel">
+      <h3>Your six</h3>
+      <div class="mini-team" id="mini-team"></div>
+    </section>
+  </aside>
+</div>
+
+<dialog id="dlg-help">
+  <button class="ghost close" id="help-close" data-close>Close</button>
+  <h3>How to play</h3>
+  <p class="ready-line" id="help-ready" hidden></p>
+  <ol>
+    <li>Your six are already in your party: max IVs, 252/252 EVs, levels 76 with a level 78 ace, the same as Cynthia.</li>
+    <li>The game opens in Undella Town, then walks you into Caitlin's villa and accepts Cynthia's challenge for you.</li>
+    <li>Your PC boxes and bag are empty for the day, so it's just you and the six.</li>
+    <li>When the battle ends the result is recorded automatically. One official Daily attempt per day; Unlimited lets you keep going with new teams.</li>
+    <li>Your keyboard is locked until the battle starts and locks again when it ends; then you get your score.</li>
+  </ol>
+  <div class="keys">
+    <div><kbd>Z</kbd> A</div><div><kbd>X</kbd> B</div>
+    <div><kbd>A</kbd> X (menu)</div><div><kbd>S</kbd> Y</div>
+    <div><kbd>Enter</kbd> Start</div><div><kbd>V</kbd> Select</div>
+    <div><kbd>Q</kbd> / <kbd>E</kbd> L / R</div><div>Arrows: D-pad</div>
+  </div>
+  <p>Garchomple is played with the keyboard. If keys stop responding, click the game once.</p>
+</dialog>
+
+<script type="module" src="app/js/play.js"></script>
+</body>
+</html>

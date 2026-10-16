@@ -1,0 +1,24 @@
+{
+  "id": 626,
+  "name": "bouffalant",
+  "display": "Bouffalant",
+  "types": ["normal"],
+  "base": {"hp": 95, "atk": 110, "def": 95, "spa": 40, "spd": 95, "spe": 55},
+  "abilities": [
+    {"name": "reckless", "hidden": false, "slot": 1},
+    {"name": "sap-sipper", "hidden": false, "slot": 2},
+    {"name": "soundproof", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [23, 29, 130, 133, 189, 341, 431, 442],
+    "level-up": [14, 30, 31, 37, 43, 99, 116, 179, 184, 224, 228, 279, 416, 543],
+    "machine": [14, 15, 57, 70, 89, 92, 104, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 269, 317, 332, 371, 398, 416, 444, 496, 514, 523, 526, 528],
+    "tutor": [173, 200, 214, 253, 276, 283, 428, 442]
+  }
+}

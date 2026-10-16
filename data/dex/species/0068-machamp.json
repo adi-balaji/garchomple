@@ -1,0 +1,23 @@
+{
+  "id": 68,
+  "name": "machamp",
+  "display": "Machamp",
+  "types": ["fighting"],
+  "base": {"hp": 90, "atk": 130, "def": 80, "spa": 65, "spd": 85, "spe": 55},
+  "abilities": [
+    {"name": "guts", "hidden": false, "slot": 1},
+    {"name": "no-guard", "hidden": false, "slot": 2},
+    {"name": "steadfast", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "machoke",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [2, 43, 66, 67, 69, 116, 184, 193, 223, 233, 238, 279, 358, 469, 490],
+    "machine": [53, 63, 70, 89, 91, 92, 104, 113, 126, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 339, 371, 374, 398, 411, 416, 444, 479, 490, 496, 510, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 214, 270, 272, 276, 282, 530]
+  }
+}

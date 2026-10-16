@@ -1,0 +1,23 @@
+{
+  "id": 310,
+  "name": "manectric",
+  "display": "Manectric",
+  "types": ["electric"],
+  "base": {"hp": 70, "atk": 75, "def": 60, "spa": 105, "spd": 60, "spe": 105},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "lightning-rod", "hidden": false, "slot": 2},
+    {"name": "minus", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "electrike",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 43, 44, 46, 86, 87, 98, 209, 268, 316, 336, 422, 424, 435, 528],
+    "machine": [46, 53, 63, 70, 85, 86, 87, 92, 104, 113, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 263, 315, 416, 451, 496, 521, 528, 555],
+    "tutor": [173, 214, 231, 253, 324, 393]
+  }
+}

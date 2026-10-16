@@ -1,0 +1,23 @@
+{
+  "id": 99,
+  "name": "kingler",
+  "display": "Kingler",
+  "types": ["water"],
+  "base": {"hp": 55, "atk": 130, "def": 115, "spa": 50, "spd": 50, "spe": 75},
+  "abilities": [
+    {"name": "hyper-cutter", "hidden": false, "slot": 1},
+    {"name": "shell-armor", "hidden": false, "slot": 2},
+    {"name": "sheer-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "krabby",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [11, 12, 21, 23, 43, 61, 106, 145, 152, 175, 182, 232, 300, 341, 362, 469],
+    "machine": [14, 15, 57, 58, 59, 63, 70, 91, 92, 104, 156, 157, 164, 168, 182, 206, 207, 213, 216, 218, 237, 240, 249, 258, 263, 280, 291, 317, 374, 404, 416, 468, 496, 503, 511],
+    "tutor": [173, 196, 214, 276, 282, 334]
+  }
+}

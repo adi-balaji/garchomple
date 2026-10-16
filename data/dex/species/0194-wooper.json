@@ -1,0 +1,24 @@
+{
+  "id": 194,
+  "name": "wooper",
+  "display": "Wooper",
+  "types": ["water", "ground"],
+  "base": {"hp": 55, "atk": 45, "def": 45, "spa": 25, "spd": 25, "spe": 15},
+  "abilities": [
+    {"name": "damp", "hidden": false, "slot": 1},
+    {"name": "water-absorb", "hidden": false, "slot": 2},
+    {"name": "unaware", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["quagsire"],
+  "learnset": {
+    "egg": [24, 34, 68, 105, 174, 214, 227, 246, 254, 255, 256, 300, 491, 495],
+    "level-up": [21, 39, 54, 55, 89, 114, 133, 240, 281, 300, 330, 341, 426],
+    "machine": [57, 58, 59, 89, 91, 92, 104, 127, 148, 156, 164, 182, 188, 201, 207, 213, 216, 218, 219, 237, 240, 249, 258, 263, 291, 482, 496, 503, 523],
+    "tutor": [8, 173, 196, 214, 231, 401, 414, 495]
+  }
+}

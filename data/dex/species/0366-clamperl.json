@@ -1,0 +1,23 @@
+{
+  "id": 366,
+  "name": "clamperl",
+  "display": "Clamperl",
+  "types": ["water"],
+  "base": {"hp": 35, "atk": 64, "def": 85, "spa": 74, "spd": 55, "spe": 32},
+  "abilities": [
+    {"name": "shell-armor", "hidden": false, "slot": 1},
+    {"name": "rattled", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["huntail", "gorebyss"],
+  "learnset": {
+    "egg": [34, 48, 109, 112, 203, 287, 300, 330, 352, 362, 392],
+    "level-up": [55, 128, 250, 334, 504],
+    "machine": [57, 58, 59, 92, 104, 127, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 496, 503],
+    "tutor": [173, 196, 214, 334]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 71,
+  "name": "victreebel",
+  "display": "Victreebel",
+  "types": ["grass", "poison"],
+  "base": {"hp": 80, "atk": 105, "def": 65, "spa": 100, "spd": 60, "spe": 70},
+  "abilities": [
+    {"name": "chlorophyll", "hidden": false, "slot": 1},
+    {"name": "gluttony", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "weepinbell",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [22, 75, 79, 230, 254, 255, 256, 348, 437, 536],
+    "machine": [14, 15, 63, 76, 92, 104, 115, 148, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 241, 263, 412, 416, 447, 474, 496],
+    "tutor": [20, 173, 202, 214, 235, 282, 380, 388, 402, 450]
+  }
+}

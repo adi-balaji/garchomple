@@ -1,0 +1,22 @@
+{
+  "id": 332,
+  "name": "cacturne",
+  "display": "Cacturne",
+  "types": ["grass", "dark"],
+  "base": {"hp": 70, "atk": 115, "def": 60, "spa": 115, "spd": 60, "spe": 55},
+  "abilities": [
+    {"name": "sand-veil", "hidden": false, "slot": 1},
+    {"name": "water-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "cacnea",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 40, 42, 43, 71, 73, 74, 178, 185, 191, 194, 201, 275, 279, 302, 371, 389],
+    "machine": [14, 15, 63, 70, 76, 92, 104, 148, 156, 164, 182, 201, 207, 213, 216, 218, 237, 241, 263, 280, 371, 373, 374, 398, 411, 412, 416, 447, 474, 496, 514],
+    "tutor": [9, 67, 173, 180, 202, 214, 235, 272, 276, 335, 388, 399, 402, 409, 492]
+  }
+}

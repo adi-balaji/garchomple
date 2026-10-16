@@ -1,0 +1,23 @@
+{
+  "id": 354,
+  "name": "banette",
+  "display": "Banette",
+  "types": ["ghost"],
+  "base": {"hp": 64, "atk": 115, "def": 65, "spa": 83, "spd": 63, "spe": 65},
+  "abilities": [
+    {"name": "insomnia", "hidden": false, "slot": 1},
+    {"name": "frisk", "hidden": false, "slot": 2},
+    {"name": "cursed-body", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "shuppet",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [101, 103, 174, 180, 185, 247, 261, 271, 282, 288, 289, 373, 389, 425, 506],
+    "machine": [63, 85, 86, 87, 92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 261, 263, 269, 347, 371, 373, 374, 416, 421, 433, 451, 477, 496],
+    "tutor": [180, 196, 214, 220, 271, 272, 277, 282, 285, 289, 399, 478, 492]
+  }
+}

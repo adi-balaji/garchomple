@@ -1,0 +1,24 @@
+{
+  "id": 206,
+  "name": "dunsparce",
+  "display": "Dunsparce",
+  "types": ["normal"],
+  "base": {"hp": 100, "atk": 70, "def": 70, "spa": 65, "spd": 65, "spe": 45},
+  "abilities": [
+    {"name": "serene-grace", "hidden": false, "slot": 1},
+    {"name": "run-away", "hidden": false, "slot": 2},
+    {"name": "rattled", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [29, 44, 97, 117, 173, 174, 214, 246, 277, 290, 310, 376, 506],
+    "level-up": [36, 38, 91, 99, 103, 111, 137, 175, 180, 203, 205, 228, 246, 281, 283, 355, 489, 529],
+    "machine": [53, 58, 59, 70, 76, 85, 86, 87, 89, 91, 92, 104, 126, 138, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 263, 317, 347, 360, 398, 451, 496, 510, 514, 523, 528],
+    "tutor": [20, 173, 180, 214, 220, 231, 277, 283, 355, 387, 401, 428, 446, 529]
+  }
+}

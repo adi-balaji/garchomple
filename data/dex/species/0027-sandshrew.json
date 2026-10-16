@@ -1,0 +1,23 @@
+{
+  "id": 27,
+  "name": "sandshrew",
+  "display": "Sandshrew",
+  "types": ["ground"],
+  "base": {"hp": 50, "atk": 75, "def": 85, "spa": 20, "spd": 30, "spe": 40},
+  "abilities": [
+    {"name": "sand-veil", "hidden": false, "slot": 1},
+    {"name": "sand-rush", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["sandslash"],
+  "learnset": {
+    "egg": [68, 175, 203, 229, 232, 306, 341, 400, 431, 498],
+    "level-up": [10, 14, 28, 40, 89, 91, 111, 129, 154, 163, 201, 205, 210, 222, 229, 328, 360],
+    "machine": [14, 15, 70, 89, 91, 92, 104, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 219, 237, 241, 249, 263, 280, 317, 332, 360, 374, 398, 404, 421, 468, 496, 523],
+    "tutor": [162, 173, 214, 231, 282, 343, 414, 446]
+  }
+}

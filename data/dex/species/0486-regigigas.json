@@ -1,0 +1,21 @@
+{
+  "id": 486,
+  "name": "regigigas",
+  "display": "Regigigas",
+  "types": ["normal"],
+  "base": {"hp": 110, "atk": 160, "def": 110, "spa": 80, "spd": 110, "spe": 100},
+  "abilities": [
+    {"name": "slow-start", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [7, 8, 9, 109, 146, 193, 279, 282, 371, 416, 428, 462, 469, 484],
+    "machine": [63, 70, 85, 86, 87, 89, 92, 104, 157, 164, 207, 216, 218, 219, 237, 240, 241, 244, 249, 263, 280, 317, 332, 371, 374, 397, 411, 416, 444, 479, 496, 514, 523],
+    "tutor": [7, 8, 9, 173, 196, 214, 276, 282, 335, 356, 409, 414, 428, 442]
+  }
+}

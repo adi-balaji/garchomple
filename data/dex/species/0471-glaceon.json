@@ -1,0 +1,22 @@
+{
+  "id": 471,
+  "name": "glaceon",
+  "display": "Glaceon",
+  "types": ["ice"],
+  "base": {"hp": 65, "atk": 60, "def": 110, "spa": 130, "spd": 95, "spe": 65},
+  "abilities": [
+    {"name": "snow-cloak", "hidden": false, "slot": 1},
+    {"name": "ice-body", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "eevee",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 33, 39, 44, 59, 98, 112, 196, 243, 258, 270, 387, 420, 423],
+    "machine": [46, 58, 59, 63, 70, 91, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 258, 263, 416, 496, 497, 514, 524, 526],
+    "tutor": [173, 196, 214, 215, 231, 270, 304, 324, 343, 387, 401]
+  }
+}

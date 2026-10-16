@@ -1,0 +1,22 @@
+{
+  "id": 642,
+  "name": "thundurus",
+  "display": "Thundurus",
+  "types": ["electric", "flying"],
+  "base": {"hp": 79, "atk": 115, "def": 70, "spa": 125, "spd": 80, "spe": 111},
+  "abilities": [
+    {"name": "prankster", "hidden": false, "slot": 1},
+    {"name": "defiant", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 0,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [37, 44, 84, 87, 97, 207, 242, 253, 268, 279, 310, 351, 359, 377, 399, 417, 435],
+    "machine": [19, 63, 70, 85, 86, 87, 92, 94, 104, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 240, 249, 259, 263, 269, 280, 339, 369, 371, 373, 374, 411, 416, 430, 447, 451, 479, 482, 496, 507, 510, 521, 528],
+    "tutor": [9, 173, 214, 231, 253, 272, 276, 282, 399, 492]
+  }
+}

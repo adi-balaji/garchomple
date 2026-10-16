@@ -1,0 +1,23 @@
+{
+  "id": 464,
+  "name": "rhyperior",
+  "display": "Rhyperior",
+  "types": ["ground", "rock"],
+  "base": {"hp": 115, "atk": 140, "def": 130, "spa": 55, "spd": 55, "spe": 40},
+  "abilities": [
+    {"name": "lightning-rod", "hidden": false, "slot": 1},
+    {"name": "solid-rock", "hidden": false, "slot": 2},
+    {"name": "reckless", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "rhydon",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [23, 30, 31, 32, 36, 39, 89, 184, 224, 350, 359, 398, 439, 444, 498, 529],
+    "machine": [14, 15, 46, 53, 57, 58, 59, 63, 70, 85, 87, 89, 91, 92, 104, 126, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 371, 374, 397, 398, 411, 416, 421, 430, 444, 479, 496, 510, 523, 525],
+    "tutor": [7, 8, 9, 173, 180, 196, 200, 214, 231, 253, 276, 283, 335, 401, 406, 414, 442, 446, 529]
+  }
+}

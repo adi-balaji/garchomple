@@ -1,0 +1,23 @@
+{
+  "id": 544,
+  "name": "whirlipede",
+  "display": "Whirlipede",
+  "types": ["bug", "poison"],
+  "base": {"hp": 40, "atk": 55, "def": 99, "spa": 40, "spd": 79, "spe": 47},
+  "abilities": [
+    {"name": "poison-point", "hidden": false, "slot": 1},
+    {"name": "swarm", "hidden": false, "slot": 2},
+    {"name": "quick-feet", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "venipede",
+  "evolvesTo": ["scolipede"],
+  "learnset": {
+    "level-up": [38, 40, 92, 97, 103, 111, 182, 205, 228, 334, 342, 431, 450, 474, 537],
+    "machine": [76, 92, 104, 156, 164, 182, 188, 207, 213, 216, 218, 237, 241, 249, 263, 360, 371, 398, 474, 496, 522],
+    "tutor": [173, 214, 283, 334, 450]
+  }
+}

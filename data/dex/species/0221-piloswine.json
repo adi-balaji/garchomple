@@ -1,0 +1,23 @@
+{
+  "id": 221,
+  "name": "piloswine",
+  "display": "Piloswine",
+  "types": ["ice", "ground"],
+  "base": {"hp": 100, "atk": 100, "def": 80, "spa": 60, "spd": 60, "spe": 50},
+  "abilities": [
+    {"name": "oblivious", "hidden": false, "slot": 1},
+    {"name": "snow-cloak", "hidden": false, "slot": 2},
+    {"name": "thick-fat", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "swinub",
+  "evolvesTo": ["mamoswine"],
+  "learnset": {
+    "level-up": [31, 36, 37, 54, 59, 64, 89, 133, 181, 189, 196, 203, 246, 300, 316, 423, 426],
+    "machine": [46, 58, 59, 63, 70, 89, 91, 92, 104, 113, 115, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 240, 249, 258, 263, 317, 416, 444, 496, 523],
+    "tutor": [173, 196, 214, 276, 283, 414, 446]
+  }
+}

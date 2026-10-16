@@ -1,0 +1,23 @@
+{
+  "id": 139,
+  "name": "omastar",
+  "display": "Omastar",
+  "types": ["rock", "water"],
+  "base": {"hp": 70, "atk": 60, "def": 125, "spa": 115, "spd": 70, "spe": 55},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "shell-armor", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "omanyte",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [43, 44, 55, 56, 110, 131, 132, 182, 205, 246, 321, 341, 350, 362, 504],
+    "machine": [57, 58, 59, 63, 92, 104, 127, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 237, 240, 249, 258, 263, 291, 317, 360, 397, 416, 444, 479, 496, 503],
+    "tutor": [20, 173, 196, 214, 282, 334, 414, 446]
+  }
+}

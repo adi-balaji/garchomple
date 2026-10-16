@@ -1,0 +1,22 @@
+{
+  "id": 348,
+  "name": "armaldo",
+  "display": "Armaldo",
+  "types": ["rock", "bug"],
+  "base": {"hp": 75, "atk": 125, "def": 100, "spa": 70, "spd": 80, "spe": 45},
+  "abilities": [
+    {"name": "battle-armor", "hidden": false, "slot": 1},
+    {"name": "swift-swim", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "anorith",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 55, 106, 163, 182, 210, 232, 246, 300, 306, 350, 404],
+    "machine": [14, 15, 63, 70, 89, 91, 92, 104, 156, 157, 164, 182, 201, 206, 207, 213, 216, 218, 237, 241, 249, 263, 280, 317, 332, 397, 404, 416, 430, 444, 468, 479, 496, 522, 523],
+    "tutor": [67, 173, 214, 231, 276, 282, 334, 335, 401, 414, 446, 450]
+  }
+}

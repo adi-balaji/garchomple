@@ -1,0 +1,23 @@
+{
+  "id": 69,
+  "name": "bellsprout",
+  "display": "Bellsprout",
+  "types": ["grass", "poison"],
+  "base": {"hp": 50, "atk": 75, "def": 35, "spa": 70, "spd": 30, "spe": 40},
+  "abilities": [
+    {"name": "chlorophyll", "hidden": false, "slot": 1},
+    {"name": "gluttony", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["weepinbell"],
+  "learnset": {
+    "egg": [141, 202, 227, 235, 275, 311, 321, 331, 345, 363, 388, 438, 499],
+    "level-up": [21, 22, 35, 51, 74, 75, 77, 78, 79, 230, 282, 378, 380],
+    "machine": [14, 15, 76, 92, 104, 115, 148, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 241, 263, 412, 447, 474, 496],
+    "tutor": [20, 173, 202, 214, 235, 282, 380, 388, 402]
+  }
+}

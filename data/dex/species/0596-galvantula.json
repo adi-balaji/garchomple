@@ -1,0 +1,23 @@
+{
+  "id": 596,
+  "name": "galvantula",
+  "display": "Galvantula",
+  "types": ["bug", "electric"],
+  "base": {"hp": 70, "atk": 77, "def": 60, "spa": 97, "spd": 60, "spe": 108},
+  "abilities": [
+    {"name": "compound-eyes", "hidden": false, "slot": 1},
+    {"name": "unnerve", "hidden": false, "slot": 2},
+    {"name": "swarm", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "joltik",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [81, 86, 97, 103, 141, 163, 169, 210, 324, 380, 389, 405, 435, 450, 486, 527],
+    "machine": [15, 63, 85, 86, 87, 92, 104, 113, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 263, 398, 404, 412, 416, 451, 496, 521, 522, 528],
+    "tutor": [173, 202, 214, 324, 340, 380, 393, 450, 527]
+  }
+}

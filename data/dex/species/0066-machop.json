@@ -1,0 +1,24 @@
+{
+  "id": 66,
+  "name": "machop",
+  "display": "Machop",
+  "types": ["fighting"],
+  "base": {"hp": 70, "atk": 80, "def": 50, "spa": 35, "spd": 35, "spe": 35},
+  "abilities": [
+    {"name": "guts", "hidden": false, "slot": 1},
+    {"name": "no-guard", "hidden": false, "slot": 2},
+    {"name": "steadfast", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["machoke"],
+  "learnset": {
+    "egg": [7, 8, 9, 27, 68, 96, 227, 265, 282, 321, 370, 379, 418, 484],
+    "level-up": [2, 43, 66, 67, 69, 116, 184, 193, 223, 233, 238, 279, 358, 490],
+    "machine": [53, 70, 89, 91, 92, 104, 113, 126, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 339, 371, 374, 398, 411, 479, 490, 496, 510, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 214, 270, 272, 276, 282, 530]
+  }
+}

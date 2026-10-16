@@ -1,0 +1,21 @@
+{
+  "id": 10,
+  "name": "caterpie",
+  "display": "Caterpie",
+  "types": ["bug"],
+  "base": {"hp": 45, "atk": 30, "def": 35, "spa": 20, "spd": 20, "spe": 45},
+  "abilities": [
+    {"name": "shield-dust", "hidden": false, "slot": 1},
+    {"name": "run-away", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["metapod"],
+  "learnset": {
+    "level-up": [33, 81, 450],
+    "tutor": [173, 450, 527]
+  }
+}

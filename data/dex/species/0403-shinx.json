@@ -1,0 +1,24 @@
+{
+  "id": 403,
+  "name": "shinx",
+  "display": "Shinx",
+  "types": ["electric"],
+  "base": {"hp": 45, "atk": 65, "def": 34, "spa": 40, "spd": 34, "spe": 45},
+  "abilities": [
+    {"name": "rivalry", "hidden": false, "slot": 1},
+    {"name": "intimidate", "hidden": false, "slot": 2},
+    {"name": "guts", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["luxio"],
+  "learnset": {
+    "egg": [24, 36, 98, 129, 270, 324, 336, 351, 400, 422, 423, 424],
+    "level-up": [33, 43, 44, 46, 184, 207, 209, 242, 268, 422, 435, 528],
+    "machine": [46, 70, 85, 86, 87, 92, 104, 113, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 263, 451, 496, 521, 528, 555],
+    "tutor": [173, 214, 231, 324, 393]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 311,
+  "name": "plusle",
+  "display": "Plusle",
+  "types": ["electric"],
+  "base": {"hp": 60, "atk": 50, "def": 40, "spa": 85, "spd": 75, "spe": 95},
+  "abilities": [
+    {"name": "plus", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [47, 186, 273, 381, 435],
+    "level-up": [45, 86, 87, 97, 98, 129, 209, 226, 227, 268, 270, 313, 383, 387, 417, 486, 494],
+    "machine": [85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 263, 374, 447, 451, 496, 497, 521, 528],
+    "tutor": [9, 173, 214, 231, 253, 270, 324, 387, 393]
+  }
+}

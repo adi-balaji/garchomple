@@ -1,0 +1,23 @@
+{
+  "id": 246,
+  "name": "larvitar",
+  "display": "Larvitar",
+  "types": ["rock", "ground"],
+  "base": {"hp": 50, "atk": 64, "def": 50, "spa": 45, "spd": 50, "spe": 41},
+  "abilities": [
+    {"name": "guts", "hidden": false, "slot": 1},
+    {"name": "sand-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["pupitar"],
+  "learnset": {
+    "egg": [23, 116, 174, 200, 228, 231, 246, 334, 349, 372, 442, 446],
+    "level-up": [37, 43, 44, 63, 89, 103, 157, 184, 201, 242, 371, 399, 444, 498],
+    "machine": [63, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 240, 241, 249, 259, 263, 269, 280, 317, 371, 397, 444, 479, 496, 514, 523, 555],
+    "tutor": [173, 180, 200, 214, 231, 253, 276, 334, 399, 414, 442, 446]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 458,
+  "name": "mantyke",
+  "display": "Mantyke",
+  "types": ["water", "flying"],
+  "base": {"hp": 45, "atk": 20, "def": 50, "spa": 60, "spd": 120, "spe": 50},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "water-absorb", "hidden": false, "slot": 2},
+    {"name": "water-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["mantine"],
+  "learnset": {
+    "egg": [21, 56, 114, 133, 150, 239, 243, 300, 324, 346, 469],
+    "level-up": [17, 29, 33, 36, 48, 56, 61, 97, 109, 145, 340, 352, 392, 403, 469],
+    "machine": [57, 58, 59, 89, 92, 104, 127, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 332, 496, 503, 512, 523],
+    "tutor": [173, 196, 214, 270, 324, 340]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 630,
+  "name": "mandibuzz",
+  "display": "Mandibuzz",
+  "types": ["dark", "flying"],
+  "base": {"hp": 110, "atk": 65, "def": 105, "spa": 55, "spd": 95, "spe": 80},
+  "abilities": [
+    {"name": "big-pecks", "hidden": false, "slot": 1},
+    {"name": "overcoat", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 8,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "vullaby",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 18, 31, 43, 119, 185, 198, 260, 365, 366, 373, 386, 399, 403, 413, 417, 432],
+    "machine": [15, 19, 63, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 259, 263, 269, 317, 332, 365, 369, 371, 373, 416, 496, 510, 514, 555],
+    "tutor": [143, 173, 214, 257, 282, 289, 334, 335, 355, 366, 399, 492]
+  }
+}

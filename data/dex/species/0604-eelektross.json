@@ -1,0 +1,21 @@
+{
+  "id": 604,
+  "name": "eelektross",
+  "display": "Eelektross",
+  "types": ["electric"],
+  "base": {"hp": 85, "atk": 115, "def": 80, "spa": 105, "spd": 80, "spe": 50},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "eelektrik",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [29, 51, 242, 306, 435],
+    "machine": [15, 46, 53, 63, 70, 85, 86, 87, 92, 104, 113, 148, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 249, 263, 280, 317, 337, 369, 416, 430, 447, 451, 468, 496, 512, 521, 525, 528],
+    "tutor": [7, 9, 20, 162, 173, 202, 214, 231, 276, 282, 324, 340, 380, 393, 401, 409]
+  }
+}

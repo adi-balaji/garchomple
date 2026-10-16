@@ -1,0 +1,22 @@
+{
+  "id": 566,
+  "name": "archen",
+  "display": "Archen",
+  "types": ["rock", "flying"],
+  "base": {"hp": 55, "atk": 112, "def": 45, "spa": 74, "spd": 45, "spe": 70},
+  "abilities": [
+    {"name": "defeatist", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["archeops"],
+  "learnset": {
+    "egg": [44, 211, 282, 406, 414, 432, 457],
+    "level-up": [17, 37, 43, 88, 97, 98, 104, 157, 184, 225, 242, 246, 283, 337, 365, 369, 501, 512],
+    "machine": [15, 46, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 249, 259, 263, 269, 317, 332, 337, 365, 369, 397, 421, 444, 468, 479, 496, 512, 523],
+    "tutor": [173, 214, 231, 253, 257, 283, 334, 340, 355, 366, 401, 406, 414, 446]
+  }
+}

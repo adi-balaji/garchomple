@@ -1,0 +1,21 @@
+{
+  "id": 385,
+  "name": "jirachi",
+  "display": "Jirachi",
+  "types": ["steel", "psychic"],
+  "base": {"hp": 100, "atk": 100, "def": 100, "spa": 100, "spd": 100, "spe": 100},
+  "abilities": [
+    {"name": "serene-grace", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": true,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [38, 93, 94, 129, 156, 248, 270, 273, 287, 322, 353, 356, 361, 387, 428],
+    "machine": [63, 85, 86, 87, 92, 94, 104, 113, 115, 138, 148, 156, 164, 182, 201, 207, 216, 218, 219, 237, 240, 241, 244, 247, 263, 332, 347, 369, 374, 412, 416, 430, 433, 447, 451, 473, 477, 496],
+    "tutor": [7, 8, 9, 173, 196, 214, 253, 270, 271, 277, 278, 285, 324, 334, 356, 387, 409, 428, 442, 446, 478]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 82,
+  "name": "magneton",
+  "display": "Magneton",
+  "types": ["electric", "steel"],
+  "base": {"hp": 50, "atk": 60, "def": 95, "spa": 120, "spd": 70, "spe": 70},
+  "abilities": [
+    {"name": "magnet-pull", "hidden": false, "slot": 1},
+    {"name": "sturdy", "hidden": false, "slot": 2},
+    {"name": "analytic", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "magnemite",
+  "evolvesTo": ["magnezone"],
+  "learnset": {
+    "level-up": [33, 48, 49, 84, 86, 103, 161, 192, 199, 209, 319, 360, 393, 429, 430, 435, 443, 486],
+    "machine": [63, 85, 86, 87, 92, 104, 113, 115, 148, 153, 156, 164, 182, 207, 216, 218, 237, 240, 241, 244, 263, 360, 416, 430, 451, 496, 521, 528],
+    "tutor": [173, 214, 277, 278, 324, 334, 356, 393, 527]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 442,
+  "name": "spiritomb",
+  "display": "Spiritomb",
+  "types": ["ghost", "dark"],
+  "base": {"hp": 50, "atk": 92, "def": 108, "spa": 92, "spd": 108, "spe": 35},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "infiltrator", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [108, 171, 194, 220, 286, 288, 425, 445],
+    "level-up": [95, 109, 138, 174, 180, 185, 228, 262, 389, 399, 417, 425, 466],
+    "machine": [63, 92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 261, 263, 269, 317, 347, 373, 416, 477, 496, 511, 514, 555],
+    "tutor": [173, 180, 196, 214, 220, 253, 271, 289, 399, 472, 492]
+  }
+}

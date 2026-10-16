@@ -1,0 +1,24 @@
+{
+  "id": 19,
+  "name": "rattata",
+  "display": "Rattata",
+  "types": ["normal"],
+  "base": {"hp": 30, "atk": 56, "def": 35, "spa": 25, "spd": 35, "spe": 72},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "guts", "hidden": false, "slot": 2},
+    {"name": "hustle", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["raticate"],
+  "learnset": {
+    "egg": [44, 68, 103, 154, 172, 179, 253, 279, 382, 387, 515],
+    "level-up": [33, 38, 39, 44, 98, 116, 158, 162, 228, 242, 283, 372, 389],
+    "machine": [15, 58, 59, 85, 86, 87, 91, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 269, 365, 369, 447, 451, 496, 514, 526, 528],
+    "tutor": [162, 173, 196, 214, 231, 253, 283, 343, 387, 428]
+  }
+}

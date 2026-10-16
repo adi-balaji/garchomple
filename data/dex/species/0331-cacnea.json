@@ -1,0 +1,23 @@
+{
+  "id": 331,
+  "name": "cacnea",
+  "display": "Cacnea",
+  "types": ["grass"],
+  "base": {"hp": 50, "atk": 85, "def": 40, "spa": 85, "spd": 40, "spe": 35},
+  "abilities": [
+    {"name": "sand-veil", "hidden": false, "slot": 1},
+    {"name": "water-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["cacturne"],
+  "learnset": {
+    "egg": [50, 51, 67, 68, 223, 265, 298, 320, 335, 345, 388, 402, 415, 417],
+    "level-up": [28, 40, 42, 43, 71, 73, 74, 178, 185, 191, 194, 201, 275, 302, 371, 389],
+    "machine": [14, 15, 76, 92, 104, 148, 156, 164, 182, 201, 207, 213, 216, 218, 237, 241, 263, 280, 371, 374, 398, 412, 447, 474, 496],
+    "tutor": [9, 67, 173, 180, 202, 214, 235, 272, 335, 388, 399, 402, 409]
+  }
+}

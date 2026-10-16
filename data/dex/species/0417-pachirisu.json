@@ -1,0 +1,24 @@
+{
+  "id": 417,
+  "name": "pachirisu",
+  "display": "Pachirisu",
+  "types": ["electric"],
+  "base": {"hp": 60, "atk": 45, "def": 70, "spa": 45, "spd": 90, "spe": 95},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "pickup", "hidden": false, "slot": 2},
+    {"name": "volt-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [39, 44, 111, 175, 205, 231, 260, 266, 268, 313, 343, 516],
+    "level-up": [45, 86, 98, 117, 129, 158, 162, 186, 203, 204, 209, 387, 435, 486],
+    "machine": [15, 85, 86, 87, 91, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 263, 369, 374, 447, 451, 496, 497, 521],
+    "tutor": [9, 162, 173, 214, 231, 253, 270, 343, 387, 393, 402, 441]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 138,
+  "name": "omanyte",
+  "display": "Omanyte",
+  "types": ["rock", "water"],
+  "base": {"hp": 35, "atk": 40, "def": 100, "spa": 90, "spd": 55, "spe": 35},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "shell-armor", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["omastar"],
+  "learnset": {
+    "egg": [21, 48, 61, 62, 114, 117, 191, 250, 282, 330, 352, 378, 390],
+    "level-up": [43, 44, 55, 56, 110, 132, 182, 205, 246, 321, 341, 350, 362, 504],
+    "machine": [57, 58, 59, 92, 104, 127, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 237, 240, 249, 258, 263, 291, 317, 360, 397, 479, 496, 503],
+    "tutor": [20, 173, 196, 214, 282, 334, 414, 446]
+  }
+}

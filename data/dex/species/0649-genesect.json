@@ -1,0 +1,21 @@
+{
+  "id": 649,
+  "name": "genesect",
+  "display": "Genesect",
+  "types": ["bug", "steel"],
+  "base": {"hp": 71, "atk": 120, "def": 95, "spa": 120, "spd": 95, "spe": 99},
+  "abilities": [
+    {"name": "download", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": true,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [63, 98, 103, 120, 161, 163, 192, 199, 210, 232, 319, 324, 393, 404, 405, 443, 488, 493, 546],
+    "machine": [19, 53, 58, 59, 63, 76, 85, 86, 87, 92, 94, 104, 113, 115, 148, 153, 156, 164, 182, 207, 216, 218, 237, 263, 332, 369, 397, 404, 412, 416, 421, 430, 451, 468, 488, 496, 522],
+    "tutor": [173, 202, 214, 277, 278, 324, 334, 356, 387, 393, 399, 428, 441, 442, 450, 527]
+  }
+}

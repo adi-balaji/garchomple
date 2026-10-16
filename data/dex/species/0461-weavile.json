@@ -1,0 +1,22 @@
+{
+  "id": 461,
+  "name": "weavile",
+  "display": "Weavile",
+  "types": ["dark", "ice"],
+  "base": {"hp": 70, "atk": 120, "def": 65, "spa": 45, "spd": 85, "spe": 125},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "pickpocket", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "sneasel",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 43, 98, 103, 154, 185, 196, 232, 269, 279, 289, 372, 373, 374, 386, 399, 400, 417, 468],
+    "machine": [14, 15, 57, 58, 59, 63, 70, 91, 92, 104, 115, 138, 156, 164, 168, 182, 206, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 258, 259, 263, 269, 280, 332, 347, 371, 373, 374, 398, 404, 411, 416, 421, 468, 490, 496, 514, 555],
+    "tutor": [8, 67, 173, 180, 196, 214, 231, 282, 289, 399, 492]
+  }
+}

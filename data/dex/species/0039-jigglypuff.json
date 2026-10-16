@@ -1,0 +1,22 @@
+{
+  "id": 39,
+  "name": "jigglypuff",
+  "display": "Jigglypuff",
+  "types": ["normal"],
+  "base": {"hp": 115, "atk": 45, "def": 20, "spa": 45, "spd": 25, "spe": 20},
+  "abilities": [
+    {"name": "cute-charm", "hidden": false, "slot": 1},
+    {"name": "friend-guard", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 6,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "igglybuff",
+  "evolvesTo": ["wigglytuff"],
+  "learnset": {
+    "level-up": [1, 3, 34, 38, 47, 50, 102, 111, 156, 205, 304, 358, 360, 496],
+    "machine": [53, 58, 59, 70, 76, 85, 86, 87, 91, 92, 94, 104, 113, 115, 126, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 263, 280, 360, 374, 447, 451, 496, 497, 510, 514, 526, 528],
+    "tutor": [7, 8, 9, 173, 196, 214, 215, 220, 270, 272, 277, 278, 282, 283, 289, 304, 340, 343, 356, 387, 409, 446]
+  }
+}

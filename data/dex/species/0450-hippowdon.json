@@ -1,0 +1,22 @@
+{
+  "id": 450,
+  "name": "hippowdon",
+  "display": "Hippowdon",
+  "types": ["ground"],
+  "base": {"hp": 108, "atk": 112, "def": 118, "spa": 68, "spd": 72, "spe": 47},
+  "abilities": [
+    {"name": "sand-stream", "hidden": false, "slot": 1},
+    {"name": "sand-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "hippopotas",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [28, 33, 36, 38, 44, 89, 90, 91, 242, 281, 328, 422, 423, 424],
+    "machine": [46, 63, 70, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 416, 444, 496, 523],
+    "tutor": [173, 214, 231, 276, 414, 442, 446]
+  }
+}

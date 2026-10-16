@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garchomple</title>
+<meta name="description" content="A daily Pokémon battle: one random, fully trained team, one shot at Champion Cynthia in Undella Town.">
+<link rel="icon" href="sprites/animated/445.gif">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app/css/style.css">
+</head>
+<body>
+<header class="masthead">
+  <h1 class="wordmark">Garchomple<small id="dayline">Loading today's team…</small></h1>
+  <div class="icon-btns">
+    <button class="icon-btn" id="btn-help" aria-label="How to play">?</button>
+    <button class="icon-btn" id="btn-stats" aria-label="Statistics">%</button>
+  </div>
+</header>
+
+<main>
+  <div class="modes" role="tablist" aria-label="Mode">
+    <button role="tab" id="tab-daily" aria-selected="true">Daily</button>
+    <button role="tab" id="tab-unlimited" aria-selected="false">Unlimited</button>
+  </div>
+  <section class="ds" aria-label="Today's battle">
+    <div class="ds-half ds-top">
+      <div class="screen screen-top">
+        <div class="opponent-head">
+          <h2>Champion Cynthia</h2>
+          <p>Caitlin's villa, Undella Town</p>
+        </div>
+        <div class="opp-row" id="opponent"></div>
+        <p class="opp-foot">Rematch team, spring only. She carries one Full Restore. Hover her Pokémon to see their moves.</p>
+      </div>
+    </div>
+    <div class="ds-hinge" aria-hidden="true"></div>
+    <div class="ds-half ds-bottom">
+      <div class="screen screen-bottom">
+        <div class="your-head">
+          <h2 id="team-title">Your team today</h2>
+          <p>Tap a Pokémon for its spread</p>
+        </div>
+        <div class="team" id="team"></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="result-slot"></div>
+
+  <div class="action" id="action">
+    <button class="cta" id="btn-play" disabled>Battle Cynthia</button>
+    <button class="ghost" id="btn-newteam" hidden style="margin-left:10px">New team</button>
+    <p class="hint" id="play-hint">Checking for your game file…</p>
+    <button class="ghost" id="btn-change-rom" hidden style="margin-top:6px;font-size:13px;padding:6px 12px">Use a different ROM</button>
+  </div>
+
+  <section class="setup" id="setup" hidden>
+    <h3>Add your game once</h3>
+    <p>Garchomple runs Pokémon White 2 (or Black 2) in your browser. Pick your ROM file once; it's remembered in this browser, so next time it's one click. Everything else, including a postgame save, is built in.</p>
+    <div class="slots">
+      <label class="slot" id="slot-rom">
+        <strong>ROM (.nds)</strong>
+        <span id="rom-status">Drop or choose your Black 2 / White 2 ROM</span>
+        <input type="file" id="pick-rom" accept=".nds">
+      </label>
+    </div>
+    <p class="privacy">Your ROM stays in this browser (IndexedDB). It is never uploaded anywhere.</p>
+  </section>
+
+  <footer>
+    Teams built from <a href="https://pokeapi.co">PokeAPI</a> data via pokebase, rolled back to Black 2 / White 2 rules.
+    Emulation by <a href="https://emulatorjs.org">EmulatorJS</a> + melonDS. Fan project, not affiliated with Nintendo, Game Freak or The Pokémon Company.
+  </footer>
+</main>
+
+<dialog id="dlg-help">
+  <button class="ghost close" data-close>Close</button>
+  <h3>How to play</h3>
+  <ol>
+    <li><b>Daily</b>: every day everyone gets the same random six: fully evolved Gen 1–5 Pokémon with max IVs, 252/252 EVs, a fitting nature, item and moveset. Five are level 76 and the ace is level 78, the same as Cynthia's team.</li>
+    <li>Press <b>Battle Cynthia</b>. The game opens in Undella Town within seconds, walks you into her villa and accepts her challenge. (The very first start boots the cartridge once and takes about a minute; after that it's fast.)</li>
+    <li>Your PC boxes and bag are emptied for the day, so it's just you and the six.</li>
+    <li>The game notices when you win or lose and records it, along with how many Pokémon were still standing. One official Daily attempt; replays afterwards are practice.</li>
+    <li><b>Unlimited</b>: a fresh random six whenever you want. Play it, then hit <b>New team</b> for another.</li>
+    <li>The game walks you in, talks to Cynthia and starts the battle for you; your keyboard only works during the battle.</li>
+  </ol>
+  <div class="keys">
+    <div><kbd>Z</kbd> A</div><div><kbd>X</kbd> B</div>
+    <div><kbd>A</kbd> X (menu)</div><div><kbd>S</kbd> Y</div>
+    <div><kbd>Enter</kbd> Start</div><div><kbd>V</kbd> Select</div>
+    <div><kbd>Q</kbd> / <kbd>E</kbd> L / R</div><div>Arrows: D-pad</div>
+  </div>
+  <p>Garchomple is played with the keyboard; every menu and battle works with buttons. If keys stop responding, click the game once. Keys can be remapped from the emulator's controls menu.</p>
+</dialog>
+
+<dialog id="dlg-stats">
+  <button class="ghost close" data-close>Close</button>
+  <h3>Your record</h3>
+  <div class="stat-grid" id="stat-grid"></div>
+  <p class="label">Daily wins by Pokémon still standing</p>
+  <div class="dist" id="dist"></div>
+  <p class="label" style="margin-top:16px">Unlimited</p>
+  <div class="stat-grid" id="stat-grid-unl"></div>
+</dialog>
+
+<script type="module" src="app/js/home.js"></script>
+</body>
+</html>

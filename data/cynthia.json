@@ -1,0 +1,219 @@
+{
+ "trainer": "Champion Cynthia",
+ "trainerId": 456,
+ "location": "Undella Town \u2014 Caitlin's villa (zone 416)",
+ "bagItems": [
+  "Full Restore",
+    "Max Revive"
+ ],
+ "team": [
+  {
+   "species": 442,
+   "display": "Spiritomb",
+   "types": [
+    "ghost",
+    "dark"
+   ],
+   "level": 76,
+   "moves": [
+    {
+     "name": "Shadow Ball",
+     "type": "ghost",
+     "class": "special",
+     "power": 80
+    },
+    {
+     "name": "Double Team",
+     "type": "normal",
+     "class": "status",
+     "power": null
+    },
+    {
+     "name": "Dream Eater",
+     "type": "psychic",
+     "class": "special",
+     "power": 100
+    },
+    {
+     "name": "Hypnosis",
+     "type": "psychic",
+     "class": "status",
+     "power": null
+    }
+   ]
+  },
+  {
+   "species": 350,
+   "display": "Milotic",
+   "types": [
+    "water"
+   ],
+   "level": 76,
+   "moves": [
+    {
+     "name": "Blizzard",
+     "type": "ice",
+     "class": "special",
+     "power": 120
+    },
+    {
+     "name": "Hydro Pump",
+     "type": "water",
+     "class": "special",
+     "power": 120
+    },
+    {
+     "name": "Attract",
+     "type": "normal",
+     "class": "status",
+     "power": null
+    },
+    {
+     "name": "Rest",
+     "type": "psychic",
+     "class": "status",
+     "power": null
+    }
+   ]
+  },
+  {
+   "species": 468,
+   "display": "Togekiss",
+   "types": [
+    "normal",
+    "flying"
+   ],
+   "level": 76,
+   "moves": [
+    {
+     "name": "Extreme Speed",
+     "type": "normal",
+     "class": "physical",
+     "power": 80
+    },
+    {
+     "name": "Aura Sphere",
+     "type": "fighting",
+     "class": "special",
+     "power": 90
+    },
+    {
+     "name": "Air Slash",
+     "type": "flying",
+     "class": "special",
+     "power": 75
+    },
+    {
+     "name": "Thunder Wave",
+     "type": "electric",
+     "class": "status",
+     "power": null
+    }
+   ]
+  },
+  {
+   "species": 448,
+   "display": "Lucario",
+   "types": [
+    "fighting",
+    "steel"
+   ],
+   "level": 76,
+   "moves": [
+    {
+     "name": "Extreme Speed",
+     "type": "normal",
+     "class": "physical",
+     "power": 80
+    },
+    {
+     "name": "Close Combat",
+     "type": "fighting",
+     "class": "physical",
+     "power": 120
+    },
+    {
+     "name": "Flash Cannon",
+     "type": "steel",
+     "class": "special",
+     "power": 80
+    },
+    {
+     "name": "Psychic",
+     "type": "psychic",
+     "class": "special",
+     "power": 90
+    }
+   ]
+  },
+  {
+   "species": 474,
+   "display": "Porygon-Z",
+   "types": [
+    "normal"
+   ],
+   "level": 78,
+   "moves": [
+    {
+     "name": "Tri Attack",
+     "type": "normal",
+     "class": "special",
+     "power": 80
+    },
+    {
+     "name": "Hyper Beam",
+     "type": "normal",
+     "class": "special",
+     "power": 150
+    },
+    {
+     "name": "Thunderbolt",
+     "type": "electric",
+     "class": "special",
+     "power": 90
+    },
+    {
+     "name": "Nasty Plot",
+     "type": "dark",
+     "class": "status",
+     "power": null
+    }
+   ]
+  },
+  {
+   "species": 445,
+   "display": "Garchomp",
+   "types": [
+    "dragon",
+    "ground"
+   ],
+   "level": 78,
+   "moves": [
+    {
+     "name": "Dragon Rush",
+     "type": "dragon",
+     "class": "physical",
+     "power": 100
+    },
+    {
+     "name": "Earthquake",
+     "type": "ground",
+     "class": "physical",
+     "power": 100
+    },
+    {
+     "name": "Stone Edge",
+     "type": "rock",
+     "class": "physical",
+     "power": 100
+    },
+    {
+     "name": "Fire Blast",
+     "type": "fire",
+     "class": "special",
+     "power": 120
+    }
+   ]
+  }
+ ]
+}

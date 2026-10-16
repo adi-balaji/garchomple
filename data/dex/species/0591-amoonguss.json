@@ -1,0 +1,22 @@
+{
+  "id": 591,
+  "name": "amoonguss",
+  "display": "Amoonguss",
+  "types": ["grass", "poison"],
+  "base": {"hp": 114, "atk": 85, "def": 70, "spa": 85, "spd": 80, "spe": 30},
+  "abilities": [
+    {"name": "effect-spore", "hidden": false, "slot": 1},
+    {"name": "regenerator", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "foongus",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [71, 72, 74, 76, 92, 117, 147, 185, 202, 230, 235, 275, 310, 476, 499],
+    "machine": [63, 76, 92, 104, 148, 156, 164, 182, 188, 207, 213, 216, 218, 237, 240, 241, 263, 371, 412, 416, 447, 474, 496],
+    "tutor": [173, 202, 214, 235, 380, 388, 402, 492, 495]
+  }
+}

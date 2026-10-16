@@ -1,0 +1,24 @@
+{
+  "id": 300,
+  "name": "skitty",
+  "display": "Skitty",
+  "types": ["normal"],
+  "base": {"hp": 50, "atk": 45, "def": 45, "spa": 35, "spd": 35, "spe": 50},
+  "abilities": [
+    {"name": "cute-charm", "hidden": false, "slot": 1},
+    {"name": "normalize", "hidden": false, "slot": 2},
+    {"name": "wonder-skin", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 6,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["delcatty"],
+  "learnset": {
+    "egg": [226, 252, 253, 270, 273, 313, 321, 387, 389, 426, 428, 445, 493],
+    "level-up": [3, 33, 38, 39, 45, 47, 185, 193, 204, 213, 215, 252, 274, 343, 358, 383, 445],
+    "machine": [58, 59, 76, 85, 86, 87, 91, 92, 104, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 263, 347, 371, 447, 451, 496, 497, 514, 526, 528],
+    "tutor": [173, 196, 214, 215, 231, 253, 270, 304, 343, 387, 428]
+  }
+}

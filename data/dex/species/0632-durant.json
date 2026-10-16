@@ -1,0 +1,24 @@
+{
+  "id": 632,
+  "name": "durant",
+  "display": "Durant",
+  "types": ["bug", "steel"],
+  "base": {"hp": 58, "atk": 109, "def": 112, "spa": 48, "spd": 48, "spe": 109},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "hustle", "hidden": false, "slot": 2},
+    {"name": "truant", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [103, 185, 203, 226, 422, 431],
+    "level-up": [11, 12, 28, 44, 91, 97, 210, 232, 242, 319, 334, 404, 442, 450, 494],
+    "machine": [15, 70, 86, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 249, 263, 317, 332, 397, 404, 412, 416, 421, 430, 444, 468, 496, 514, 522],
+    "tutor": [173, 214, 276, 283, 334, 442, 450]
+  }
+}

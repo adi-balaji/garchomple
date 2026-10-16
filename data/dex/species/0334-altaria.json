@@ -1,0 +1,22 @@
+{
+  "id": 334,
+  "name": "altaria",
+  "display": "Altaria",
+  "types": ["dragon", "flying"],
+  "base": {"hp": 75, "atk": 70, "def": 90, "spa": 70, "spd": 105, "spe": 80},
+  "abilities": [
+    {"name": "natural-cure", "hidden": false, "slot": 1},
+    {"name": "cloud-nine", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "swablu",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [31, 36, 45, 47, 54, 64, 143, 195, 219, 225, 287, 310, 349, 363, 365, 406, 496, 538],
+    "machine": [19, 46, 53, 58, 63, 76, 89, 92, 104, 126, 138, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 249, 263, 332, 337, 365, 416, 468, 496, 497, 510, 523],
+    "tutor": [143, 173, 200, 214, 215, 231, 253, 257, 304, 355, 366, 406, 434, 472]
+  }
+}

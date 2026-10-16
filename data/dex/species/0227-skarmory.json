@@ -1,0 +1,24 @@
+{
+  "id": 227,
+  "name": "skarmory",
+  "display": "Skarmory",
+  "types": ["steel", "flying"],
+  "base": {"hp": 65, "atk": 80, "def": 140, "spa": 40, "spd": 70, "spe": 70},
+  "abilities": [
+    {"name": "keen-eye", "hidden": false, "slot": 1},
+    {"name": "sturdy", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [18, 65, 143, 174, 203, 228, 372, 385, 413, 446],
+    "level-up": [28, 31, 43, 64, 97, 129, 163, 191, 211, 314, 319, 364, 400, 403, 475],
+    "machine": [14, 15, 19, 46, 92, 104, 148, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 237, 241, 249, 259, 263, 269, 317, 332, 365, 371, 404, 430, 496, 507],
+    "tutor": [143, 173, 196, 214, 334, 355, 366, 399, 442, 446]
+  }
+}

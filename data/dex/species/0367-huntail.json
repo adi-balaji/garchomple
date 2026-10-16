@@ -1,0 +1,22 @@
+{
+  "id": 367,
+  "name": "huntail",
+  "display": "Huntail",
+  "types": ["water"],
+  "base": {"hp": 55, "atk": 104, "def": 105, "spa": 94, "spd": 75, "spe": 52},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "water-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "clamperl",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [44, 56, 103, 184, 226, 242, 250, 291, 352, 362, 401, 423],
+    "machine": [57, 58, 59, 63, 92, 104, 127, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 317, 416, 496, 503],
+    "tutor": [20, 162, 173, 196, 214, 289, 340, 401]
+  }
+}

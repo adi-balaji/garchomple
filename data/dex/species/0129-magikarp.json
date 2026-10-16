@@ -1,0 +1,21 @@
+{
+  "id": 129,
+  "name": "magikarp",
+  "display": "Magikarp",
+  "types": ["water"],
+  "base": {"hp": 20, "atk": 10, "def": 55, "spa": 15, "spd": 20, "spe": 80},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "rattled", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["gyarados"],
+  "learnset": {
+    "level-up": [33, 150, 175],
+    "tutor": [340]
+  }
+}

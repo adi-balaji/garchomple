@@ -1,0 +1,23 @@
+{
+  "id": 271,
+  "name": "lombre",
+  "display": "Lombre",
+  "types": ["water", "grass"],
+  "base": {"hp": 60, "atk": 50, "def": 50, "spa": 60, "spd": 70, "spe": 50},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "rain-dish", "hidden": false, "slot": 2},
+    {"name": "own-tempo", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "lotad",
+  "evolvesTo": ["ludicolo"],
+  "learnset": {
+    "level-up": [45, 56, 61, 71, 154, 252, 253, 267, 310, 346, 428],
+    "machine": [14, 57, 58, 59, 70, 76, 92, 104, 127, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 258, 263, 280, 291, 374, 412, 447, 468, 496, 497, 503],
+    "tutor": [7, 8, 9, 173, 196, 202, 214, 235, 253, 304, 402, 409, 428]
+  }
+}

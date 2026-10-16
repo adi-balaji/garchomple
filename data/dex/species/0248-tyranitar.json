@@ -1,0 +1,22 @@
+{
+  "id": 248,
+  "name": "tyranitar",
+  "display": "Tyranitar",
+  "types": ["rock", "dark"],
+  "base": {"hp": 100, "atk": 134, "def": 110, "spa": 95, "spd": 100, "spe": 61},
+  "abilities": [
+    {"name": "sand-stream", "hidden": false, "slot": 1},
+    {"name": "unnerve", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "pupitar",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [37, 43, 44, 63, 89, 103, 157, 184, 201, 242, 371, 399, 416, 422, 423, 424, 444, 498],
+    "machine": [15, 46, 53, 57, 58, 59, 63, 70, 85, 86, 87, 89, 91, 92, 104, 126, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 240, 241, 249, 259, 263, 269, 280, 317, 332, 337, 371, 374, 397, 411, 416, 421, 444, 468, 479, 496, 510, 514, 523, 525, 555],
+    "tutor": [7, 8, 9, 67, 173, 180, 200, 214, 231, 253, 276, 334, 335, 399, 401, 406, 414, 442, 446, 492]
+  }
+}

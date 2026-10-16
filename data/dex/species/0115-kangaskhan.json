@@ -1,0 +1,24 @@
+{
+  "id": 115,
+  "name": "kangaskhan",
+  "display": "Kangaskhan",
+  "types": ["normal"],
+  "base": {"hp": 105, "atk": 95, "def": 80, "spa": 40, "spd": 80, "spe": 90},
+  "abilities": [
+    {"name": "early-bird", "hidden": false, "slot": 1},
+    {"name": "scrappy", "hidden": false, "slot": 2},
+    {"name": "inner-focus", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 8,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [23, 38, 50, 68, 116, 193, 253, 264, 283, 306, 359, 376, 509],
+    "level-up": [4, 5, 39, 43, 44, 99, 146, 179, 200, 203, 242, 252, 389, 458, 498],
+    "machine": [15, 46, 53, 57, 58, 59, 63, 70, 76, 85, 87, 89, 91, 92, 104, 126, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 219, 237, 240, 241, 247, 249, 258, 263, 280, 317, 332, 374, 411, 416, 421, 496, 510, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 180, 196, 200, 214, 231, 253, 270, 283, 343, 401, 409]
+  }
+}

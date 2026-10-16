@@ -1,0 +1,21 @@
+{
+  "id": 265,
+  "name": "wurmple",
+  "display": "Wurmple",
+  "types": ["bug"],
+  "base": {"hp": 45, "atk": 45, "def": 35, "spa": 20, "spd": 30, "spe": 20},
+  "abilities": [
+    {"name": "shield-dust", "hidden": false, "slot": 1},
+    {"name": "run-away", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["silcoon", "cascoon"],
+  "learnset": {
+    "level-up": [33, 40, 81, 450],
+    "tutor": [173, 450, 527]
+  }
+}

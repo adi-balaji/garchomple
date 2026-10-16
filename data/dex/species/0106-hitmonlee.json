@@ -1,0 +1,23 @@
+{
+  "id": 106,
+  "name": "hitmonlee",
+  "display": "Hitmonlee",
+  "types": ["fighting"],
+  "base": {"hp": 50, "atk": 120, "def": 53, "spa": 35, "spd": 110, "spe": 87},
+  "abilities": [
+    {"name": "limber", "hidden": false, "slot": 1},
+    {"name": "reckless", "hidden": false, "slot": 2},
+    {"name": "unburden", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 0,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "tyrogue",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [24, 25, 26, 27, 96, 116, 136, 170, 179, 193, 203, 279, 280, 299, 364, 370, 469],
+    "machine": [70, 89, 92, 104, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 339, 374, 398, 411, 444, 490, 496, 514, 523, 526],
+    "tutor": [67, 173, 214, 270, 272, 276, 282, 340, 343]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 296,
+  "name": "makuhita",
+  "display": "Makuhita",
+  "types": ["fighting"],
+  "base": {"hp": 72, "atk": 60, "def": 30, "spa": 20, "spd": 30, "spe": 25},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "guts", "hidden": false, "slot": 2},
+    {"name": "sheer-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast-then-very-slow",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["hariyama"],
+  "learnset": {
+    "egg": [68, 185, 193, 197, 223, 238, 264, 270, 279, 358, 364, 418, 469, 498],
+    "level-up": [18, 28, 33, 69, 116, 179, 187, 203, 233, 252, 265, 282, 292, 358, 370, 395, 484],
+    "machine": [57, 70, 89, 91, 92, 104, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 339, 374, 398, 411, 479, 490, 496, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 214, 270, 272, 276, 282]
+  }
+}

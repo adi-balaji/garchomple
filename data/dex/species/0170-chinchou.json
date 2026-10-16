@@ -1,0 +1,24 @@
+{
+  "id": 170,
+  "name": "chinchou",
+  "display": "Chinchou",
+  "types": ["water", "electric"],
+  "base": {"hp": 75, "atk": 38, "def": 38, "spa": 56, "spd": 56, "spe": 67},
+  "abilities": [
+    {"name": "volt-absorb", "hidden": false, "slot": 1},
+    {"name": "illuminate", "hidden": false, "slot": 2},
+    {"name": "water-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["lanturn"],
+  "learnset": {
+    "egg": [54, 60, 97, 103, 133, 175, 250, 351, 352, 362],
+    "level-up": [36, 48, 55, 56, 61, 86, 109, 145, 175, 209, 268, 324, 392, 435, 486],
+    "machine": [57, 58, 59, 85, 86, 87, 92, 104, 127, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 451, 496, 503, 521, 528],
+    "tutor": [173, 196, 214, 215, 324, 340]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 61,
+  "name": "poliwhirl",
+  "display": "Poliwhirl",
+  "types": ["water"],
+  "base": {"hp": 65, "atk": 65, "def": 65, "spa": 50, "spd": 50, "spe": 90},
+  "abilities": [
+    {"name": "water-absorb", "hidden": false, "slot": 1},
+    {"name": "damp", "hidden": false, "slot": 2},
+    {"name": "swift-swim", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "poliwag",
+  "evolvesTo": ["poliwrath", "politoed"],
+  "learnset": {
+    "level-up": [3, 34, 55, 56, 61, 95, 145, 187, 240, 341, 346, 358, 426],
+    "machine": [57, 58, 59, 70, 89, 91, 92, 94, 104, 127, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 280, 291, 374, 496, 503, 523],
+    "tutor": [8, 173, 196, 214, 270, 283]
+  }
+}

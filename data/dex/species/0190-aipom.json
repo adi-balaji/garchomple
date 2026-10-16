@@ -1,0 +1,24 @@
+{
+  "id": 190,
+  "name": "aipom",
+  "display": "Aipom",
+  "types": ["normal"],
+  "base": {"hp": 55, "atk": 70, "def": 55, "spa": 40, "spd": 55, "spe": 85},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "pickup", "hidden": false, "slot": 2},
+    {"name": "skill-link", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["ambipom"],
+  "learnset": {
+    "egg": [3, 21, 68, 97, 103, 180, 228, 251, 252, 279, 340, 343, 415],
+    "level-up": [10, 28, 39, 97, 103, 129, 154, 226, 310, 321, 374, 387, 417, 458],
+    "machine": [15, 70, 76, 85, 86, 87, 91, 92, 104, 138, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 269, 280, 332, 369, 371, 374, 421, 447, 468, 490, 496, 512, 514, 526],
+    "tutor": [7, 8, 9, 67, 173, 180, 214, 231, 253, 272, 282, 289, 340, 343, 387, 402, 441, 492]
+  }
+}

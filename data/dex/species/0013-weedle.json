@@ -1,0 +1,21 @@
+{
+  "id": 13,
+  "name": "weedle",
+  "display": "Weedle",
+  "types": ["bug", "poison"],
+  "base": {"hp": 40, "atk": 35, "def": 30, "spa": 20, "spd": 20, "spe": 50},
+  "abilities": [
+    {"name": "shield-dust", "hidden": false, "slot": 1},
+    {"name": "run-away", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["kakuna"],
+  "learnset": {
+    "level-up": [40, 81, 450],
+    "tutor": [450, 527]
+  }
+}

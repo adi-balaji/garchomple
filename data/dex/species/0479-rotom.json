@@ -1,0 +1,22 @@
+{
+  "id": 479,
+  "name": "rotom",
+  "display": "Rotom",
+  "types": ["electric", "ghost"],
+  "base": {"hp": 50, "atk": 50, "def": 77, "spa": 95, "spd": 77, "spe": 91},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "form-change": [84],
+    "level-up": [84, 86, 104, 109, 164, 253, 268, 271, 310, 351, 435, 466, 486, 506],
+    "machine": [85, 86, 87, 92, 104, 113, 115, 138, 148, 156, 164, 168, 182, 207, 216, 218, 237, 240, 241, 244, 247, 261, 263, 451, 477, 496, 521],
+    "tutor": [173, 180, 214, 220, 253, 271, 289, 324, 399, 527]
+  }
+}

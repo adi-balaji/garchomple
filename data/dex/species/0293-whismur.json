@@ -1,0 +1,23 @@
+{
+  "id": 293,
+  "name": "whismur",
+  "display": "Whismur",
+  "types": ["normal"],
+  "base": {"hp": 64, "atk": 51, "def": 23, "spa": 51, "spd": 23, "spe": 28},
+  "abilities": [
+    {"name": "soundproof", "hidden": false, "slot": 1},
+    {"name": "rattled", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["loudred"],
+  "learnset": {
+    "egg": [36, 108, 173, 265, 283, 313, 326, 359, 509],
+    "level-up": [1, 23, 46, 48, 103, 156, 214, 253, 304, 310, 336, 485],
+    "machine": [46, 53, 58, 59, 76, 92, 104, 126, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 263, 374, 496, 497, 510, 514, 526],
+    "tutor": [7, 8, 9, 173, 196, 214, 253, 283, 304, 428]
+  }
+}

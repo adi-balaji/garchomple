@@ -1,0 +1,22 @@
+{
+  "id": 25,
+  "name": "pikachu",
+  "display": "Pikachu",
+  "types": ["electric"],
+  "base": {"hp": 35, "atk": 55, "def": 30, "spa": 50, "spd": 40, "spe": 90},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "lightning-rod", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "pichu",
+  "evolvesTo": ["raichu"],
+  "learnset": {
+    "level-up": [21, 39, 45, 84, 85, 86, 87, 97, 98, 104, 113, 364, 435, 486],
+    "machine": [70, 85, 86, 87, 91, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 249, 263, 280, 374, 447, 451, 496, 497, 521, 528],
+    "tutor": [9, 173, 214, 231, 270, 282, 324, 343, 393]
+  }
+}

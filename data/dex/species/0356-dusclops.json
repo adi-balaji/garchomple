@@ -1,0 +1,21 @@
+{
+  "id": 356,
+  "name": "dusclops",
+  "display": "Dusclops",
+  "types": ["ghost"],
+  "base": {"hp": 40, "atk": 70, "def": 130, "spa": 60, "spd": 130, "spe": 25},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "duskull",
+  "evolvesTo": ["dusknoir"],
+  "learnset": {
+    "level-up": [7, 8, 9, 20, 43, 50, 101, 109, 174, 193, 212, 228, 248, 261, 310, 325, 356, 371, 425, 506],
+    "machine": [58, 59, 63, 70, 89, 92, 94, 104, 138, 148, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 259, 261, 263, 269, 280, 317, 347, 371, 373, 374, 416, 433, 451, 477, 496, 523],
+    "tutor": [7, 8, 9, 20, 173, 180, 196, 214, 220, 271, 285, 289, 356, 399, 472]
+  }
+}

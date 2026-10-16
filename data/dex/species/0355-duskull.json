@@ -1,0 +1,22 @@
+{
+  "id": 355,
+  "name": "duskull",
+  "display": "Duskull",
+  "types": ["ghost"],
+  "base": {"hp": 20, "atk": 40, "def": 90, "spa": 30, "spd": 90, "spe": 25},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["dusclops"],
+  "learnset": {
+    "egg": [185, 194, 220, 262, 285, 286, 288, 399, 466],
+    "level-up": [43, 50, 101, 109, 174, 193, 212, 228, 248, 261, 310, 371, 425, 506],
+    "machine": [58, 59, 92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 261, 263, 269, 347, 371, 373, 374, 433, 451, 477, 496],
+    "tutor": [173, 180, 196, 214, 220, 271, 285, 289, 356, 399, 472]
+  }
+}

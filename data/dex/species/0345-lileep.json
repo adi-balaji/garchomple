@@ -1,0 +1,23 @@
+{
+  "id": 345,
+  "name": "lileep",
+  "display": "Lileep",
+  "types": ["rock", "grass"],
+  "base": {"hp": 66, "atk": 41, "def": 77, "spa": 61, "spd": 87, "spe": 23},
+  "abilities": [
+    {"name": "suction-cups", "hidden": false, "slot": 1},
+    {"name": "storm-drain", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["cradily"],
+  "learnset": {
+    "egg": [72, 105, 112, 174, 203, 243, 321, 378, 446],
+    "level-up": [51, 109, 132, 133, 246, 254, 255, 256, 275, 310, 378, 380, 412],
+    "machine": [14, 76, 92, 104, 148, 156, 157, 164, 182, 188, 201, 207, 213, 216, 218, 237, 241, 263, 317, 397, 412, 447, 479, 496],
+    "tutor": [20, 173, 202, 214, 220, 235, 380, 388, 402, 414, 446]
+  }
+}

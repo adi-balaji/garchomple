@@ -1,0 +1,23 @@
+{
+  "id": 508,
+  "name": "stoutland",
+  "display": "Stoutland",
+  "types": ["normal"],
+  "base": {"hp": 85, "atk": 100, "def": 90, "spa": 45, "spd": 90, "spe": 80},
+  "abilities": [
+    {"name": "intimidate", "hidden": false, "slot": 1},
+    {"name": "sand-rush", "hidden": false, "slot": 2},
+    {"name": "scrappy", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "herdier",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 36, 43, 44, 46, 179, 242, 270, 316, 387, 416, 422, 423, 424, 514, 526],
+    "machine": [46, 57, 63, 70, 85, 86, 87, 91, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 317, 332, 371, 416, 496, 514, 526, 528, 555],
+    "tutor": [173, 214, 253, 270, 276, 304, 343, 387, 442]
+  }
+}

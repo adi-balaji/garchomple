@@ -1,0 +1,22 @@
+{
+  "id": 125,
+  "name": "electabuzz",
+  "display": "Electabuzz",
+  "types": ["electric"],
+  "base": {"hp": 65, "atk": 83, "def": 57, "spa": 95, "spd": 85, "spe": 105},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "vital-spirit", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "elekid",
+  "evolvesTo": ["electivire"],
+  "learnset": {
+    "level-up": [9, 43, 67, 84, 85, 86, 87, 98, 103, 113, 129, 351, 435, 486],
+    "machine": [63, 70, 85, 86, 87, 92, 94, 104, 113, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 249, 263, 280, 374, 411, 416, 451, 490, 496, 521, 528],
+    "tutor": [7, 8, 9, 67, 173, 214, 231, 270, 324, 343, 393, 527, 530]
+  }
+}

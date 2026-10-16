@@ -1,0 +1,21 @@
+{
+  "id": 235,
+  "name": "smeargle",
+  "display": "Smeargle",
+  "types": ["normal"],
+  "base": {"hp": 55, "atk": 20, "def": 35, "spa": 20, "spd": 45, "spe": 75},
+  "abilities": [
+    {"name": "own-tempo", "hidden": false, "slot": 1},
+    {"name": "technician", "hidden": false, "slot": 2},
+    {"name": "moody", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [166]
+  }
+}

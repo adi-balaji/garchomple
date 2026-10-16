@@ -1,0 +1,21 @@
+{
+  "id": 401,
+  "name": "kricketot",
+  "display": "Kricketot",
+  "types": ["bug"],
+  "base": {"hp": 37, "atk": 25, "def": 41, "spa": 25, "spd": 41, "spe": 25},
+  "abilities": [
+    {"name": "shed-skin", "hidden": false, "slot": 1},
+    {"name": "run-away", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["kricketune"],
+  "learnset": {
+    "level-up": [45, 117, 450, 522],
+    "tutor": [173, 253, 283, 450]
+  }
+}

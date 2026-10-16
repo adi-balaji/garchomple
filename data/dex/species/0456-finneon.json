@@ -1,0 +1,24 @@
+{
+  "id": 456,
+  "name": "finneon",
+  "display": "Finneon",
+  "types": ["water"],
+  "base": {"hp": 49, "atk": 49, "def": 56, "spa": 49, "spd": 61, "spe": 66},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "storm-drain", "hidden": false, "slot": 2},
+    {"name": "water-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["lumineon"],
+  "learnset": {
+    "egg": [60, 62, 97, 150, 175, 186, 204, 321, 324, 362, 401],
+    "level-up": [1, 16, 55, 213, 219, 240, 250, 318, 340, 352, 369, 392, 445, 487],
+    "machine": [57, 58, 59, 92, 104, 127, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 244, 258, 263, 291, 369, 371, 496, 503],
+    "tutor": [173, 196, 214, 324, 340, 366, 401]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 272,
+  "name": "ludicolo",
+  "display": "Ludicolo",
+  "types": ["water", "grass"],
+  "base": {"hp": 80, "atk": 70, "def": 70, "spa": 90, "spd": 100, "spe": 70},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "rain-dish", "hidden": false, "slot": 2},
+    {"name": "own-tempo", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "lombre",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [45, 72, 267, 310],
+    "machine": [14, 57, 58, 59, 63, 70, 76, 92, 104, 127, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 258, 263, 280, 291, 374, 411, 412, 416, 447, 468, 496, 497, 503],
+    "tutor": [7, 8, 9, 173, 196, 202, 214, 235, 253, 304, 402, 409, 428]
+  }
+}

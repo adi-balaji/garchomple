@@ -1,0 +1,23 @@
+{
+  "id": 515,
+  "name": "panpour",
+  "display": "Panpour",
+  "types": ["water"],
+  "base": {"hp": 50, "atk": 53, "def": 48, "spa": 53, "spd": 48, "spe": 64},
+  "abilities": [
+    {"name": "gluttony", "hidden": false, "slot": 1},
+    {"name": "torrent", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["simipour"],
+  "learnset": {
+    "egg": [56, 67, 272, 300, 310, 321, 343, 392, 401, 417],
+    "level-up": [10, 43, 44, 55, 122, 154, 242, 269, 278, 346, 362, 363, 374, 503, 512],
+    "machine": [15, 57, 58, 59, 91, 92, 104, 127, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 249, 258, 259, 263, 269, 291, 317, 371, 374, 421, 447, 468, 490, 496, 503, 512, 526],
+    "tutor": [8, 67, 173, 196, 214, 231, 253, 270, 272, 278, 282, 283, 343, 401, 441]
+  }
+}

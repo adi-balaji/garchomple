@@ -1,0 +1,23 @@
+{
+  "id": 364,
+  "name": "sealeo",
+  "display": "Sealeo",
+  "types": ["ice", "water"],
+  "base": {"hp": 90, "atk": 60, "def": 70, "spa": 75, "spd": 70, "spe": 45},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "ice-body", "hidden": false, "slot": 2},
+    {"name": "oblivious", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "spheal",
+  "evolvesTo": ["walrein"],
+  "learnset": {
+    "level-up": [34, 45, 55, 59, 62, 156, 173, 181, 207, 227, 258, 301, 329],
+    "machine": [46, 57, 58, 59, 70, 89, 92, 104, 127, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 291, 317, 496, 497, 523, 524],
+    "tutor": [162, 173, 196, 214, 231, 324, 401]
+  }
+}

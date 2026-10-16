@@ -1,0 +1,22 @@
+{
+  "id": 562,
+  "name": "yamask",
+  "display": "Yamask",
+  "types": ["ghost"],
+  "base": {"hp": 38, "atk": 30, "def": 85, "spa": 55, "spd": 65, "spe": 30},
+  "abilities": [
+    {"name": "mummy", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["cofagrigus"],
+  "learnset": {
+    "egg": [50, 171, 203, 262, 286, 313, 377, 417],
+    "level-up": [50, 101, 114, 174, 182, 194, 212, 247, 261, 288, 310, 466, 470, 471, 506],
+    "machine": [92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 244, 247, 261, 263, 347, 371, 373, 412, 433, 477, 496],
+    "tutor": [173, 180, 214, 220, 271, 272, 277, 282, 285, 289, 334, 335, 399, 472, 495]
+  }
+}

@@ -1,0 +1,13 @@
+# your game files never get committed
+local/
+_transfer/
+*.nds
+*.sav
+!data/base.sav
+*.dsv
+tools/.pokebase_cache*
+__pycache__/
+.DS_Store
+.venv/
+# the unpacked data/dex/ and sprites/ are committed; the archive they came from isn't needed
+assets.zip

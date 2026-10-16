@@ -1,0 +1,23 @@
+{
+  "id": 186,
+  "name": "politoed",
+  "display": "Politoed",
+  "types": ["water"],
+  "base": {"hp": 90, "atk": 75, "def": 75, "spa": 90, "spd": 100, "spe": 70},
+  "abilities": [
+    {"name": "water-absorb", "hidden": false, "slot": 1},
+    {"name": "damp", "hidden": false, "slot": 2},
+    {"name": "drizzle", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "poliwhirl",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [3, 61, 95, 195, 207, 304, 340],
+    "machine": [57, 58, 59, 63, 70, 89, 91, 92, 94, 104, 127, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 280, 291, 371, 374, 411, 416, 496, 497, 503, 523],
+    "tutor": [8, 173, 196, 214, 270, 283, 304, 340]
+  }
+}

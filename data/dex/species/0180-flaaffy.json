@@ -1,0 +1,22 @@
+{
+  "id": 180,
+  "name": "flaaffy",
+  "display": "Flaaffy",
+  "types": ["electric"],
+  "base": {"hp": 70, "atk": 55, "def": 55, "spa": 80, "spd": 60, "spe": 45},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "plus", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "mareep",
+  "evolvesTo": ["ampharos"],
+  "learnset": {
+    "level-up": [33, 36, 45, 84, 86, 87, 109, 113, 178, 268, 324, 408, 435, 486, 538],
+    "machine": [70, 85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 249, 263, 280, 374, 451, 496, 497, 521, 528],
+    "tutor": [7, 9, 173, 214, 215, 231, 324, 393, 495]
+  }
+}

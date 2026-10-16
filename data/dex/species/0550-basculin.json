@@ -1,0 +1,24 @@
+{
+  "id": 550,
+  "name": "basculin",
+  "display": "Basculin",
+  "types": ["water"],
+  "base": {"hp": 70, "atk": 92, "def": 65, "spa": 80, "spd": 55, "spe": 98},
+  "abilities": [
+    {"name": "reckless", "hidden": false, "slot": 1},
+    {"name": "adaptability", "hidden": false, "slot": 2},
+    {"name": "mold-breaker", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [61, 97, 99, 129, 250, 279, 330, 341, 362],
+    "level-up": [29, 33, 36, 37, 38, 44, 55, 175, 184, 242, 253, 401, 453, 487, 498, 515],
+    "machine": [15, 57, 58, 92, 104, 127, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 269, 291, 496, 503],
+    "tutor": [173, 196, 214, 253, 276, 283, 340, 401, 428]
+  }
+}

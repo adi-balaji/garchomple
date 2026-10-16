@@ -1,0 +1,24 @@
+{
+  "id": 361,
+  "name": "snorunt",
+  "display": "Snorunt",
+  "types": ["ice"],
+  "base": {"hp": 50, "atk": 50, "def": 50, "spa": 50, "spd": 50, "spe": 50},
+  "abilities": [
+    {"name": "inner-focus", "hidden": false, "slot": 1},
+    {"name": "ice-body", "hidden": false, "slot": 2},
+    {"name": "moody", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["glalie", "froslass"],
+  "learnset": {
+    "egg": [50, 117, 191, 205, 311, 313, 335, 419, 506],
+    "level-up": [29, 43, 44, 59, 104, 181, 182, 196, 242, 258, 420, 423],
+    "machine": [58, 59, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 247, 258, 263, 496, 524],
+    "tutor": [173, 180, 196, 214, 335]
+  }
+}

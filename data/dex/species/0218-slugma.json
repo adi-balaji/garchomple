@@ -1,0 +1,24 @@
+{
+  "id": 218,
+  "name": "slugma",
+  "display": "Slugma",
+  "types": ["fire"],
+  "base": {"hp": 40, "atk": 40, "def": 40, "spa": 70, "spd": 40, "spe": 20},
+  "abilities": [
+    {"name": "magma-armor", "hidden": false, "slot": 1},
+    {"name": "flame-body", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["magcargo"],
+  "learnset": {
+    "egg": [108, 151, 174, 205, 254, 255, 256, 257, 262, 414, 517],
+    "level-up": [34, 52, 53, 88, 105, 106, 123, 133, 157, 246, 281, 414, 436, 481],
+    "machine": [53, 92, 104, 113, 115, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 241, 249, 261, 263, 315, 317, 488, 496, 510],
+    "tutor": [173, 214, 220, 257, 334, 414, 495]
+  }
+}

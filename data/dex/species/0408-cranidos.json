@@ -1,0 +1,23 @@
+{
+  "id": 408,
+  "name": "cranidos",
+  "display": "Cranidos",
+  "types": ["rock"],
+  "base": {"hp": 67, "atk": 125, "def": 40, "spa": 30, "spd": 30, "spe": 58},
+  "abilities": [
+    {"name": "mold-breaker", "hidden": false, "slot": 1},
+    {"name": "sheer-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["rampardos"],
+  "learnset": {
+    "egg": [18, 21, 23, 37, 38, 43, 174, 231, 242, 359, 442],
+    "level-up": [29, 36, 43, 103, 116, 184, 228, 246, 372, 428, 457, 498],
+    "machine": [14, 46, 53, 58, 59, 70, 85, 87, 89, 91, 92, 104, 126, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 237, 240, 241, 249, 263, 317, 371, 374, 397, 444, 479, 496, 510, 523],
+    "tutor": [7, 9, 173, 180, 214, 231, 253, 276, 283, 406, 414, 428, 442, 446]
+  }
+}

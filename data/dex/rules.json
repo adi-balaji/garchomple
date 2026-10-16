@@ -1,0 +1,52 @@
+{
+  "_doc": "Team-building rules used by app/js/teamgen.js. Edit freely; species/abilities use PokeAPI names.",
+  "level": 76,
+  "aceLevel": 78,
+  "teamSize": 6,
+  "bstMin": 440,
+  "bstMax": 600,
+  "middleStageMinBst": 440,
+  "_middleStage": "Pokémon that still evolve are only allowed if they already evolved once (no base forms) and have at least this BST; they get an Eviolite.",
+  "excludeLegendary": true,
+  "excludeMythical": true,
+  "maxPerType": 1,
+  "_maxPerType": "How many team members may share a type. The generator relaxes this only if it can't fill the team.",
+  "maxPseudoLegendaries": 1,
+  "pseudoLegendaries": ["dragonite", "tyranitar", "salamence", "metagross", "garchomp", "hydreigon"],
+  "bannedSpecies": ["shedinja", "slaking", "regigigas", "archeops", "ditto", "smeargle", "unown", "wobbuffet", "wynaut", "castform", "darmanitan", "kecleon", "luvdisc", "delibird", "spinda"],
+  "bannedAbilities": ["wonder-guard", "truant", "defeatist", "slow-start", "moody", "shadow-tag", "arena-trap", "zen-mode", "multitype", "imposter"],
+  "movePolicy": {
+    "_doc": "How movesets are built. excludeMoves are never picked; fixedPower overrides odd moves (Return at max friendship, Lv 76 Seismic Toss).",
+    "excludeMoves": ["acrobatics", "assurance", "avalanche", "beat-up", "belch", "bide", "blast-burn", "bounce", "brine", "bulldoze", "chip-away", "counter", "covet", "crush-grip", "cut", "dig", "dive", "doom-desire", "dragon-rage", "draining-kiss", "dream-eater", "dynamic-punch", "echoed-voice", "electro-ball", "electroweb", "endeavor", "eruption", "explosion", "facade", "fake-out", "feint", "final-gambit", "fire-pledge", "flail", "fling", "fly", "focus-punch", "freeze-shock", "frenzy-plant", "frustration", "fury-cutter", "future-sight", "giga-impact", "grass-knot", "grass-pledge", "gyro-ball", "heat-crash", "heavy-slam", "hidden-power", "hydro-cannon", "hyper-beam", "ice-ball", "ice-burn", "icy-wind", "inferno", "knock-off", "last-resort", "low-kick", "magnet-bomb", "magnitude", "memento", "metal-burst", "mirror-coat", "mud-shot", "natural-gift", "outrage", "payback", "petal-dance", "present", "psywave", "punishment", "pursuit", "rage", "razor-wind", "relic-song", "retaliate", "revenge", "reversal", "roar-of-time", "rock-smash", "rock-tomb", "rock-wrecker", "rollout", "round", "sacred-sword", "secret-power", "self-destruct", "selfdestruct", "shadow-force", "skull-bash", "sky-attack", "sky-drop", "sleep-talk", "smack-down", "smelling-salts", "snarl", "snore", "solar-beam", "sonic-boom", "spit-up", "steel-wing", "stored-power", "strength", "struggle", "struggle-bug", "super-fang", "surf", "synchronoise", "techno-blast", "teleport", "thief", "thrash", "trump-card", "uproar", "vital-throw", "volt-tackle", "wake-up-slap", "water-pledge", "water-spout", "waterfall", "weather-ball", "wring-out", "zap-cannon"],
+    "fixedPower": {"return": 102, "seismic-toss": 76, "night-shade": 76},
+    "statDropPenalty": {
+      "overheat": 0.85,
+      "draco-meteor": 0.85,
+      "leaf-storm": 0.85,
+      "psycho-boost": 0.85,
+      "superpower": 0.95,
+      "close-combat": 0.97,
+      "hammer-arm": 0.95,
+      "v-create": 0.95,
+      "high-jump-kick": 0.9,
+      "jump-kick": 0.85,
+      "head-smash": 0.9,
+      "brave-bird": 0.95,
+      "double-edge": 0.95,
+      "flare-blitz": 0.95,
+      "wood-hammer": 0.95,
+      "wild-charge": 0.97
+    },
+    "priorityOk": ["aqua-jet", "bullet-punch", "extreme-speed", "ice-shard", "mach-punch", "quick-attack", "shadow-sneak", "sucker-punch", "vacuum-wave"],
+    "setupPhysical": ["swords-dance", "dragon-dance", "bulk-up", "shift-gear", "coil", "shell-smash", "hone-claws", "rock-polish", "agility", "curse"],
+    "setupSpecial": ["nasty-plot", "calm-mind", "quiver-dance", "tail-glow", "shell-smash", "rock-polish", "agility"],
+    "recovery": ["recover", "roost", "slack-off", "soft-boiled", "milk-drink", "synthesis", "moonlight", "morning-sun", "heal-order", "wish", "rest"],
+    "status": ["will-o-wisp", "thunder-wave", "toxic", "leech-seed", "spore", "sleep-powder", "glare", "stun-spore", "yawn", "hypnosis"],
+    "support": ["substitute", "protect", "stealth-rock", "reflect", "light-screen", "taunt", "encore", "haze", "aromatherapy", "heal-bell"]
+  },
+  "abilityPreference": {
+    "_doc": "great = picked 3x as often; avoid = only if the species has nothing else",
+    "great": ["adaptability", "analytic", "battle-armor", "big-pecks", "blaze", "chlorophyll", "clear-body", "contrary", "cursed-body", "defiant", "download", "drizzle", "drought", "dry-skin", "early-bird", "effect-spore", "filter", "flame-body", "flash-fire", "guts", "heatproof", "huge-power", "hydration", "infiltrator", "inner-focus", "intimidate", "iron-barbs", "iron-fist", "justified", "levitate", "lightning-rod", "magic-bounce", "magic-guard", "marvel-scale", "mold-breaker", "motor-drive", "moxie", "multiscale", "natural-cure", "no-guard", "overcoat", "overgrow", "own-tempo", "poison-heal", "poison-point", "prankster", "pressure", "pure-power", "reckless", "regenerator", "rock-head", "rough-skin", "sand-force", "sand-rush", "sand-stream", "sap-sipper", "scrappy", "serene-grace", "shed-skin", "sheer-force", "shell-armor", "simple", "skill-link", "sniper", "snow-warning", "solid-rock", "speed-boost", "static", "storm-drain", "sturdy", "super-luck", "swarm", "swift-swim", "technician", "teravolt", "thick-fat", "tinted-lens", "torrent", "trace", "turboblaze", "unaware", "unburden", "victory-star", "volt-absorb", "water-absorb", "wonder-skin"],
+    "avoid": ["aftermath", "anticipation", "ball-fetch", "color-change", "compound-eyes", "cute-charm", "damp", "flare-boost", "flower-gift", "forecast", "forewarn", "friend-guard", "frisk", "gluttony", "harvest", "healer", "heavy-metal", "honey-gather", "hustle", "hyper-cutter", "ice-body", "illuminate", "illusion", "immunity", "insomnia", "keen-eye", "klutz", "leaf-guard", "light-metal", "limber", "liquid-ooze", "magician", "magma-armor", "minus", "mummy", "normalize", "oblivious", "pickpocket", "pickup", "plus", "quick-feet", "rain-dish", "rivalry", "run-away", "sand-veil", "shield-dust", "snow-cloak", "solar-power", "stall", "steadfast", "stench", "sticky-hold", "suction-cups", "synchronize", "tangled-feet", "telepathy", "toxic-boost", "unnerve", "vital-spirit", "water-veil", "weak-armor", "white-smoke"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 177,
+  "name": "natu",
+  "display": "Natu",
+  "types": ["psychic", "flying"],
+  "base": {"hp": 40, "atk": 50, "def": 45, "spa": 70, "spd": 45, "spe": 70},
+  "abilities": [
+    {"name": "synchronize", "hidden": false, "slot": 1},
+    {"name": "early-bird", "hidden": false, "slot": 2},
+    {"name": "magic-bounce", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["xatu"],
+  "learnset": {
+    "egg": [65, 98, 114, 185, 211, 285, 287, 297, 355, 389, 428, 485],
+    "level-up": [43, 64, 94, 100, 101, 109, 248, 273, 357, 375, 381, 382, 384, 385, 466, 500],
+    "machine": [76, 86, 92, 94, 104, 113, 115, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 332, 347, 365, 369, 433, 447, 473, 477, 496, 502],
+    "tutor": [173, 202, 214, 220, 257, 271, 277, 285, 324, 355, 366, 428, 478]
+  }
+}

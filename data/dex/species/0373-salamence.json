@@ -1,0 +1,22 @@
+{
+  "id": 373,
+  "name": "salamence",
+  "display": "Salamence",
+  "types": ["dragon", "flying"],
+  "base": {"hp": 95, "atk": 135, "def": 80, "spa": 110, "spd": 80, "spe": 100},
+  "abilities": [
+    {"name": "intimidate", "hidden": false, "slot": 1},
+    {"name": "moxie", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "shelgon",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [19, 29, 38, 43, 44, 52, 99, 116, 182, 184, 225, 242, 337, 422, 424, 428, 525],
+    "machine": [15, 19, 46, 53, 63, 70, 89, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 280, 317, 332, 337, 416, 421, 444, 468, 496, 510, 523, 525],
+    "tutor": [173, 200, 214, 231, 257, 304, 355, 366, 401, 406, 428, 434]
+  }
+}

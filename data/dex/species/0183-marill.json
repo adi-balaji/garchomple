@@ -1,0 +1,24 @@
+{
+  "id": 183,
+  "name": "marill",
+  "display": "Marill",
+  "types": ["water"],
+  "base": {"hp": 70, "atk": 20, "def": 50, "spa": 20, "spd": 50, "spe": 40},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "huge-power", "hidden": false, "slot": 2},
+    {"name": "sap-sipper", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "azurill",
+  "evolvesTo": ["azumarill"],
+  "learnset": {
+    "egg": [34, 48, 133, 187, 195, 217, 248, 276, 287, 330, 346, 453],
+    "level-up": [33, 38, 39, 55, 56, 61, 111, 145, 205, 240, 270, 276, 346, 392, 401],
+    "machine": [57, 58, 59, 70, 91, 92, 104, 113, 127, 156, 164, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 280, 291, 374, 447, 496, 503, 526],
+    "tutor": [8, 173, 196, 214, 231, 270, 276, 282, 304, 340, 343, 401]
+  }
+}

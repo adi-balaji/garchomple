@@ -1,0 +1,23 @@
+{
+  "id": 57,
+  "name": "primeape",
+  "display": "Primeape",
+  "types": ["fighting"],
+  "base": {"hp": 65, "atk": 105, "def": 60, "spa": 60, "spd": 70, "spe": 95},
+  "abilities": [
+    {"name": "vital-spirit", "hidden": false, "slot": 1},
+    {"name": "anger-point", "hidden": false, "slot": 2},
+    {"name": "defiant", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "mankey",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [2, 10, 37, 43, 67, 69, 99, 103, 116, 154, 207, 238, 370, 372, 374, 386, 515],
+    "machine": [63, 70, 85, 87, 89, 91, 92, 104, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 269, 280, 315, 317, 332, 339, 369, 371, 374, 398, 411, 416, 444, 468, 479, 490, 496, 512, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 180, 200, 214, 231, 253, 270, 272, 283, 343, 402, 441, 530]
+  }
+}

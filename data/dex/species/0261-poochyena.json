@@ -1,0 +1,24 @@
+{
+  "id": 261,
+  "name": "poochyena",
+  "display": "Poochyena",
+  "types": ["dark"],
+  "base": {"hp": 35, "atk": 55, "def": 35, "spa": 30, "spd": 30, "spe": 35},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "quick-feet", "hidden": false, "slot": 2},
+    {"name": "rattled", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["mightyena"],
+  "learnset": {
+    "egg": [43, 214, 281, 289, 305, 310, 343, 382, 389, 422, 423, 424],
+    "level-up": [28, 33, 36, 44, 46, 184, 207, 242, 269, 316, 336, 372, 373, 389],
+    "machine": [46, 91, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 371, 373, 496, 510, 514, 555],
+    "tutor": [162, 173, 180, 214, 231, 253, 289, 304, 343, 399, 492]
+  }
+}

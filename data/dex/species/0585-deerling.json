@@ -1,0 +1,24 @@
+{
+  "id": 585,
+  "name": "deerling",
+  "display": "Deerling",
+  "types": ["normal", "grass"],
+  "base": {"hp": 60, "atk": 60, "def": 50, "spa": 40, "spd": 50, "spe": 75},
+  "abilities": [
+    {"name": "chlorophyll", "hidden": false, "slot": 1},
+    {"name": "sap-sipper", "hidden": false, "slot": 2},
+    {"name": "serene-grace", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["sawsbuck"],
+  "learnset": {
+    "egg": [97, 214, 226, 235, 313, 316, 320, 363, 388],
+    "level-up": [24, 26, 28, 33, 36, 38, 45, 73, 76, 185, 204, 267, 293, 312, 412],
+    "machine": [76, 86, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 247, 263, 412, 447, 496, 497, 514, 526, 528],
+    "tutor": [173, 202, 214, 235, 340, 387, 388, 402]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 231,
+  "name": "phanpy",
+  "display": "Phanpy",
+  "types": ["ground"],
+  "base": {"hp": 90, "atk": 60, "def": 60, "spa": 40, "spd": 40, "spe": 40},
+  "abilities": [
+    {"name": "pickup", "hidden": false, "slot": 1},
+    {"name": "sand-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["donphan"],
+  "learnset": {
+    "egg": [34, 68, 90, 116, 173, 189, 246, 283, 420, 457, 484],
+    "level-up": [21, 33, 36, 38, 45, 111, 175, 203, 204, 205, 316, 363, 387],
+    "machine": [46, 70, 89, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 496, 497, 523],
+    "tutor": [173, 214, 231, 276, 282, 283, 304, 387, 402, 414, 441, 446]
+  }
+}

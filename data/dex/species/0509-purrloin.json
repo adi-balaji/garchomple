@@ -1,0 +1,24 @@
+{
+  "id": 509,
+  "name": "purrloin",
+  "display": "Purrloin",
+  "types": ["dark"],
+  "base": {"hp": 41, "atk": 50, "def": 37, "spa": 50, "spd": 37, "spe": 66},
+  "abilities": [
+    {"name": "limber", "hidden": false, "slot": 1},
+    {"name": "unburden", "hidden": false, "slot": 2},
+    {"name": "prankster", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["liepard"],
+  "learnset": {
+    "egg": [6, 185, 204, 227, 281, 313, 343, 492],
+    "level-up": [10, 28, 45, 154, 163, 228, 252, 259, 274, 289, 372, 389, 400, 417, 445, 468],
+    "machine": [15, 86, 92, 104, 138, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 263, 269, 332, 369, 371, 373, 421, 447, 468, 496, 497, 555],
+    "tutor": [173, 180, 214, 231, 271, 272, 282, 289, 304, 343, 399, 402, 441, 492]
+  }
+}

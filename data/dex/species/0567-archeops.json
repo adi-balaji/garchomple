@@ -1,0 +1,21 @@
+{
+  "id": 567,
+  "name": "archeops",
+  "display": "Archeops",
+  "types": ["rock", "flying"],
+  "base": {"hp": 75, "atk": 140, "def": 65, "spa": 112, "spd": 65, "spe": 110},
+  "abilities": [
+    {"name": "defeatist", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "archen",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [17, 37, 43, 88, 97, 98, 104, 157, 184, 225, 242, 246, 283, 337, 365, 369, 501, 512],
+    "machine": [15, 19, 46, 63, 89, 91, 92, 104, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 249, 259, 263, 269, 317, 332, 337, 365, 369, 397, 411, 416, 421, 444, 468, 479, 496, 512, 523, 525],
+    "tutor": [143, 173, 200, 214, 231, 253, 257, 283, 334, 340, 355, 366, 401, 406, 414, 446]
+  }
+}

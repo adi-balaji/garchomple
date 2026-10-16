@@ -1,0 +1,23 @@
+{
+  "id": 582,
+  "name": "vanillite",
+  "display": "Vanillite",
+  "types": ["ice"],
+  "base": {"hp": 36, "atk": 50, "def": 50, "spa": 65, "spd": 60, "spe": 44},
+  "abilities": [
+    {"name": "ice-body", "hidden": false, "slot": 1},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["vanillish"],
+  "learnset": {
+    "egg": [181, 286, 334, 352, 363, 393, 420, 475],
+    "level-up": [54, 58, 59, 106, 151, 196, 243, 253, 258, 269, 310, 329, 333, 419, 429],
+    "machine": [58, 59, 92, 104, 113, 153, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 269, 430, 496, 524],
+    "tutor": [173, 196, 214, 253, 277, 324, 334, 393]
+  }
+}

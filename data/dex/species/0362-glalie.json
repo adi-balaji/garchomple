@@ -1,0 +1,23 @@
+{
+  "id": 362,
+  "name": "glalie",
+  "display": "Glalie",
+  "types": ["ice"],
+  "base": {"hp": 80, "atk": 80, "def": 80, "spa": 80, "spd": 80, "spe": 80},
+  "abilities": [
+    {"name": "inner-focus", "hidden": false, "slot": 1},
+    {"name": "ice-body", "hidden": false, "slot": 2},
+    {"name": "moody", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "snorunt",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [29, 43, 44, 58, 59, 104, 181, 182, 196, 242, 258, 329, 423],
+    "machine": [58, 59, 63, 89, 92, 104, 113, 148, 153, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 247, 258, 259, 263, 269, 360, 371, 416, 496, 523, 524],
+    "tutor": [162, 173, 180, 196, 214, 324, 335, 399, 442]
+  }
+}

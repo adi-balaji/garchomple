@@ -1,0 +1,24 @@
+{
+  "id": 86,
+  "name": "seel",
+  "display": "Seel",
+  "types": ["water"],
+  "base": {"hp": 65, "atk": 45, "def": 55, "spa": 45, "spd": 70, "spe": 45},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "hydration", "hidden": false, "slot": 2},
+    {"name": "ice-body", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["dewgong"],
+  "learnset": {
+    "egg": [21, 32, 50, 122, 195, 214, 227, 231, 252, 254, 255, 256, 324, 333, 352],
+    "level-up": [29, 36, 45, 58, 62, 156, 196, 219, 227, 258, 291, 346, 362, 392, 401, 420, 453],
+    "machine": [57, 58, 59, 92, 104, 127, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 240, 258, 263, 291, 374, 496, 497],
+    "tutor": [173, 196, 214, 231, 324, 401, 529]
+  }
+}

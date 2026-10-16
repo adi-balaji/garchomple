@@ -1,0 +1,24 @@
+{
+  "id": 535,
+  "name": "tympole",
+  "display": "Tympole",
+  "types": ["water"],
+  "base": {"hp": 50, "atk": 50, "def": 40, "spa": 50, "spd": 40, "spe": 64},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "hydration", "hidden": false, "slot": 2},
+    {"name": "water-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["palpitoad"],
+  "learnset": {
+    "egg": [54, 173, 214, 287, 300, 352, 414, 426],
+    "level-up": [45, 48, 56, 61, 145, 175, 240, 253, 304, 330, 341, 392, 496, 497],
+    "machine": [57, 92, 104, 156, 164, 182, 188, 207, 213, 216, 218, 237, 240, 258, 263, 482, 496, 497, 503],
+    "tutor": [173, 196, 214, 253, 283, 304, 340, 414]
+  }
+}

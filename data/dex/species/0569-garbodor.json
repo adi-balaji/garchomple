@@ -1,0 +1,23 @@
+{
+  "id": 569,
+  "name": "garbodor",
+  "display": "Garbodor",
+  "types": ["poison"],
+  "base": {"hp": 80, "atk": 95, "def": 82, "spa": 60, "spd": 82, "spe": 75},
+  "abilities": [
+    {"name": "stench", "hidden": false, "slot": 1},
+    {"name": "weak-armor", "hidden": false, "slot": 2},
+    {"name": "aftermath", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "trubbish",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [1, 3, 34, 92, 124, 133, 139, 153, 188, 254, 256, 278, 390, 441, 491, 499],
+    "machine": [63, 76, 85, 92, 94, 104, 153, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 240, 241, 263, 371, 374, 397, 411, 416, 474, 479, 482, 496],
+    "tutor": [173, 180, 202, 214, 220, 278, 399, 402, 409, 441]
+  }
+}

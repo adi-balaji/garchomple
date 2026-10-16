@@ -1,0 +1,23 @@
+{
+  "id": 469,
+  "name": "yanmega",
+  "display": "Yanmega",
+  "types": ["bug", "flying"],
+  "base": {"hp": 86, "atk": 76, "def": 86, "spa": 116, "spd": 56, "spe": 95},
+  "abilities": [
+    {"name": "speed-boost", "hidden": false, "slot": 1},
+    {"name": "tinted-lens", "hidden": false, "slot": 2},
+    {"name": "frisk", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "yanma",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [33, 48, 49, 98, 103, 104, 163, 193, 197, 228, 246, 253, 364, 369, 400, 403, 405, 450],
+    "machine": [63, 76, 92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 241, 244, 247, 263, 332, 369, 416, 496, 522],
+    "tutor": [173, 202, 214, 253, 324, 355, 366, 450]
+  }
+}

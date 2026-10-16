@@ -1,0 +1,23 @@
+{
+  "id": 171,
+  "name": "lanturn",
+  "display": "Lanturn",
+  "types": ["water", "electric"],
+  "base": {"hp": 125, "atk": 58, "def": 58, "spa": 76, "spd": 76, "spe": 67},
+  "abilities": [
+    {"name": "volt-absorb", "hidden": false, "slot": 1},
+    {"name": "illuminate", "hidden": false, "slot": 2},
+    {"name": "water-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "chinchou",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [36, 48, 55, 56, 61, 86, 109, 145, 175, 209, 254, 255, 256, 268, 324, 392, 435, 486],
+    "machine": [57, 58, 59, 63, 85, 86, 87, 92, 104, 127, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 416, 451, 496, 503, 521, 528],
+    "tutor": [173, 196, 214, 215, 324, 340, 401]
+  }
+}

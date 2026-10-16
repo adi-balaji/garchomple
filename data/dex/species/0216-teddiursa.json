@@ -1,0 +1,24 @@
+{
+  "id": 216,
+  "name": "teddiursa",
+  "display": "Teddiursa",
+  "types": ["normal"],
+  "base": {"hp": 60, "atk": 80, "def": 50, "spa": 50, "spd": 50, "spe": 40},
+  "abilities": [
+    {"name": "pickup", "hidden": false, "slot": 1},
+    {"name": "quick-feet", "hidden": false, "slot": 2},
+    {"name": "honey-gather", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["ursaring"],
+  "learnset": {
+    "egg": [36, 38, 68, 69, 187, 214, 232, 238, 242, 281, 313, 370, 400, 498],
+    "level-up": [10, 37, 43, 122, 154, 156, 163, 173, 185, 204, 230, 313, 343, 374],
+    "machine": [14, 15, 46, 70, 89, 91, 92, 104, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 249, 259, 263, 269, 280, 317, 332, 339, 371, 374, 421, 468, 496, 514, 523, 526],
+    "tutor": [7, 8, 9, 173, 214, 276, 304, 343, 387, 402, 441]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 324,
+  "name": "torkoal",
+  "display": "Torkoal",
+  "types": ["fire"],
+  "base": {"hp": 70, "atk": 85, "def": 140, "spa": 85, "spd": 70, "spe": 20},
+  "abilities": [
+    {"name": "white-smoke", "hidden": false, "slot": 1},
+    {"name": "shell-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [90, 130, 203, 214, 281, 284, 481, 499],
+    "level-up": [34, 52, 53, 83, 108, 110, 123, 133, 174, 175, 182, 229, 257, 334, 436, 504, 517],
+    "machine": [53, 63, 70, 76, 89, 92, 104, 126, 153, 156, 157, 164, 182, 188, 207, 213, 216, 218, 237, 241, 249, 261, 263, 315, 317, 360, 416, 444, 488, 496, 510, 523],
+    "tutor": [173, 214, 231, 257, 334, 414, 446, 495]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 618,
+  "name": "stunfisk",
+  "display": "Stunfisk",
+  "types": ["ground", "electric"],
+  "base": {"hp": 109, "atk": 66, "def": 84, "spa": 81, "spd": 99, "spe": 32},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "limber", "hidden": false, "slot": 2},
+    {"name": "sand-veil", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [174, 180, 209, 214, 220, 281, 310, 351, 414],
+    "level-up": [84, 85, 90, 117, 175, 189, 203, 279, 293, 300, 330, 340, 341, 426, 435],
+    "machine": [57, 85, 86, 87, 89, 91, 92, 104, 148, 156, 157, 164, 182, 188, 201, 207, 213, 216, 218, 237, 240, 263, 317, 371, 444, 482, 496, 503, 523],
+    "tutor": [173, 180, 214, 220, 253, 283, 340, 393, 401, 414, 446, 492, 527]
+  }
+}

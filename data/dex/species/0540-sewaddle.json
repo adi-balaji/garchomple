@@ -1,0 +1,24 @@
+{
+  "id": 540,
+  "name": "sewaddle",
+  "display": "Sewaddle",
+  "types": ["bug", "grass"],
+  "base": {"hp": 45, "atk": 53, "def": 70, "spa": 40, "spd": 60, "spe": 42},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "chlorophyll", "hidden": false, "slot": 2},
+    {"name": "overcoat", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["swadloon"],
+  "learnset": {
+    "egg": [13, 97, 103, 170, 226, 293, 318, 382, 403],
+    "level-up": [33, 75, 81, 175, 203, 405, 450, 522],
+    "machine": [15, 76, 92, 104, 113, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 241, 263, 347, 371, 412, 447, 496, 522],
+    "tutor": [173, 202, 214, 235, 277, 324, 334, 388, 402, 450, 527]
+  }
+}

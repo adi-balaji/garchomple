@@ -1,0 +1,24 @@
+{
+  "id": 607,
+  "name": "litwick",
+  "display": "Litwick",
+  "types": ["ghost", "fire"],
+  "base": {"hp": 50, "atk": 30, "def": 55, "spa": 65, "spd": 55, "spe": 20},
+  "abilities": [
+    {"name": "flash-fire", "hidden": false, "slot": 1},
+    {"name": "flame-body", "hidden": false, "slot": 2},
+    {"name": "shadow-tag", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["lampent"],
+  "learnset": {
+    "egg": [51, 114, 151, 203, 257, 445, 499],
+    "level-up": [52, 83, 101, 107, 109, 123, 174, 220, 247, 261, 262, 286, 310, 315, 481, 506, 517],
+    "machine": [53, 76, 92, 94, 104, 126, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 241, 244, 247, 261, 263, 269, 315, 347, 371, 373, 412, 433, 477, 488, 496, 510],
+    "tutor": [173, 180, 214, 220, 257, 271, 399]
+  }
+}

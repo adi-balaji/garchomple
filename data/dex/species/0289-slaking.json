@@ -1,0 +1,21 @@
+{
+  "id": 289,
+  "name": "slaking",
+  "display": "Slaking",
+  "types": ["normal"],
+  "base": {"hp": 150, "atk": 160, "def": 100, "spa": 95, "spd": 65, "spe": 100},
+  "abilities": [
+    {"name": "truant", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "vigoroth",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 68, 133, 175, 185, 207, 227, 281, 303, 343, 359, 374, 386, 498],
+    "machine": [15, 46, 53, 58, 59, 63, 70, 76, 85, 87, 89, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 269, 280, 317, 332, 339, 374, 411, 416, 421, 468, 479, 490, 496, 510, 511, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 196, 214, 335, 343, 441, 495]
+  }
+}

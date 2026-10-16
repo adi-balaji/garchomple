@@ -1,0 +1,24 @@
+{
+  "id": 299,
+  "name": "nosepass",
+  "display": "Nosepass",
+  "types": ["rock"],
+  "base": {"hp": 30, "atk": 45, "def": 135, "spa": 45, "spd": 90, "spe": 30},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "magnet-pull", "hidden": false, "slot": 2},
+    {"name": "sand-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["probopass"],
+  "learnset": {
+    "egg": [38, 203, 205, 222, 335, 446],
+    "level-up": [33, 86, 88, 106, 156, 157, 192, 199, 201, 209, 335, 350, 408, 414, 435, 444],
+    "machine": [70, 85, 86, 87, 89, 92, 104, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 259, 263, 269, 317, 397, 444, 479, 496, 521, 523],
+    "tutor": [7, 8, 9, 173, 214, 220, 277, 334, 335, 356, 393, 414, 446]
+  }
+}

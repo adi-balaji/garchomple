@@ -1,0 +1,24 @@
+{
+  "id": 556,
+  "name": "maractus",
+  "display": "Maractus",
+  "types": ["grass"],
+  "base": {"hp": 75, "atk": 86, "def": 67, "spa": 106, "spd": 67, "spe": 60},
+  "abilities": [
+    {"name": "water-absorb", "hidden": false, "slot": 1},
+    {"name": "chlorophyll", "hidden": false, "slot": 2},
+    {"name": "storm-drain", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [73, 191, 320, 331, 340, 388, 402, 452],
+    "level-up": [42, 64, 71, 72, 74, 76, 80, 178, 202, 230, 235, 241, 275, 302, 367, 389, 495, 538],
+    "machine": [76, 92, 104, 156, 164, 182, 207, 213, 216, 218, 219, 237, 241, 263, 332, 398, 412, 447, 496],
+    "tutor": [173, 202, 214, 235, 253, 270, 282, 283, 304, 340, 388, 402, 409, 495]
+  }
+}

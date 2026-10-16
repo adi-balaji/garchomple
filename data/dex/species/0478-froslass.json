@@ -1,0 +1,22 @@
+{
+  "id": 478,
+  "name": "froslass",
+  "display": "Froslass",
+  "types": ["ice", "ghost"],
+  "base": {"hp": 70, "atk": 80, "def": 70, "spa": 80, "spd": 70, "spe": 110},
+  "abilities": [
+    {"name": "snow-cloak", "hidden": false, "slot": 1},
+    {"name": "cursed-body", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 8,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "snorunt",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [43, 59, 104, 109, 181, 194, 196, 258, 310, 358, 420, 445, 466],
+    "machine": [58, 59, 63, 85, 86, 87, 92, 94, 104, 113, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 244, 247, 258, 259, 263, 269, 371, 373, 374, 416, 477, 496, 524],
+    "tutor": [8, 173, 180, 196, 214, 220, 271, 289, 324, 335]
+  }
+}

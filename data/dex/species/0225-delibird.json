@@ -1,0 +1,24 @@
+{
+  "id": 225,
+  "name": "delibird",
+  "display": "Delibird",
+  "types": ["ice", "flying"],
+  "base": {"hp": 45, "atk": 55, "def": 45, "spa": 65, "spd": 45, "spe": 75},
+  "abilities": [
+    {"name": "vital-spirit", "hidden": false, "slot": 1},
+    {"name": "hustle", "hidden": false, "slot": 2},
+    {"name": "insomnia", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [8, 62, 98, 150, 196, 229, 248, 252, 301, 420, 516],
+    "level-up": [217],
+    "machine": [19, 58, 59, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 258, 263, 280, 332, 365, 374, 496, 524],
+    "tutor": [8, 143, 196, 214, 278, 324, 340, 402, 441]
+  }
+}

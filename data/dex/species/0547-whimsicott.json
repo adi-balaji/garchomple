@@ -1,0 +1,23 @@
+{
+  "id": 547,
+  "name": "whimsicott",
+  "display": "Whimsicott",
+  "types": ["grass"],
+  "base": {"hp": 60, "atk": 67, "def": 85, "spa": 77, "spd": 75, "spe": 116},
+  "abilities": [
+    {"name": "prankster", "hidden": false, "slot": 1},
+    {"name": "infiltrator", "hidden": false, "slot": 2},
+    {"name": "chlorophyll", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "cottonee",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 72, 73, 74, 178, 366, 542],
+    "machine": [63, 76, 92, 94, 104, 113, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 219, 237, 241, 247, 263, 269, 369, 374, 412, 416, 433, 447, 496],
+    "tutor": [173, 202, 214, 270, 282, 283, 343, 366, 388, 402]
+  }
+}

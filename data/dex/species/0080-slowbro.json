@@ -1,0 +1,23 @@
+{
+  "id": 80,
+  "name": "slowbro",
+  "display": "Slowbro",
+  "types": ["water", "psychic"],
+  "base": {"hp": 95, "atk": 75, "def": 110, "spa": 100, "spd": 80, "spe": 30},
+  "abilities": [
+    {"name": "oblivious", "hidden": false, "slot": 1},
+    {"name": "own-tempo", "hidden": false, "slot": 2},
+    {"name": "regenerator", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "slowpoke",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [29, 33, 45, 50, 55, 93, 94, 110, 133, 174, 240, 244, 281, 303, 352, 428, 505],
+    "machine": [53, 57, 58, 59, 63, 70, 86, 89, 91, 92, 94, 104, 113, 126, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 249, 258, 263, 280, 291, 332, 347, 374, 411, 416, 433, 447, 473, 477, 496, 497, 503, 510, 523],
+    "tutor": [8, 173, 196, 214, 231, 271, 277, 278, 285, 324, 334, 335, 401, 409, 428, 472, 492, 495]
+  }
+}

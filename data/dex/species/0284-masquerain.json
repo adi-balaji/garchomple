@@ -1,0 +1,22 @@
+{
+  "id": 284,
+  "name": "masquerain",
+  "display": "Masquerain",
+  "types": ["bug", "flying"],
+  "base": {"hp": 70, "atk": 60, "def": 62, "spa": 80, "spd": 82, "spe": 60},
+  "abilities": [
+    {"name": "intimidate", "hidden": false, "slot": 1},
+    {"name": "unnerve", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "surskit",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 18, 78, 98, 145, 184, 230, 318, 346, 403, 405, 466, 483],
+    "machine": [58, 59, 63, 76, 92, 104, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 332, 369, 412, 416, 496, 503, 522],
+    "tutor": [173, 196, 202, 214, 324, 355, 366, 450]
+  }
+}

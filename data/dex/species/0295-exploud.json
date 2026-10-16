@@ -1,0 +1,22 @@
+{
+  "id": 295,
+  "name": "exploud",
+  "display": "Exploud",
+  "types": ["normal"],
+  "base": {"hp": 104, "atk": 91, "def": 63, "spa": 91, "spd": 63, "spe": 68},
+  "abilities": [
+    {"name": "soundproof", "hidden": false, "slot": 1},
+    {"name": "scrappy", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "loudred",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [1, 23, 44, 46, 48, 63, 103, 156, 214, 242, 253, 304, 310, 336, 422, 423, 424, 485],
+    "machine": [46, 53, 57, 58, 59, 63, 70, 76, 89, 92, 104, 126, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 280, 315, 317, 374, 411, 416, 479, 496, 497, 510, 514, 523, 526],
+    "tutor": [7, 8, 9, 67, 173, 196, 200, 214, 253, 283, 304, 428]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 492,
+  "name": "shaymin",
+  "display": "Shaymin",
+  "types": ["grass"],
+  "base": {"hp": 100, "atk": 100, "def": 100, "spa": 100, "spd": 100, "spe": 100},
+  "abilities": [
+    {"name": "natural-cure", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium-slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": true,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [73, 74, 186, 230, 235, 312, 345, 361, 363, 388, 412, 465],
+    "machine": [14, 63, 76, 92, 94, 104, 148, 156, 164, 182, 207, 216, 218, 219, 237, 241, 244, 263, 412, 416, 447, 496],
+    "tutor": [173, 202, 214, 235, 283, 343, 387, 388, 402, 414, 428]
+  }
+}

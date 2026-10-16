@@ -1,0 +1,22 @@
+{
+  "id": 148,
+  "name": "dragonair",
+  "display": "Dragonair",
+  "types": ["dragon"],
+  "base": {"hp": 61, "atk": 84, "def": 65, "spa": 70, "spd": 70, "spe": 70},
+  "abilities": [
+    {"name": "shed-skin", "hidden": false, "slot": 1},
+    {"name": "marvel-scale", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "dratini",
+  "evolvesTo": ["dragonite"],
+  "learnset": {
+    "level-up": [21, 35, 43, 63, 82, 86, 97, 200, 219, 239, 349, 401, 407, 525],
+    "machine": [53, 57, 58, 59, 63, 85, 86, 87, 92, 104, 113, 126, 127, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 258, 263, 496, 510, 525],
+    "tutor": [20, 173, 196, 200, 214, 231, 401, 406, 434]
+  }
+}

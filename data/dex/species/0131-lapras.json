@@ -1,0 +1,24 @@
+{
+  "id": 131,
+  "name": "lapras",
+  "display": "Lapras",
+  "types": ["water", "ice"],
+  "base": {"hp": 130, "atk": 85, "def": 80, "spa": 85, "spd": 95, "spe": 60},
+  "abilities": [
+    {"name": "water-absorb", "hidden": false, "slot": 1},
+    {"name": "shell-armor", "hidden": false, "slot": 2},
+    {"name": "hydration", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [32, 90, 174, 193, 214, 246, 248, 250, 287, 321, 349, 406, 419],
+    "level-up": [34, 45, 47, 54, 55, 56, 58, 109, 195, 219, 240, 329, 352, 362, 420],
+    "machine": [46, 57, 58, 59, 63, 70, 85, 87, 92, 94, 104, 127, 138, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 249, 258, 263, 291, 416, 496, 497, 523, 524],
+    "tutor": [173, 196, 200, 214, 215, 231, 304, 324, 335, 401, 406, 428, 442, 529]
+  }
+}

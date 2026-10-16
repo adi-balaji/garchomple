@@ -1,0 +1,22 @@
+{
+  "id": 244,
+  "name": "entei",
+  "display": "Entei",
+  "types": ["fire"],
+  "base": {"hp": 115, "atk": 115, "def": 85, "spa": 90, "spd": 75, "spe": 100},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "flash-fire", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [23, 43, 44, 46, 52, 53, 83, 126, 207, 284, 326, 347, 424, 436],
+    "machine": [15, 46, 53, 63, 70, 76, 91, 92, 104, 115, 126, 148, 156, 164, 182, 201, 207, 216, 218, 237, 240, 241, 244, 247, 249, 261, 263, 315, 347, 416, 444, 488, 496, 510, 511, 523, 555],
+    "tutor": [173, 214, 231, 257, 442]
+  }
+}

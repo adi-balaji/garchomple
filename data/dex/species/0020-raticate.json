@@ -1,0 +1,23 @@
+{
+  "id": 20,
+  "name": "raticate",
+  "display": "Raticate",
+  "types": ["normal"],
+  "base": {"hp": 55, "atk": 81, "def": 60, "spa": 50, "spd": 70, "spe": 97},
+  "abilities": [
+    {"name": "run-away", "hidden": false, "slot": 1},
+    {"name": "guts", "hidden": false, "slot": 2},
+    {"name": "hustle", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "rattata",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [14, 33, 38, 39, 44, 98, 116, 158, 162, 184, 228, 242, 283, 372, 389],
+    "machine": [14, 15, 46, 58, 59, 63, 70, 85, 86, 87, 91, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 247, 249, 263, 269, 365, 369, 416, 447, 451, 496, 514, 526, 528],
+    "tutor": [162, 173, 196, 214, 231, 253, 283, 343, 387, 428]
+  }
+}

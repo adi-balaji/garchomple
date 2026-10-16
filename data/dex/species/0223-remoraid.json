@@ -1,0 +1,24 @@
+{
+  "id": 223,
+  "name": "remoraid",
+  "display": "Remoraid",
+  "types": ["water"],
+  "base": {"hp": 35, "atk": 65, "def": 35, "spa": 65, "spd": 35, "spe": 65},
+  "abilities": [
+    {"name": "hustle", "hidden": false, "slot": 1},
+    {"name": "sniper", "hidden": false, "slot": 2},
+    {"name": "moody", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["octillery"],
+  "learnset": {
+    "egg": [48, 62, 103, 114, 129, 173, 175, 190, 323, 341, 350, 352, 491],
+    "level-up": [55, 56, 58, 60, 61, 62, 63, 116, 199, 324, 331, 352, 487],
+    "machine": [53, 57, 58, 59, 63, 86, 92, 94, 104, 126, 127, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 263, 291, 451, 479, 496, 503, 510],
+    "tutor": [173, 196, 214, 324, 340, 402, 441]
+  }
+}

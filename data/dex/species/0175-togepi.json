@@ -1,0 +1,24 @@
+{
+  "id": 175,
+  "name": "togepi",
+  "display": "Togepi",
+  "types": ["normal"],
+  "base": {"hp": 35, "atk": 20, "def": 65, "spa": 40, "spd": 65, "spe": 20},
+  "abilities": [
+    {"name": "hustle", "hidden": false, "slot": 1},
+    {"name": "serene-grace", "hidden": false, "slot": 2},
+    {"name": "super-luck", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["togetic"],
+  "learnset": {
+    "egg": [64, 119, 193, 217, 234, 248, 290, 326, 375, 381, 417, 500],
+    "level-up": [38, 45, 118, 186, 204, 219, 226, 227, 246, 266, 273, 281, 387, 495, 516],
+    "machine": [53, 76, 86, 92, 94, 104, 113, 115, 126, 138, 148, 156, 164, 182, 207, 213, 216, 218, 219, 237, 240, 241, 244, 247, 249, 263, 374, 447, 473, 477, 496, 497, 510, 526],
+    "tutor": [173, 214, 215, 253, 271, 277, 283, 304, 324, 343, 387, 428, 495]
+  }
+}

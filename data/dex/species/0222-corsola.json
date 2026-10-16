@@ -1,0 +1,24 @@
+{
+  "id": 222,
+  "name": "corsola",
+  "display": "Corsola",
+  "types": ["water", "rock"],
+  "base": {"hp": 55, "atk": 55, "def": 85, "spa": 65, "spd": 85, "spe": 35},
+  "abilities": [
+    {"name": "hustle", "hidden": false, "slot": 1},
+    {"name": "natural-cure", "hidden": false, "slot": 2},
+    {"name": "regenerator", "hidden": true, "slot": 3}
+  ],
+  "growth": "fast",
+  "genderRate": 6,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [54, 103, 109, 112, 117, 133, 174, 267, 275, 333, 352, 392, 457],
+    "level-up": [33, 61, 105, 106, 131, 145, 175, 203, 243, 246, 287, 334, 350, 381, 392, 408, 414],
+    "machine": [57, 58, 59, 70, 89, 91, 92, 94, 104, 113, 115, 153, 156, 157, 164, 182, 201, 207, 213, 216, 218, 219, 237, 240, 241, 247, 249, 258, 263, 317, 347, 397, 444, 496, 503, 523],
+    "tutor": [173, 196, 214, 277, 283, 334, 414, 446]
+  }
+}

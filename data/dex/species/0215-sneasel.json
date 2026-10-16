@@ -1,0 +1,24 @@
+{
+  "id": 215,
+  "name": "sneasel",
+  "display": "Sneasel",
+  "types": ["dark", "ice"],
+  "base": {"hp": 55, "atk": 95, "def": 55, "spa": 35, "spd": 75, "spe": 115},
+  "abilities": [
+    {"name": "inner-focus", "hidden": false, "slot": 1},
+    {"name": "keen-eye", "hidden": false, "slot": 2},
+    {"name": "pickpocket", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["weavile"],
+  "learnset": {
+    "egg": [8, 44, 68, 180, 193, 228, 252, 274, 306, 364, 386, 419, 420, 458],
+    "level-up": [10, 43, 97, 98, 103, 154, 163, 185, 196, 232, 251, 269, 289, 386, 420, 468],
+    "machine": [14, 15, 57, 58, 59, 70, 91, 92, 104, 115, 138, 156, 164, 168, 182, 206, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 258, 259, 263, 269, 280, 332, 347, 371, 373, 374, 398, 404, 421, 468, 490, 496, 514, 555],
+    "tutor": [8, 67, 173, 180, 196, 214, 231, 282, 289, 399, 492]
+  }
+}

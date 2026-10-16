@@ -1,0 +1,24 @@
+{
+  "id": 580,
+  "name": "ducklett",
+  "display": "Ducklett",
+  "types": ["water", "flying"],
+  "base": {"hp": 62, "atk": 44, "def": 50, "spa": 44, "spd": 50, "spe": 55},
+  "abilities": [
+    {"name": "keen-eye", "hidden": false, "slot": 1},
+    {"name": "big-pecks", "hidden": false, "slot": 2},
+    {"name": "hydration", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["swanna"],
+  "learnset": {
+    "egg": [16, 119, 211, 314, 362, 381, 382],
+    "level-up": [17, 55, 61, 240, 297, 332, 346, 352, 355, 366, 392, 403, 413, 432, 542],
+    "machine": [19, 57, 58, 92, 104, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 332, 365, 496, 503],
+    "tutor": [173, 196, 214, 253, 283, 355, 366]
+  }
+}

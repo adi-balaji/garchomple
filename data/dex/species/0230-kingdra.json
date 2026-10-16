@@ -1,0 +1,23 @@
+{
+  "id": 230,
+  "name": "kingdra",
+  "display": "Kingdra",
+  "types": ["water", "dragon"],
+  "base": {"hp": 75, "atk": 95, "def": 95, "spa": 95, "spd": 95, "spe": 85},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "sniper", "hidden": false, "slot": 2},
+    {"name": "damp", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "seadra",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [43, 55, 56, 61, 97, 108, 116, 145, 239, 281, 349, 362, 406],
+    "machine": [57, 58, 59, 63, 92, 104, 127, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 291, 416, 430, 496, 503, 511],
+    "tutor": [173, 196, 200, 214, 324, 340, 406, 434, 442]
+  }
+}

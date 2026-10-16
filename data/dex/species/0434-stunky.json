@@ -1,0 +1,24 @@
+{
+  "id": 434,
+  "name": "stunky",
+  "display": "Stunky",
+  "types": ["poison", "dark"],
+  "base": {"hp": 63, "atk": 63, "def": 47, "spa": 41, "spd": 41, "spe": 74},
+  "abilities": [
+    {"name": "stench", "hidden": false, "slot": 1},
+    {"name": "aftermath", "hidden": false, "slot": 2},
+    {"name": "keen-eye", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["skuntank"],
+  "learnset": {
+    "egg": [38, 43, 114, 123, 184, 228, 231, 242, 310, 386, 481, 492],
+    "level-up": [10, 92, 103, 108, 116, 139, 153, 154, 163, 262, 364, 400, 491],
+    "machine": [15, 46, 53, 91, 92, 104, 126, 153, 156, 164, 168, 182, 188, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 371, 421, 468, 474, 496, 510, 555],
+    "tutor": [173, 214, 231, 289, 399, 492]
+  }
+}

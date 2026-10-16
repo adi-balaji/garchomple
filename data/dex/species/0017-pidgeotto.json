@@ -1,0 +1,23 @@
+{
+  "id": 17,
+  "name": "pidgeotto",
+  "display": "Pidgeotto",
+  "types": ["normal", "flying"],
+  "base": {"hp": 63, "atk": 60, "def": 55, "spa": 50, "spd": 50, "spe": 71},
+  "abilities": [
+    {"name": "keen-eye", "hidden": false, "slot": 1},
+    {"name": "tangled-feet", "hidden": false, "slot": 2},
+    {"name": "big-pecks", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "pidgey",
+  "evolvesTo": ["pidgeot"],
+  "learnset": {
+    "level-up": [16, 17, 18, 28, 33, 97, 98, 119, 239, 297, 355, 366, 403, 542],
+    "machine": [19, 92, 104, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 263, 332, 365, 369, 496, 526],
+    "tutor": [173, 214, 253, 257, 355, 366]
+  }
+}

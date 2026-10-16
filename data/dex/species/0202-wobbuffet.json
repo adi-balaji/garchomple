@@ -1,0 +1,20 @@
+{
+  "id": 202,
+  "name": "wobbuffet",
+  "display": "Wobbuffet",
+  "types": ["psychic"],
+  "base": {"hp": 190, "atk": 33, "def": 58, "spa": 33, "spd": 58, "spe": 33},
+  "abilities": [
+    {"name": "shadow-tag", "hidden": false, "slot": 1},
+    {"name": "telepathy", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "wynaut",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [68, 194, 219, 243]
+  }
+}

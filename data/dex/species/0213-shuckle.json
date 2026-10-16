@@ -1,0 +1,24 @@
+{
+  "id": 213,
+  "name": "shuckle",
+  "display": "Shuckle",
+  "types": ["bug", "rock"],
+  "base": {"hp": 20, "atk": 10, "def": 230, "spa": 10, "spd": 230, "spe": 5},
+  "abilities": [
+    {"name": "sturdy", "hidden": false, "slot": 1},
+    {"name": "gluttony", "hidden": false, "slot": 2},
+    {"name": "contrary", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "egg": [51, 189, 230, 270, 282, 328, 350, 367, 515],
+    "level-up": [35, 88, 110, 117, 132, 156, 157, 205, 219, 227, 379, 380, 444, 450, 470, 471, 504, 522],
+    "machine": [70, 89, 91, 92, 104, 148, 156, 157, 164, 182, 188, 201, 207, 213, 216, 218, 219, 237, 241, 249, 263, 317, 360, 397, 444, 474, 479, 482, 496, 522, 523],
+    "tutor": [20, 173, 214, 270, 282, 380, 414, 446, 450, 495]
+  }
+}

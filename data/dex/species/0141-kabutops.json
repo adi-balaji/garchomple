@@ -1,0 +1,23 @@
+{
+  "id": 141,
+  "name": "kabutops",
+  "display": "Kabutops",
+  "types": ["rock", "water"],
+  "base": {"hp": 60, "atk": 115, "def": 105, "spa": 65, "spd": 70, "spe": 80},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "battle-armor", "hidden": false, "slot": 2},
+    {"name": "weak-armor", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "kabuto",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 28, 43, 71, 72, 106, 163, 203, 246, 319, 341, 364, 378, 400, 453],
+    "machine": [14, 15, 57, 58, 59, 63, 91, 92, 104, 127, 156, 157, 164, 168, 182, 201, 207, 213, 216, 218, 237, 240, 249, 258, 263, 280, 291, 317, 332, 397, 404, 416, 444, 468, 479, 496, 503],
+    "tutor": [67, 173, 196, 202, 214, 276, 282, 334, 401, 414, 446]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 516,
+  "name": "simipour",
+  "display": "Simipour",
+  "types": ["water"],
+  "base": {"hp": 75, "atk": 98, "def": 63, "spa": 98, "spd": 63, "spe": 101},
+  "abilities": [
+    {"name": "gluttony", "hidden": false, "slot": 1},
+    {"name": "torrent", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "panpour",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [43, 122, 154, 503],
+    "machine": [15, 57, 58, 59, 63, 91, 92, 104, 127, 156, 157, 164, 168, 182, 207, 213, 216, 218, 237, 240, 249, 258, 259, 263, 269, 280, 291, 317, 371, 374, 411, 416, 421, 447, 468, 490, 496, 503, 512, 526],
+    "tutor": [8, 67, 173, 196, 214, 231, 253, 270, 272, 276, 278, 282, 283, 343, 401, 441]
+  }
+}

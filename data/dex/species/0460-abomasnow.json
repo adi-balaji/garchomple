@@ -1,0 +1,22 @@
+{
+  "id": 460,
+  "name": "abomasnow",
+  "display": "Abomasnow",
+  "types": ["grass", "ice"],
+  "base": {"hp": 90, "atk": 92, "def": 75, "spa": 92, "spd": 85, "spe": 60},
+  "abilities": [
+    {"name": "snow-warning", "hidden": false, "slot": 1},
+    {"name": "soundproof", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "snover",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [8, 43, 54, 59, 75, 181, 196, 207, 275, 320, 329, 420, 452],
+    "machine": [14, 58, 59, 63, 70, 76, 89, 92, 104, 113, 148, 156, 157, 164, 182, 207, 213, 216, 218, 219, 237, 240, 247, 249, 258, 263, 280, 317, 374, 411, 412, 416, 447, 496, 523, 524],
+    "tutor": [8, 173, 196, 200, 202, 214, 231, 235, 272, 335, 388, 402]
+  }
+}

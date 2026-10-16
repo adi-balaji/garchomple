@@ -1,0 +1,24 @@
+{
+  "id": 522,
+  "name": "blitzle",
+  "display": "Blitzle",
+  "types": ["electric"],
+  "base": {"hp": 45, "atk": 60, "def": 32, "spa": 50, "spd": 32, "spe": 76},
+  "abilities": [
+    {"name": "lightning-rod", "hidden": false, "slot": 1},
+    {"name": "motor-drive", "hidden": false, "slot": 2},
+    {"name": "sap-sipper", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["zebstrika"],
+  "learnset": {
+    "egg": [24, 28, 36, 38, 99, 103, 203, 351, 382],
+    "level-up": [23, 37, 39, 86, 97, 98, 209, 228, 268, 351, 435, 488, 528],
+    "machine": [85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 263, 451, 488, 496, 521, 528],
+    "tutor": [173, 214, 324, 340, 393]
+  }
+}

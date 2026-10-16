@@ -1,0 +1,21 @@
+{
+  "id": 647,
+  "name": "keldeo",
+  "display": "Keldeo",
+  "types": ["water", "fighting"],
+  "base": {"hp": 91, "atk": 72, "def": 90, "spa": 129, "spd": 90, "spe": 108},
+  "abilities": [
+    {"name": "justified", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": true,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [14, 24, 36, 43, 56, 61, 270, 370, 401, 453, 501, 514, 526, 533],
+    "machine": [14, 15, 46, 57, 63, 70, 92, 104, 115, 156, 164, 182, 206, 207, 216, 218, 219, 237, 240, 244, 249, 258, 263, 269, 332, 347, 398, 404, 411, 416, 444, 496, 503, 514, 526],
+    "tutor": [173, 196, 214, 270, 276, 283, 340, 343, 387, 401, 548]
+  }
+}

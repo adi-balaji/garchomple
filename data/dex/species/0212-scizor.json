@@ -1,0 +1,23 @@
+{
+  "id": 212,
+  "name": "scizor",
+  "display": "Scizor",
+  "types": ["bug", "steel"],
+  "base": {"hp": 70, "atk": 130, "def": 100, "spa": 55, "spd": 80, "spe": 65},
+  "abilities": [
+    {"name": "swarm", "hidden": false, "slot": 1},
+    {"name": "technician", "hidden": false, "slot": 2},
+    {"name": "light-metal", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "scyther",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [13, 14, 43, 97, 98, 116, 163, 206, 210, 228, 232, 334, 364, 400, 404, 418, 442, 458],
+    "machine": [14, 15, 63, 70, 92, 104, 113, 156, 164, 168, 182, 201, 206, 207, 213, 216, 218, 219, 237, 240, 241, 249, 263, 280, 332, 369, 374, 404, 416, 430, 474, 496, 512, 522],
+    "tutor": [173, 214, 276, 282, 334, 355, 366, 442, 450]
+  }
+}

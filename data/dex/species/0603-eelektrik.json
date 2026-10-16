@@ -1,0 +1,21 @@
+{
+  "id": 603,
+  "name": "eelektrik",
+  "display": "Eelektrik",
+  "types": ["electric"],
+  "base": {"hp": 65, "atk": 85, "def": 70, "spa": 75, "spd": 70, "spe": 40},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "tynamo",
+  "evolvesTo": ["eelektross"],
+  "learnset": {
+    "level-up": [20, 29, 37, 51, 85, 86, 192, 209, 242, 380, 435, 451, 489, 491, 528],
+    "machine": [85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 263, 369, 430, 451, 496, 512, 521, 528],
+    "tutor": [20, 162, 173, 202, 214, 231, 282, 324, 340, 380, 393, 401]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 172,
+  "name": "pichu",
+  "display": "Pichu",
+  "types": ["electric"],
+  "base": {"hp": 20, "atk": 40, "def": 15, "spa": 35, "spd": 35, "spe": 60},
+  "abilities": [
+    {"name": "static", "hidden": false, "slot": 1},
+    {"name": "lightning-rod", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["pikachu"],
+  "learnset": {
+    "egg": [3, 9, 117, 175, 179, 203, 217, 227, 252, 268, 273, 321, 381, 516],
+    "level-up": [39, 84, 86, 186, 204, 417],
+    "light-ball-egg": [344],
+    "machine": [85, 86, 87, 92, 104, 113, 148, 156, 164, 182, 207, 213, 216, 218, 237, 240, 263, 374, 447, 451, 496, 497, 521, 528],
+    "tutor": [173, 214, 231, 253, 270, 324, 343, 393]
+  }
+}

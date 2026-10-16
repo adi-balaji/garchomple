@@ -1,0 +1,23 @@
+{
+  "id": 51,
+  "name": "dugtrio",
+  "display": "Dugtrio",
+  "types": ["ground"],
+  "base": {"hp": 35, "atk": 80, "def": 50, "spa": 50, "spd": 70, "spe": 120},
+  "abilities": [
+    {"name": "sand-veil", "hidden": false, "slot": 1},
+    {"name": "arena-trap", "hidden": false, "slot": 2},
+    {"name": "sand-force", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "diglett",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 28, 45, 89, 90, 91, 161, 163, 189, 222, 310, 328, 389, 400, 414, 426, 523],
+    "machine": [15, 63, 89, 91, 92, 104, 156, 157, 164, 168, 182, 188, 201, 207, 213, 216, 218, 237, 241, 249, 263, 317, 332, 416, 421, 444, 468, 482, 496, 497, 523],
+    "tutor": [173, 214, 253, 414, 446]
+  }
+}

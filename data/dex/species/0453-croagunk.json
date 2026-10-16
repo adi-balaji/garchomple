@@ -1,0 +1,24 @@
+{
+  "id": 453,
+  "name": "croagunk",
+  "display": "Croagunk",
+  "types": ["poison", "fighting"],
+  "base": {"hp": 48, "atk": 61, "def": 40, "spa": 61, "spd": 40, "spe": 50},
+  "abilities": [
+    {"name": "anticipation", "hidden": false, "slot": 1},
+    {"name": "dry-skin", "hidden": false, "slot": 2},
+    {"name": "poison-touch", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["toxicroak"],
+  "learnset": {
+    "egg": [29, 68, 96, 223, 238, 252, 265, 358, 364, 367, 382, 409, 410, 418],
+    "level-up": [40, 185, 188, 189, 207, 228, 260, 269, 279, 310, 389, 398, 417, 426, 474],
+    "machine": [70, 89, 91, 92, 104, 156, 157, 164, 168, 182, 188, 207, 213, 216, 218, 237, 240, 241, 247, 249, 259, 263, 269, 280, 317, 339, 371, 373, 374, 398, 404, 411, 474, 482, 490, 496, 514, 523, 526],
+    "tutor": [8, 9, 67, 162, 173, 180, 196, 214, 270, 272, 282, 289, 340, 399, 409, 441, 492, 530]
+  }
+}

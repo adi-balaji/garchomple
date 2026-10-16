@@ -1,0 +1,24 @@
+{
+  "id": 363,
+  "name": "spheal",
+  "display": "Spheal",
+  "types": ["ice", "water"],
+  "base": {"hp": 70, "atk": 40, "def": 50, "spa": 55, "spd": 50, "spe": 25},
+  "abilities": [
+    {"name": "thick-fat", "hidden": false, "slot": 1},
+    {"name": "ice-body", "hidden": false, "slot": 2},
+    {"name": "oblivious", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["sealeo"],
+  "learnset": {
+    "egg": [90, 174, 205, 214, 254, 255, 256, 281, 324, 346, 352, 392],
+    "level-up": [34, 45, 55, 59, 62, 111, 156, 173, 181, 227, 258, 301, 329],
+    "machine": [57, 58, 59, 70, 89, 92, 104, 127, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 249, 258, 263, 291, 317, 496, 497, 523, 524],
+    "tutor": [162, 173, 196, 214, 231, 324, 401]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 245,
+  "name": "suicune",
+  "display": "Suicune",
+  "types": ["water"],
+  "base": {"hp": 100, "atk": 75, "def": 115, "spa": 90, "spd": 115, "spe": 85},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "water-absorb", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 43, 44, 54, 56, 59, 61, 62, 240, 243, 326, 347, 366, 423],
+    "machine": [15, 46, 57, 58, 59, 63, 91, 92, 104, 115, 127, 156, 164, 182, 201, 207, 216, 218, 237, 240, 241, 244, 247, 249, 258, 263, 291, 347, 416, 496, 503, 511, 523, 555],
+    "tutor": [173, 196, 214, 231, 324, 366, 442]
+  }
+}

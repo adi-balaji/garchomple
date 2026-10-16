@@ -1,0 +1,21 @@
+{
+  "id": 615,
+  "name": "cryogonal",
+  "display": "Cryogonal",
+  "types": ["ice"],
+  "base": {"hp": 70, "atk": 30, "def": 50, "spa": 95, "spd": 135, "spe": 105},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "medium",
+  "genderRate": -1,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [20, 54, 58, 62, 76, 105, 109, 113, 114, 115, 151, 159, 163, 196, 229, 329, 400, 420],
+    "machine": [58, 59, 63, 76, 92, 104, 113, 115, 153, 156, 164, 182, 207, 213, 216, 218, 237, 240, 258, 263, 398, 430, 496, 512, 524],
+    "tutor": [20, 173, 196, 214, 277, 282, 324, 334]
+  }
+}

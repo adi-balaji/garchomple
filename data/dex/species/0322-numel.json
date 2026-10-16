@@ -1,0 +1,24 @@
+{
+  "id": 322,
+  "name": "numel",
+  "display": "Numel",
+  "types": ["fire", "ground"],
+  "base": {"hp": 60, "atk": 60, "def": 40, "spa": 65, "spd": 45, "spe": 35},
+  "abilities": [
+    {"name": "oblivious", "hidden": false, "slot": 1},
+    {"name": "simple", "hidden": false, "slot": 2},
+    {"name": "own-tempo", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["camerupt"],
+  "learnset": {
+    "egg": [23, 34, 111, 184, 203, 205, 246, 254, 255, 256, 257, 281, 336, 426, 442],
+    "level-up": [33, 36, 38, 45, 52, 53, 89, 116, 133, 174, 222, 281, 414, 436, 481],
+    "machine": [53, 70, 89, 91, 92, 104, 126, 156, 157, 164, 182, 201, 207, 213, 216, 218, 237, 241, 249, 261, 263, 315, 317, 488, 496, 497, 510, 523],
+    "tutor": [173, 214, 257, 414, 442, 446, 495]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 200,
+  "name": "misdreavus",
+  "display": "Misdreavus",
+  "types": ["ghost"],
+  "base": {"hp": 60, "atk": 60, "def": 60, "spa": 85, "spd": 85, "spe": 85},
+  "abilities": [
+    {"name": "levitate", "hidden": false, "slot": 1}
+  ],
+  "growth": "fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["mismagius"],
+  "learnset": {
+    "egg": [103, 174, 180, 194, 262, 285, 286, 389, 417, 425, 466, 472],
+    "level-up": [45, 60, 109, 149, 180, 195, 212, 220, 247, 288, 310, 371, 408, 506],
+    "machine": [85, 86, 87, 92, 94, 104, 138, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 259, 261, 263, 269, 332, 347, 371, 373, 433, 451, 477, 496, 497],
+    "tutor": [173, 180, 196, 214, 215, 220, 253, 271, 277, 285, 289, 304, 399, 472, 478, 492]
+  }
+}

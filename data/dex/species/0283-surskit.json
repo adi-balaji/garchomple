@@ -1,0 +1,23 @@
+{
+  "id": 283,
+  "name": "surskit",
+  "display": "Surskit",
+  "types": ["bug", "water"],
+  "base": {"hp": 40, "atk": 30, "def": 32, "spa": 50, "spd": 52, "spe": 65},
+  "abilities": [
+    {"name": "swift-swim", "hidden": false, "slot": 1},
+    {"name": "rain-dish", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["masquerain"],
+  "learnset": {
+    "egg": [56, 60, 170, 193, 203, 324, 341, 450, 453],
+    "level-up": [54, 61, 97, 98, 114, 145, 226, 230, 346],
+    "machine": [58, 59, 76, 92, 104, 148, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 263, 496, 503, 522],
+    "tutor": [173, 196, 202, 214, 324, 450]
+  }
+}

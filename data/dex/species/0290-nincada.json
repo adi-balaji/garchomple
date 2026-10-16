@@ -1,0 +1,23 @@
+{
+  "id": 290,
+  "name": "nincada",
+  "display": "Nincada",
+  "types": ["bug", "ground"],
+  "base": {"hp": 31, "atk": 45, "def": 90, "spa": 30, "spd": 30, "spe": 40},
+  "abilities": [
+    {"name": "compound-eyes", "hidden": false, "slot": 1},
+    {"name": "run-away", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow-then-very-fast",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["ninjask", "shedinja"],
+  "learnset": {
+    "egg": [16, 185, 203, 318, 400, 405, 450, 515],
+    "level-up": [10, 28, 91, 106, 141, 154, 170, 189, 206, 232],
+    "machine": [15, 76, 91, 92, 104, 148, 156, 164, 182, 201, 206, 207, 216, 218, 237, 241, 247, 263, 332, 404, 468, 496, 522],
+    "tutor": [173, 180, 202, 214, 450]
+  }
+}

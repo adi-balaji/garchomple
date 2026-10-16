@@ -1,0 +1,23 @@
+{
+  "id": 510,
+  "name": "liepard",
+  "display": "Liepard",
+  "types": ["dark"],
+  "base": {"hp": 64, "atk": 88, "def": 50, "spa": 88, "spd": 50, "spe": 106},
+  "abilities": [
+    {"name": "limber", "hidden": false, "slot": 1},
+    {"name": "unburden", "hidden": false, "slot": 2},
+    {"name": "prankster", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": "purrloin",
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [10, 28, 45, 154, 163, 228, 252, 259, 269, 274, 289, 372, 389, 400, 417, 468],
+    "machine": [15, 63, 86, 92, 104, 138, 156, 164, 168, 182, 207, 213, 216, 218, 237, 240, 241, 244, 247, 249, 259, 263, 269, 332, 369, 371, 373, 416, 421, 447, 468, 496, 497, 555],
+    "tutor": [173, 180, 214, 231, 271, 272, 282, 289, 304, 343, 399, 402, 441, 492]
+  }
+}

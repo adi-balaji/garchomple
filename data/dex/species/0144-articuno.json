@@ -1,0 +1,22 @@
+{
+  "id": 144,
+  "name": "articuno",
+  "display": "Articuno",
+  "types": ["ice", "flying"],
+  "base": {"hp": 90, "atk": 85, "def": 100, "spa": 95, "spd": 125, "spe": 85},
+  "abilities": [
+    {"name": "pressure", "hidden": false, "slot": 1},
+    {"name": "snow-cloak", "hidden": true, "slot": 3}
+  ],
+  "growth": "slow",
+  "genderRate": -1,
+  "legendary": true,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": [],
+  "learnset": {
+    "level-up": [16, 54, 58, 59, 97, 115, 170, 181, 246, 258, 329, 355, 366, 420, 542],
+    "machine": [19, 46, 58, 59, 63, 92, 104, 115, 156, 164, 182, 201, 207, 216, 218, 237, 240, 241, 249, 258, 263, 332, 365, 369, 416, 496, 507, 524],
+    "tutor": [143, 173, 196, 214, 324, 355, 366]
+  }
+}

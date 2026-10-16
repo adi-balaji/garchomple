@@ -1,0 +1,24 @@
+{
+  "id": 532,
+  "name": "timburr",
+  "display": "Timburr",
+  "types": ["fighting"],
+  "base": {"hp": 75, "atk": 80, "def": 55, "spa": 25, "spd": 35, "spe": 35},
+  "abilities": [
+    {"name": "guts", "hidden": false, "slot": 1},
+    {"name": "sheer-force", "hidden": false, "slot": 2},
+    {"name": "iron-fist", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 2,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["gurdurr"],
+  "learnset": {
+    "egg": [4, 68, 179, 183, 193, 197, 203, 265, 395, 409, 469],
+    "level-up": [1, 43, 67, 88, 116, 117, 157, 184, 223, 264, 276, 339, 358, 359, 444, 498],
+    "machine": [70, 91, 92, 104, 156, 157, 164, 182, 207, 213, 216, 218, 237, 240, 241, 249, 263, 269, 280, 317, 339, 371, 374, 398, 411, 444, 447, 479, 490, 496, 514, 526],
+    "tutor": [7, 8, 9, 67, 173, 214, 270, 276, 282, 335, 409]
+  }
+}

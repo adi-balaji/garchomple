@@ -1,0 +1,24 @@
+{
+  "id": 551,
+  "name": "sandile",
+  "display": "Sandile",
+  "types": ["ground", "dark"],
+  "base": {"hp": 50, "atk": 72, "def": 35, "spa": 35, "spd": 35, "spe": 65},
+  "abilities": [
+    {"name": "intimidate", "hidden": false, "slot": 1},
+    {"name": "moxie", "hidden": false, "slot": 2},
+    {"name": "anger-point", "hidden": true, "slot": 3}
+  ],
+  "growth": "medium-slow",
+  "genderRate": 4,
+  "legendary": false,
+  "mythical": false,
+  "evolvesFrom": null,
+  "evolvesTo": ["krokorok"],
+  "learnset": {
+    "egg": [38, 68, 116, 212, 228, 251, 253, 422, 424, 431],
+    "level-up": [28, 37, 43, 44, 89, 91, 99, 184, 189, 201, 207, 242, 259, 328, 372, 373, 492],
+    "machine": [15, 46, 89, 91, 92, 104, 156, 157, 164, 168, 182, 188, 201, 207, 213, 216, 218, 237, 259, 263, 269, 317, 371, 373, 444, 468, 496, 510, 514, 523, 555],
+    "tutor": [173, 180, 214, 231, 253, 289, 399, 401, 414, 446, 492]
+  }
+}
