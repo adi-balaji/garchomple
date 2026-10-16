@@ -50,11 +50,10 @@ or add its species file and its line in `index.json`; sprites fall back to PokeA
 
 **Teams** are sampled live, never pre-built. Daily seeds the generator with the date (everyone gets the same six);
 Unlimited uses a random seed and **New team** rolls another. Rules (from `rules.json`): no base forms; middle
-stages only if strong (BST ≥ 440, holding an Eviolite); fully evolved / single-stage within 440–600 BST; no
-legendaries; no two team members share a type (relaxed only if impossible); banned species (Shedinja, Slaking,
+stages only if strong (BST ≥ 440, holding an Eviolite); fully evolved / single-stage within 440–600 BST; no two team members share a type (relaxed only if impossible); banned species (Shedinja, Slaking,
 Regigigas, Archeops, Ditto, Smeargle, …) and abilities (Wonder Guard, Truant, Defeatist, Slow Start, Moody, Shadow
 Tag, Arena Trap, …). Each Pokémon gets a role-based nature, 252/252/4 EVs, 31 IVs, STAB + coverage moves from
-its B2W2 learnset, and a unique item. Five are Lv 76 and the ace is Lv 78, like Cynthia's team.
+its B2W2 learnset, and a unique item. Five are Lv 76 and one, picked at random, is Lv 78, like Cynthia's team. About 10% of teams get one legendary or mythical (`legendaryChance` in `rules.json`).
 
 **No wandering.** The player never controls the overworld: the autopilot boots the game, walks into the
 villa, talks to Cynthia and accepts her challenge with the keyboard locked. Keys unlock only once the battle

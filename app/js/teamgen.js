@@ -5,7 +5,7 @@ import { fetchRetry } from "./net.js";
 //
 // Rules live in data/dex/rules.json:
 //   * no base forms; middle stages only if strong (BST >= middleStageMinBst, they hold an Eviolite)
-//   * fully evolved / non-evolving Pokémon within [bstMin, bstMax], no legendaries/mythicals
+//   * fully evolved / non-evolving Pokémon within [bstMin, bstMax] (legendaries/mythicals per excludeLegendary/excludeMythical)
 //   * at most `maxPerType` team members share a type
 //   * banned species and banned (game-breaking) abilities are never used
 
@@ -87,11 +87,12 @@ export function eligible(dex) {
 // ------------------------------------------------------------------ team draft (types + balance)
 function eff(dex, atk, defTypes) { return defTypes.reduce((m, t) => m * dex.chart[atk][t], 1); }
 
-function draftOnce(dex, pool, rng, maxPerType) {
+function draftOnce(dex, pool, rng, maxPerType, forced = null) {
   const R = dex.rules, pseudos = new Set(R.pseudoLegendaries);
   const order = rng.shuffle(pool.slice());
   const team = [], typeCount = {};
   let nPseudo = 0;
+  if (forced) { team.push(forced); forced.types.forEach(t => (typeCount[t] = 1)); }
   for (const s of order) {
     if (team.length === R.teamSize) break;
     if (s.types.some(t => (typeCount[t] || 0) >= maxPerType)) continue;
@@ -292,11 +293,16 @@ export async function generateTeam(seed) {
   const dex = await loadDex();
   const R = dex.rules;
   const rng = rng32(seed);
-  const pool = eligible(dex);
+  const all = eligible(dex);
+  // legendaries/mythicals: a team gets exactly one with probability rules.legendaryChance, otherwise none
+  const isLeg = s => s.legendary || s.mythical;
+  const legs = all.filter(isLeg), pool = all.filter(s => !isLeg(s));
+  const chance = R.legendaryChance ?? 1;
+  const forced = legs.length && rng() < chance ? legs[Math.floor(rng() * legs.length)] : null;
   let best = null, bestScore = -Infinity;
   for (let maxPerType = R.maxPerType; !best && maxPerType <= 6; maxPerType++) {
     for (let i = 0; i < 60; i++) {
-      const team = draftOnce(dex, pool, rng, maxPerType);
+      const team = draftOnce(dex, pool, rng, maxPerType, forced);
       if (!team) continue;
       const sc = scoreDraft(dex, team) + rng() * 1.5;
       if (sc > bestScore) { best = team; bestScore = sc; }
@@ -305,14 +311,13 @@ export async function generateTeam(seed) {
   if (!best) throw new Error("rules.json is too strict: couldn't build a team");
   const full = await Promise.all(best.map(loadSpecies));
   const sets = full.map(s => buildSet(dex, s, rng));
-  // ace (highest BST) goes last at the ace level; fastest of the rest leads
-  const order = full.map((_, i) => i).sort((x, y) => bst(full[x]) - bst(full[y]) || full[x].id - full[y].id);
-  const ace = order[order.length - 1];
-  const rest = full.map((_, i) => i).filter(i => i !== ace).sort((x, y) => full[y].base.spe - full[x].base.spe || full[x].id - full[y].id);
+  // one random member is a little higher level (aceLevel, like Cynthia's Garchomp); fastest leads, rest shuffled
+  const high = Math.floor(rng() * full.length);
+  const rest = full.map((_, i) => i).sort((x, y) => full[y].base.spe - full[x].base.spe || full[x].id - full[y].id);
   const lead = rest.shift();
-  const finalOrder = [lead, ...rng.shuffle(rest), ace];
+  const finalOrder = [lead, ...rng.shuffle(rest)];
   const used = new Set();
   const team = finalOrder.map(i => finalize(dex, full[i], sets[i], chooseItem(dex, full[i], sets[i], used, rng),
-    i === ace ? R.aceLevel : R.level, rng));
+    i === high ? R.aceLevel : R.level, rng));
   return { seed: seed >>> 0, team };
 }

@@ -27,7 +27,7 @@ export function spriteImg(id, alt) {
 const STAT_LABEL = { hp: "HP", atk: "Atk", def: "Def", spa: "SpA", spd: "SpD", spe: "Spe" };
 const GENDER = ["♂", "♀", ""];
 
-export function monCard(m, isAce) {
+export function monCard(m) {
   const statRows = Object.keys(STAT_LABEL).map(k => {
     const pct = Math.min(100, Math.round((m.stats[k] / 400) * 100));
     return h("div", { class: "statline" },
@@ -42,7 +42,7 @@ export function monCard(m, isAce) {
       spriteImg(m.species, m.display),
       h("div", {},
         h("div", { class: "mon-name" }, `${m.display} ${GENDER[m.gender]}`),
-        h("div", { class: "mon-sub" }, `Lv ${m.level}`, isAce ? h("span", { class: "ace-tag" }, "  ace") : null),
+        h("div", { class: "mon-sub" }, `Lv ${m.level}`),
         h("div", { class: "types" }, m.types.map(typeChip)))),
     h("div", { class: "mon-sub" }, `${m.itemName} · ${m.abilityName}`),
     h("ul", { class: "moves" }, m.moveInfo.map(mv =>
@@ -55,7 +55,7 @@ export function monCard(m, isAce) {
 }
 
 export function renderTeam(el, team) {
-  el.replaceChildren(...team.map((m, i) => monCard(m, i === team.length - 1)));
+  el.replaceChildren(...team.map(m => monCard(m)));
 }
 
 export function renderOpponent(el, cyn) {
